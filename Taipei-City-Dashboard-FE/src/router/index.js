@@ -18,6 +18,7 @@ import MapView from "../views/MapView.vue";
 import ComponentView from "../views/ComponentView.vue";
 import ComponentInfoView from "../views/ComponentInfoView.vue";
 import EmbedView from "../views/EmbedView.vue";
+import LocationInfoView from "../views/LocationInfoView.vue";
 
 const routes = [
 	{
@@ -38,6 +39,11 @@ const routes = [
 		path: "/mapview",
 		name: "mapview",
 		component: MapView,
+	},
+	{
+		path: "/locationinfo",
+		name: "locationinfo",
+		component: LocationInfoView,
 	},
 	{
 		path: "/component",

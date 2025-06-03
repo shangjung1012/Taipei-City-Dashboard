@@ -1,0 +1,3255 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.530248,
+          25.094587
+        ]
+      },
+      "properties": {
+        "館所名稱": "士林官邸正館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區福林路60號",
+        "景點介紹": "蔣中正與宋美齡的官邸，融合中西風格與花園設計，充滿歷史與藝術氛圍。",
+        "parking_score": 4.1,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士林區\", \"distance_m\": 129 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512269,
+          25.04771401
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北記憶倉庫",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區忠孝西路一段265號",
+        "景點介紹": "由鐵道倉庫改建的文化空間，展現臺北歷史與現代設計的融合。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"忠孝西路一段\", \"distance_m\": 47 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535007,
+          25.01374199
+        ]
+      },
+      "properties": {
+        "館所名稱": "水源劇場",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區羅斯福路四段92號10樓",
+        "景點介紹": "位於台大校區內的小型劇場，是學生與新銳藝術家表演的重要舞台。",
+        "parking_score": 4.9,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"羅斯福路3、4段(機車)\", \"distance_m\": 16 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5240245,
+          25.07139209
+        ]
+      },
+      "properties": {
+        "館所名稱": "王大閎自宅（原貌重建）",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "臺北市中山區中山北路三段153號",
+        "景點介紹": "現代建築大師王大閎的代表作，展現東西融合的居住空間。",
+        "parking_score": 9.1,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山北路3段\", \"distance_m\": 68 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5071258,
+          25.13669051
+        ]
+      },
+      "properties": {
+        "館所名稱": "北投溫泉博物館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區中山路二號",
+        "景點介紹": "日治時期建築改建，介紹台灣溫泉文化與北投歷史。",
+        "parking_score": 5.5,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"中山路B\", \"distance_m\": 59 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524692,
+          25.04017202
+        ]
+      },
+      "properties": {
+        "館所名稱": "市長官邸藝文沙龍",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區徐州路46號",
+        "景點介紹": "市長官邸藝文沙龍是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"徐州路\", \"distance_m\": 22 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.568827,
+          24.98440902
+        ]
+      },
+      "properties": {
+        "館所名稱": "永安藝文館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "文山區",
+        "地址": "臺北市文山區木新路2段156-1號",
+        "景點介紹": "永安藝文館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 6.9,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"木新路2段218巷\", \"distance_m\": 12 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5069055,
+          25.04204998
+        ]
+      },
+      "properties": {
+        "館所名稱": "西門紅樓",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區成都路10號",
+        "景點介紹": "紅磚八角建築，是西門町地標及文創展演的中心。",
+        "parking_score": 9.7,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"漢中街C(機車)\", \"distance_m\": 39 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527685,
+          25.040608
+        ]
+      },
+      "properties": {
+        "館所名稱": "李國鼎故居",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區泰安街2巷3號",
+        "景點介紹": "李國鼎故居保留歷史人物生活足跡，是了解台灣歷史的重要場域。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"泰安街2巷\", \"distance_m\": 15 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557932,
+          25.04391751
+        ]
+      },
+      "properties": {
+        "館所名稱": "松山文化創意園區",
+        "建物屬性": "熱門景點",
+        "行政區": "信義區",
+        "地址": "臺北市信義區光復南路133號",
+        "景點介紹": "由菸廠改建而成的文創基地，融合歷史建築與設計能量。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"光復南路西側(機車)\", \"distance_m\": 37 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546964,
+          25.10957502
+        ]
+      },
+      "properties": {
+        "館所名稱": "林語堂故居",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區仰德大道二段141號",
+        "景點介紹": "紀念文學大師林語堂，展示其生活與作品，靜謐幽雅。",
+        "parking_score": 0.5,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"仰德大道二段\", \"distance_m\": 224 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532536,
+          25.103942
+        ]
+      },
+      "properties": {
+        "館所名稱": "芝山文化生態綠園",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區雨聲街120號",
+        "景點介紹": "芝山文化生態綠園展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 6.8,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士林區\", \"distance_m\": 59 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51536,
+          25.03173702
+        ]
+      },
+      "properties": {
+        "館所名稱": "牯嶺街小劇場",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區牯嶺街5巷2號",
+        "景點介紹": "牯嶺街小劇場是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 8.9,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"牯嶺街A\", \"distance_m\": 21 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52044,
+          25.02134002
+        ]
+      },
+      "properties": {
+        "館所名稱": "紀州庵文學森林",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區同安街107號",
+        "景點介紹": "紀州庵文學森林是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 5.7,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"同安街\", \"distance_m\": 17 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5020412,
+          25.03688073
+        ]
+      },
+      "properties": {
+        "館所名稱": "剝皮寮歷史街區",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區康定路173巷",
+        "景點介紹": "保留清代至日治時期街屋，展現艋舺歷史風貌。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街C(機車)\", \"distance_m\": 26 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511519,
+          25.03361402
+        ]
+      },
+      "properties": {
+        "館所名稱": "孫運璿科技人文紀念館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區重慶南路二段6巷10號",
+        "景點介紹": "孫運璿科技人文紀念館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 8.7,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"重慶南路2段8巷\", \"distance_m\": 65 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534307,
+          25.02461898
+        ]
+      },
+      "properties": {
+        "館所名稱": "紫藤廬茶館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大安區",
+        "地址": "臺北市大安區新生南路三段16巷1號",
+        "景點介紹": "紫藤廬茶館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 9.9,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"新生南路三段\", \"distance_m\": 10 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5026806,
+          25.1323027
+        ]
+      },
+      "properties": {
+        "館所名稱": "新北投車站",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區七星街1號",
+        "景點介紹": "新北投車站是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 7.8,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"新市街24巷\", \"distance_m\": 24 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5125426,
+          25.05707941
+        ]
+      },
+      "properties": {
+        "館所名稱": "新芳春茶行",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區民生西路309號",
+        "景點介紹": "新芳春茶行是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 8.4,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"民生西路\", \"distance_m\": 7 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515615,
+          25.040269
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北二二八紀念館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區凱達格蘭大道3號",
+        "景點介紹": "台北二二八紀念館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 9.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"中正區\", \"distance_m\": 38 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 8,
+        "steal_score": 1.2,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522317,
+          25.05332302
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北之家 (光點臺北)",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "臺北市中山區中山北路二段18號",
+        "景點介紹": "臺北之家 (光點臺北)是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山北路2段西側(機車)\", \"distance_m\": 14 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 16,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510205,
+          25.04309898
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市中山堂",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區延平南路98號",
+        "景點介紹": "臺北市中山堂是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 9.7,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"延平南路\", \"distance_m\": 56 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524738,
+          25.07227999
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市立美術館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "臺北市中山區中山北路三段181號",
+        "景點介紹": "台灣首座現代美術館，展出多樣當代藝術作品。",
+        "parking_score": 7.9,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山北路3段\", \"distance_m\": 106 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552011,
+          25.04835401
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市藝文推廣處",
+        "建物屬性": "藝文古蹟",
+        "行政區": "松山區",
+        "地址": "臺北市松山區八德路3段25號",
+        "景點介紹": "臺北市藝文推廣處是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"松山區\", \"roadname\": \"八德路3段\", \"distance_m\": 29 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4979739,
+          25.03294275
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北服飾文化館(西園29服飾創作基地)",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區西園路二段 9 號",
+        "景點介紹": "臺北服飾文化館(西園29服飾創作基地)展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"艋舺大道\", \"distance_m\": 21 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 12,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503278,
+          25.045425
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市電影主題公園",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區康定路19號",
+        "景點介紹": "臺北市電影主題公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 7.6,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"康定路(B)\", \"distance_m\": 10 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528805,
+          25.04186202
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北書畫院",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區金山南路一段30巷12號",
+        "景點介紹": "臺北書畫院是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"齊東街82巷\", \"distance_m\": 36 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56147,
+          25.04785701
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北偶戲館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "松山區",
+        "地址": "臺北市松山區市民大道五段99號2樓",
+        "景點介紹": "台北偶戲館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"松山區\", \"roadname\": \"八德路四段106巷4弄\", \"distance_m\": 35 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532385,
+          25.01065402
+        ]
+      },
+      "properties": {
+        "館所名稱": "寶藏巖國際藝術村",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區汀州路三段230巷14弄2號",
+        "景點介紹": "寶藏巖國際藝術村是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 3.5,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"汀州路三段230巷\", \"distance_m\": 112 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5196684,
+          25.05037539
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北當代藝術館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區長安西路39號",
+        "景點介紹": "臺北當代藝術館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"長安西路A(機車)\", \"distance_m\": 12 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 14,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511355,
+          25.07401001
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北試演場",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區延平北路四段200號2樓",
+        "景點介紹": "臺北試演場是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 7.5,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"延平北路四段\", \"distance_m\": 10 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522079,
+          25.10584
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北數位藝術基地",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區福華路180號",
+        "景點介紹": "臺北數位藝術基地結合展演與創作，是推動藝術與文創的核心據點。",
+        "parking_score": 7.5,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"福華路180號北側(無名巷)\", \"distance_m\": 11 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5149044,
+          25.05943049
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺灣新文化運動紀念館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區寧夏路87號",
+        "景點介紹": "臺灣新文化運動紀念館展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"錦西街A(機車)\", \"distance_m\": 18 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510807,
+          25.046712
+        ]
+      },
+      "properties": {
+        "館所名稱": "撫臺街洋樓",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區延平南路26號",
+        "景點介紹": "撫臺街洋樓是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"延平南路C（含機車）\", \"distance_m\": 17 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521987,
+          25.05577502
+        ]
+      },
+      "properties": {
+        "館所名稱": "蔡瑞月舞蹈研究社",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "臺北市中山區中山北路二段48巷10號",
+        "景點介紹": "蔡瑞月舞蹈研究社是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山區\", \"distance_m\": 24 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 12,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496705,
+          25.033524
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北製糖所文化園區",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區大理街132-10號",
+        "景點介紹": "臺北製糖所文化園區展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"艋舺大道\", \"distance_m\": 59 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.548031,
+          25.09453499
+        ]
+      },
+      "properties": {
+        "館所名稱": "錢穆故居",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區臨溪路72號",
+        "景點介紹": "錢穆故居保留歷史人物生活足跡，是了解台灣歷史的重要場域。",
+        "parking_score": 0.7,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"故宮廣場停車場(大車)\", \"distance_m\": 403 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5608636,
+          25.13421054
+        ]
+      },
+      "properties": {
+        "館所名稱": "閻錫山故居",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "臺北市士林區永公路245巷34弄273、277號",
+        "景點介紹": "閻錫山故居保留歷史人物生活足跡，是了解台灣歷史的重要場域。",
+        "parking_score": 0.0,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"和平路\", \"distance_m\": 1454 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499542,
+          25.03710927
+        ]
+      },
+      "properties": {
+        "館所名稱": "龍山文創基地",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區西園路1段145號B2",
+        "景點介紹": "龍山文創基地展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 9.7,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"西園路1段(大客車)\", \"distance_m\": 3 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511844,
+          25.054722
+        ]
+      },
+      "properties": {
+        "館所名稱": "渭水驛站",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區延平北路二段27號",
+        "景點介紹": "渭水驛站是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 7.7,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"民樂街\", \"distance_m\": 84 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50751,
+          25.13894399
+        ]
+      },
+      "properties": {
+        "館所名稱": "北投中心新村",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區新民路22巷9號",
+        "景點介紹": "北投中心新村是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 4.5,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"新民路22巷\", \"distance_m\": 10 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508856,
+          25.136939
+        ]
+      },
+      "properties": {
+        "館所名稱": "梅庭",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區中山路6號",
+        "景點介紹": "梅庭是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 4.4,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"中山路B\", \"distance_m\": 47 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539336,
+          25.009429
+        ]
+      },
+      "properties": {
+        "館所名稱": "蟾蜍山煥民新村",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大安區",
+        "地址": "台北市大安區羅斯福路四段119巷66弄12號",
+        "景點介紹": "蟾蜍山煥民新村是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 3.9,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"羅斯福路四段119巷\", \"distance_m\": 30 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50783,
+          25.024946
+        ]
+      },
+      "properties": {
+        "館所名稱": "萬華故事館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區國興路44號",
+        "景點介紹": "萬華故事館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 8.3,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"國興路\", \"distance_m\": 16 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509842,
+          25.057513
+        ]
+      },
+      "properties": {
+        "館所名稱": "埕樂通",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "臺北市大同區迪化街1段127號",
+        "景點介紹": "埕樂通是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 6.8,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"民樂街A\", \"distance_m\": 72 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5268147,
+          25.01577817
+        ]
+      },
+      "properties": {
+        "館所名稱": "嘉禾新村",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "臺北市中正區永春街131巷 1 號",
+        "景點介紹": "嘉禾新村是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 4.3,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"汀州路3段24巷\", \"distance_m\": 24 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5936289,
+          25.04837759
+        ]
+      },
+      "properties": {
+        "館所名稱": "松山療養所宿舍及所長宿舍(靜心苑)",
+        "建物屬性": "藝文古蹟",
+        "行政區": "南港區",
+        "地址": "台北市南港區昆陽街164、185號 ",
+        "景點介紹": "松山療養所宿舍及所長宿舍(靜心苑)是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 5.7,
+        "nearest_parking": "{ \"area_name\": \"南港區\", \"roadname\": \"昆陽街\", \"distance_m\": 7 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5377173,
+          25.158786
+        ]
+      },
+      "properties": {
+        "館所名稱": "陽明公園",
+        "建物屬性": "熱門景點",
+        "行政區": "北投區",
+        "地址": "臺北市北投區湖山路二段26號",
+        "景點介紹": "陽明公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 0.0,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"勝利街\", \"distance_m\": 1204 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540122,
+          25.155124
+        ]
+      },
+      "properties": {
+        "館所名稱": "關渡自然公園",
+        "建物屬性": "自然生態",
+        "行政區": "北投區",
+        "地址": "臺北市北投區湖山路二段27號",
+        "景點介紹": "關渡自然公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 0.0,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"勝利街\", \"distance_m\": 787 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5403323,
+          25.15540869
+        ]
+      },
+      "properties": {
+        "館所名稱": "北投溫泉博物館",
+        "建物屬性": "自然生態",
+        "行政區": "北投區",
+        "地址": "臺北市北投區湖山路二段28號",
+        "景點介紹": "日治時期建築改建，介紹台灣溫泉文化與北投歷史。",
+        "parking_score": 0.0,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"勝利街\", \"distance_m\": 781 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505195,
+          25.13704499
+        ]
+      },
+      "properties": {
+        "館所名稱": "凱達格蘭文化館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區中山路3之1號",
+        "景點介紹": "凱達格蘭文化館展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 6.1,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"光明路\", \"distance_m\": 79 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508856,
+          25.136939
+        ]
+      },
+      "properties": {
+        "館所名稱": "梅庭",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "臺北市北投區中山路6號",
+        "景點介紹": "梅庭是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 4.4,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"中山路B\", \"distance_m\": 47 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538158,
+          25.154276
+        ]
+      },
+      "properties": {
+        "館所名稱": "草山行館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "北投區",
+        "地址": "台北市北投區草山行館",
+        "景點介紹": "草山行館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 0.0,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"勝利街\", \"distance_m\": 946 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5072672,
+          25.1367544
+        ]
+      },
+      "properties": {
+        "館所名稱": "北投公園露天溫泉浴池",
+        "建物屬性": "自然生態",
+        "行政區": "北投區",
+        "地址": "台北市北投區北投公園露天溫泉浴池",
+        "景點介紹": "北投公園露天溫泉浴池是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 5.4,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"中山路B\", \"distance_m\": 43 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5486166,
+          25.1022073
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立故宮博物院",
+        "建物屬性": "熱門景點",
+        "行政區": "士林區",
+        "地址": "台北市士林區國立故宮博物院",
+        "景點介紹": "收藏豐富的中華藝術珍寶，是全球著名的博物館之一。",
+        "parking_score": 0.9,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"至善路2段\", \"distance_m\": 237 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5167544,
+          25.0958167
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立臺灣科學教育館",
+        "建物屬性": "自然生態",
+        "行政區": "士林區",
+        "地址": "台北市士林區國立臺灣科學教育館",
+        "景點介紹": "國立臺灣科學教育館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 6.1,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士商路B\", \"distance_m\": 77 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5183353,
+          25.0958088
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市立天文科學教育館",
+        "建物屬性": "自然生態",
+        "行政區": "士林區",
+        "地址": "台北市士林區臺北市立天文科學教育館",
+        "景點介紹": "臺北市立天文科學教育館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 6.6,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"基河路C\", \"distance_m\": 32 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5304103,
+          25.0951495
+        ]
+      },
+      "properties": {
+        "館所名稱": "士林官邸公園",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "台北市士林區士林官邸公園",
+        "景點介紹": "士林官邸公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 3.9,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士林區\", \"distance_m\": 103 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5149527,
+          25.09724
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市立兒童新樂園",
+        "建物屬性": "熱門景點",
+        "行政區": "士林區",
+        "地址": "台北市士林區臺北市立兒童新樂園",
+        "景點介紹": "臺北市立兒童新樂園是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 4.8,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士商路C大車\", \"distance_m\": 125 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53254,
+          25.10394
+        ]
+      },
+      "properties": {
+        "館所名稱": "芝山文化生態綠園",
+        "建物屬性": "自然生態",
+        "行政區": "士林區",
+        "地址": "台北市士林區芝山文化生態綠園",
+        "景點介紹": "芝山文化生態綠園展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 6.8,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士林區\", \"distance_m\": 59 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524395,
+          25.0847265
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北表演藝術中心",
+        "建物屬性": "藝文古蹟",
+        "行政區": "士林區",
+        "地址": "台北市士林區臺北表演藝術中心",
+        "景點介紹": "臺北表演藝術中心是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 6.4,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"基河路A\", \"distance_m\": 98 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58743,
+          25.09341
+        ]
+      },
+      "properties": {
+        "館所名稱": "白石湖吊橋",
+        "建物屬性": "自然生態",
+        "行政區": "內湖區",
+        "地址": "台北市內湖區白石湖吊橋",
+        "景點介紹": "白石湖吊橋是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 0.9,
+        "nearest_parking": "{ \"area_name\": \"內湖區\", \"roadname\": \"內湖路三段326巷5弄\", \"distance_m\": 515 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524852,
+          25.0724659
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市立美術館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "台北市中山區臺北市立美術館",
+        "景點介紹": "台灣首座現代美術館，展出多樣當代藝術作品。",
+        "parking_score": 7.7,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山北路3段\", \"distance_m\": 109 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.536002,
+          25.077659
+        ]
+      },
+      "properties": {
+        "館所名稱": "國民革命忠烈祠",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "台北市中山區國民革命忠烈祠",
+        "景點介紹": "國民革命忠烈祠是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 1.4,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山區\", \"distance_m\": 274 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524025,
+          25.071993
+        ]
+      },
+      "properties": {
+        "館所名稱": "圓山別莊",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "台北市中山區圓山別莊",
+        "景點介紹": "圓山別莊是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 8.5,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山北路3段\", \"distance_m\": 85 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557064,
+          25.083732
+        ]
+      },
+      "properties": {
+        "館所名稱": "美麗華摩天輪",
+        "建物屬性": "熱門景點",
+        "行政區": "中山區",
+        "地址": "台北市中山區美麗華摩天輪",
+        "景點介紹": "美麗華摩天輪是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 7.5,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"中山區\", \"distance_m\": 78 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.530295,
+          25.071746
+        ]
+      },
+      "properties": {
+        "館所名稱": "林安泰古厝民俗文物館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中山區",
+        "地址": "台北市中山區林安泰古厝民俗文物館",
+        "景點介紹": "林安泰古厝民俗文物館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 7.3,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"濱江街B\", \"distance_m\": 28 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5189833,
+          25.0506803
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北當代藝術館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "台北市大同區台北當代藝術館",
+        "景點介紹": "台北當代藝術館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"長安西路A(機車)\", \"distance_m\": 32 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 14,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5160839,
+          25.0725488
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市孔廟",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "台北市大同區臺北市孔廟",
+        "景點介紹": "臺北市孔廟為歷史悠久的宗教場所，展現傳統信仰與建築藝術。",
+        "parking_score": 9.1,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"庫倫街(機車)\", \"distance_m\": 69 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5155134,
+          25.073316
+        ]
+      },
+      "properties": {
+        "館所名稱": "大龍峒保安宮",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "台北市大同區大龍峒保安宮",
+        "景點介紹": "大龍峒保安宮為歷史悠久的宗教場所，展現傳統信仰與建築藝術。",
+        "parking_score": 8.7,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"哈密街59巷\", \"distance_m\": 25 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5125424,
+          25.0570832
+        ]
+      },
+      "properties": {
+        "館所名稱": "新芳春茶行",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "台北市大同區新芳春茶行",
+        "景點介紹": "新芳春茶行是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 8.4,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"民生西路\", \"distance_m\": 8 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5101429,
+          25.0556183
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北霞海城隍廟",
+        "建物屬性": "藝文古蹟",
+        "行政區": "大同區",
+        "地址": "台北市大同區台北霞海城隍廟",
+        "景點介紹": "台北霞海城隍廟為歷史悠久的宗教場所，展現傳統信仰與建築藝術。",
+        "parking_score": 6.7,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"迪化街1段B\", \"distance_m\": 21 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.598507,
+          25.052639
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北流行音樂中心",
+        "建物屬性": "藝文古蹟",
+        "行政區": "南港區",
+        "地址": "台北市南港區臺北流行音樂中心",
+        "景點介紹": "臺北流行音樂中心是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 6.2,
+        "nearest_parking": "{ \"area_name\": \"南港區\", \"roadname\": \"南港路2段(A)\", \"distance_m\": 131 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56091,
+          25.04034
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立國父紀念館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "信義區",
+        "地址": "台北市信義區國立國父紀念館",
+        "景點介紹": "國立國父紀念館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"逸仙路(機車)\", \"distance_m\": 58 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5677202,
+          25.0331314
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北探索館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "信義區",
+        "地址": "台北市信義區臺北探索館",
+        "景點介紹": "臺北探索館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 7.2,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"信義區\", \"distance_m\": 86 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5644923,
+          25.0345359
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北101觀景臺",
+        "建物屬性": "熱門景點",
+        "行政區": "信義區",
+        "地址": "台北市信義區台北101觀景臺",
+        "景點介紹": "高樓觀景台可俯瞰整個台北，是觀光必訪地標。",
+        "parking_score": 8.1,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"信義區\", \"distance_m\": 107 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5606843,
+          25.0439289
+        ]
+      },
+      "properties": {
+        "館所名稱": "松山文創園區",
+        "建物屬性": "熱門景點",
+        "行政區": "信義區",
+        "地址": "台北市信義區松山文創園區",
+        "景點介紹": "松山文創園區展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"菸廠路\", \"distance_m\": 123 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5621756,
+          25.0315924
+        ]
+      },
+      "properties": {
+        "館所名稱": "信義公民會館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "信義區",
+        "地址": "台北市信義區信義公民會館",
+        "景點介紹": "信義公民會館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"莊敬路197巷\", \"distance_m\": 89 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5111404,
+          25.0313929
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立歷史博物館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "台北市中正區國立歷史博物館",
+        "景點介紹": "國立歷史博物館透過展覽與互動設施，傳遞知識與文化價值。",
+        "parking_score": 9.2,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"南海路A\", \"distance_m\": 32 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5119376,
+          25.0317315
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立臺灣藝術教育館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "台北市中正區國立臺灣藝術教育館",
+        "景點介紹": "國立臺灣藝術教育館為介紹專業主題與推廣知識的展示空間。",
+        "parking_score": 8.9,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"南海路A\", \"distance_m\": 40 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52177,
+          25.0346424
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立中正紀念堂",
+        "建物屬性": "熱門景點",
+        "行政區": "中正區",
+        "地址": "台北市中正區國立中正紀念堂",
+        "景點介紹": "國立中正紀念堂是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 9.5,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"杭州南路2段大車場\", \"distance_m\": 165 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5305415,
+          25.0134487
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北自來水園區",
+        "建物屬性": "自然生態",
+        "行政區": "中正區",
+        "地址": "台北市中正區臺北自來水園區",
+        "景點介紹": "臺北自來水園區是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 3.9,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"思源街(機車)\", \"distance_m\": 13 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5182346,
+          25.0324135
+        ]
+      },
+      "properties": {
+        "館所名稱": "寶藏巖",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "台北市中正區寶藏巖",
+        "景點介紹": "寶藏巖是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 8.8,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"羅斯福路1段(西側)(機車)\", \"distance_m\": 6 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5294,
+          25.044155
+        ]
+      },
+      "properties": {
+        "館所名稱": "華山1914文化創意產業園區",
+        "建物屬性": "熱門景點",
+        "行政區": "中正區",
+        "地址": "台北市中正區華山1914文化創意產業園區",
+        "景點介紹": "華山1914文化創意產業園區展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"中正區\", \"distance_m\": 57 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5149778,
+          25.0428691
+        ]
+      },
+      "properties": {
+        "館所名稱": "國立臺灣博物館",
+        "建物屬性": "藝文古蹟",
+        "行政區": "中正區",
+        "地址": "台北市中正區國立臺灣博物館",
+        "景點介紹": "國立臺灣博物館透過展覽與互動設施，傳遞知識與文化價值。",
+        "parking_score": 9.5,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"館前路(含機車)\", \"distance_m\": 84 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510134,
+          25.031013
+        ]
+      },
+      "properties": {
+        "館所名稱": "台北植物園",
+        "建物屬性": "自然生態",
+        "行政區": "中正區",
+        "地址": "台北市中正區台北植物園",
+        "景點介紹": "擁有多樣植物物種，是市中心的綠意生態園地。",
+        "parking_score": 9.4,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"南海路A\", \"distance_m\": 11 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5069354,
+          25.0420715
+        ]
+      },
+      "properties": {
+        "館所名稱": "西門紅樓",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "台北市萬華區西門紅樓",
+        "景點介紹": "紅磚八角建築，是西門町地標及文創展演的中心。",
+        "parking_score": 9.7,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"漢中街C(機車)\", \"distance_m\": 38 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5031959,
+          25.0448085
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市電影主題公園",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "台北市萬華區臺北市電影主題公園",
+        "景點介紹": "臺北市電影主題公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 7.8,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"萬華區\", \"distance_m\": 20 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49644,
+          25.03402
+        ]
+      },
+      "properties": {
+        "館所名稱": "糖廍文化園區",
+        "建物屬性": "藝文古蹟",
+        "行政區": "萬華區",
+        "地址": "台北市萬華區糖廍文化園區",
+        "景點介紹": "糖廍文化園區展現當地文化特色與藝術創意，是文青必訪之地。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"大理街\", \"distance_m\": 6 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4999179,
+          25.036981
+        ]
+      },
+      "properties": {
+        "館所名稱": "艋舺龍山寺",
+        "建物屬性": "熱門景點",
+        "行政區": "萬華區",
+        "地址": "台北市萬華區艋舺龍山寺",
+        "景點介紹": "台北歷史最悠久的廟宇之一，融合宗教與藝術之美。",
+        "parking_score": 9.8,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"西園路1段(大客車)\", \"distance_m\": 43 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5862306,
+          24.9944235
+        ]
+      },
+      "properties": {
+        "館所名稱": "臺北市立動物園",
+        "建物屬性": "熱門景點",
+        "行政區": "文山區",
+        "地址": "台北市文山區臺北市立動物園",
+        "景點介紹": "亞洲最大的動物園之一，適合親子旅遊與生態教育。",
+        "parking_score": 0.5,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"新光路二段A0(大車)\", \"distance_m\": 567 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5650953,
+          25.03123923
+        ]
+      },
+      "properties": {
+        "館所名稱": "象山自然步道",
+        "建物屬性": "熱門景點",
+        "行政區": "信義區",
+        "地址": "台北市信義區象山自然步道",
+        "景點介紹": "象山自然步道擁有良好生態與景觀，是登山健行的熱門路線。",
+        "parking_score": 7.9,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"松平路50巷\", \"distance_m\": 128 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 0,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.576314,
+          24.99608602
+        ]
+      },
+      "properties": {
+        "館所名稱": "貓空纜車",
+        "建物屬性": "熱門景點",
+        "行政區": "文山區",
+        "地址": "臺灣臺北市文山區新光路二段8號",
+        "景點介紹": "連接動物園與貓空茶園的空中纜車，沿途風景宜人。",
+        "parking_score": 2.5,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"新光路2段B\", \"distance_m\": 13 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5065166,
+          25.0443012
+        ]
+      },
+      "properties": {
+        "館所名稱": "西門町",
+        "建物屬性": "熱門景點",
+        "行政區": "萬華區",
+        "地址": "台北市萬華區西門町",
+        "景點介紹": "台北流行文化與青年潮流聚集地，充滿活力與創意。",
+        "parking_score": 9.5,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"西寧南路A\", \"distance_m\": 19 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 7,
+        "steal_score": 1.4,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5192932,
+          25.09425583
+        ]
+      },
+      "properties": {
+        "館所名稱": "士林夜市",
+        "建物屬性": "夜市",
+        "行政區": "士林區",
+        "地址": "臺北市士林區基河路、大東路、大南路、文林路交叉口",
+        "景點介紹": "台北最具代表性的夜市，美食與娛樂匯聚之地。",
+        "parking_score": 7.4,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"基河路C\", \"distance_m\": 4 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5726214,
+          25.05015626
+        ]
+      },
+      "properties": {
+        "館所名稱": "饒河街觀光夜市",
+        "建物屬性": "夜市",
+        "行政區": "松山區",
+        "地址": "臺北市松山區饒河街",
+        "景點介紹": "松山區的美食夜市，著名胡椒餅與熱鬧氛圍吸引遊客。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"松山區\", \"roadname\": \"八德路4段(機車)\", \"distance_m\": 37 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5148192,
+          25.05935671
+        ]
+      },
+      "properties": {
+        "館所名稱": "寧夏夜市",
+        "建物屬性": "夜市",
+        "行政區": "大同區",
+        "地址": "臺北市大同區寧夏路",
+        "景點介紹": "以傳統台灣小吃聞名的夜市，是在地人也愛的口袋名單。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"寧夏路B\", \"distance_m\": 15 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505571,
+          25.02896515
+        ]
+      },
+      "properties": {
+        "館所名稱": "南機場夜市",
+        "建物屬性": "夜市",
+        "行政區": "中正區",
+        "地址": "臺北市中正區中華路二段307巷",
+        "景點介紹": "南機場夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"中華路2段\", \"distance_m\": 38 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5284037,
+          25.02565957
+        ]
+      },
+      "properties": {
+        "館所名稱": "師大夜市",
+        "建物屬性": "夜市",
+        "行政區": "大安區",
+        "地址": "臺北市大安區師大路",
+        "景點介紹": "師大夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"師大路C\", \"distance_m\": 6 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5572537,
+          25.0294116
+        ]
+      },
+      "properties": {
+        "館所名稱": "臨江街夜市",
+        "建物屬性": "夜市",
+        "行政區": "大安區",
+        "地址": "臺北市大安區臨江街",
+        "景點介紹": "臨江街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"信義區\", \"distance_m\": 24 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5420586,
+          25.05228085
+        ]
+      },
+      "properties": {
+        "館所名稱": "遼寧街夜市",
+        "建物屬性": "夜市",
+        "行政區": "中山區",
+        "地址": "臺北市中山區遼寧街",
+        "景點介紹": "遼寧街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"遼寧街(機車)\", \"distance_m\": 5 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5242704,
+          25.06567263
+        ]
+      },
+      "properties": {
+        "館所名稱": "雙城街夜市",
+        "建物屬性": "夜市",
+        "行政區": "中山區",
+        "地址": "臺北市中山區雙城街",
+        "景點介紹": "雙城街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"雙城街\", \"distance_m\": 6 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5111639,
+          25.06291972
+        ]
+      },
+      "properties": {
+        "館所名稱": "延三夜市",
+        "建物屬性": "夜市",
+        "行政區": "大同區",
+        "地址": "臺北市大同區延平北路三段",
+        "景點介紹": "延三夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 8.3,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"延平北路3段(機車)\", \"distance_m\": 39 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5160394,
+          25.06577197
+        ]
+      },
+      "properties": {
+        "館所名稱": "大龍街夜市",
+        "建物屬性": "夜市",
+        "行政區": "大同區",
+        "地址": "臺北市大同區大龍街",
+        "景點介紹": "大龍街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"昌吉街(機車)\", \"distance_m\": 22 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5050119,
+          25.03645936
+        ]
+      },
+      "properties": {
+        "館所名稱": "艋舺夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區廣州街",
+        "景點介紹": "艋舺夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街A\", \"distance_m\": 20 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498327,
+          25.03736943
+        ]
+      },
+      "properties": {
+        "館所名稱": "華西街夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區華西街",
+        "景點介紹": "華西街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 9.5,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街186巷\", \"distance_m\": 84 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5418077,
+          24.98859758
+        ]
+      },
+      "properties": {
+        "館所名稱": "景美夜市",
+        "建物屬性": "夜市",
+        "行政區": "文山區",
+        "地址": "臺北市文山區景美街",
+        "景點介紹": "景美夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 5.6,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"景興路282巷(機車)\", \"distance_m\": 113 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5174909,
+          25.11649541
+        ]
+      },
+      "properties": {
+        "館所名稱": "石牌夜市",
+        "建物屬性": "夜市",
+        "行政區": "北投區",
+        "地址": "臺北市北投區裕民一路、裕民一路40巷、裕民二路",
+        "景點介紹": "石牌夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 6.2,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"裕民一路41巷\", \"distance_m\": 0 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5793462,
+          25.03963264
+        ]
+      },
+      "properties": {
+        "館所名稱": "林口街夜市",
+        "建物屬性": "夜市",
+        "行政區": "信義區",
+        "地址": "臺北市信義區林口街",
+        "景點介紹": "林口街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"林口街B\", \"distance_m\": 32 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5791711,
+          25.08304448
+        ]
+      },
+      "properties": {
+        "館所名稱": "737夜市",
+        "建物屬性": "夜市",
+        "行政區": "內湖區",
+        "地址": "臺北市內湖區內湖路一段737巷",
+        "景點介紹": "737夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 6.0,
+        "nearest_parking": "{ \"area_name\": \"內湖區\", \"roadname\": \"內湖路1段737巷\", \"distance_m\": 3 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5073742,
+          25.09156261
+        ]
+      },
+      "properties": {
+        "館所名稱": "社子夜市",
+        "建物屬性": "夜市",
+        "行政區": "士林區",
+        "地址": "臺北市士林區社中街",
+        "景點介紹": "社子夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 5.1,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"社中街228巷3弄\", \"distance_m\": 16 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5409895,
+          25.1378013
+        ]
+      },
+      "properties": {
+        "館所名稱": "大義夜市",
+        "建物屬性": "夜市",
+        "行政區": "士林區",
+        "地址": "臺北市士林區華岡路",
+        "景點介紹": "大義夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 0.3,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"士林區\", \"distance_m\": 16 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557072,
+          25.01704379
+        ]
+      },
+      "properties": {
+        "館所名稱": "富陽自然生態公園",
+        "建物屬性": "自然生態",
+        "行政區": "大安區",
+        "地址": "臺北市大安區富陽街與臥龍街272巷交界處",
+        "景點介紹": "富陽自然生態公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 4.9,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"富陽街\", \"distance_m\": 3 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5529546,
+          25.01860824
+        ]
+      },
+      "properties": {
+        "館所名稱": "福州山親山步道",
+        "建物屬性": "自然生態",
+        "行政區": "大安區",
+        "地址": "臺北市大安區臥龍街195巷",
+        "景點介紹": "福州山親山步道擁有良好生態與景觀，是登山健行的熱門路線。",
+        "parking_score": 6.7,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"臥龍街203巷\", \"distance_m\": 34 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5568645,
+          25.01859546
+        ]
+      },
+      "properties": {
+        "館所名稱": "黎和生態公園",
+        "建物屬性": "自然生態",
+        "行政區": "大安區",
+        "地址": "臺北市大安區富陽街",
+        "景點介紹": "黎和生態公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 6.3,
+        "nearest_parking": "{ \"area_name\": \"大安區\", \"roadname\": \"臥龍街\", \"distance_m\": 15 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.581264,
+          25.03408586
+        ]
+      },
+      "properties": {
+        "館所名稱": "永春陂生態濕地公園",
+        "建物屬性": "自然生態",
+        "行政區": "信義區",
+        "地址": "臺北市信義區松山路657號",
+        "景點介紹": "永春陂生態濕地公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 6.0,
+        "nearest_parking": "{ \"area_name\": \"信義區\", \"roadname\": \"松山路A\", \"distance_m\": 2 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 3,
+        "steal_score": 3.3,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.569453,
+          25.00361502
+        ]
+      },
+      "properties": {
+        "館所名稱": "140高地公園",
+        "建物屬性": "自然生態",
+        "行政區": "文山區",
+        "地址": "臺北市文山區萬寧街125號",
+        "景點介紹": "140高地公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 2.4,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"萬寧街臨時平面停車場\", \"distance_m\": 11 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5435377,
+          24.99106888
+        ]
+      },
+      "properties": {
+        "館所名稱": "仙跡岩親山步道",
+        "建物屬性": "自然生態",
+        "行政區": "文山區",
+        "地址": "臺北市文山區景興路243號",
+        "景點介紹": "仙跡岩親山步道擁有良好生態與景觀，是登山健行的熱門路線。",
+        "parking_score": 7.4,
+        "nearest_parking": "{ \"area_name\": \"文山區\", \"roadname\": \"景興路(機車)\", \"distance_m\": 12 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5252368,
+          25.07676378
+        ]
+      },
+      "properties": {
+        "館所名稱": "劍潭山親山步道",
+        "建物屬性": "自然生態",
+        "行政區": "士林區",
+        "地址": "臺北市士林區中山北路四段",
+        "景點介紹": "劍潭山親山步道擁有良好生態與景觀，是登山健行的熱門路線。",
+        "parking_score": 4.0,
+        "nearest_parking": "{ \"area_name\": \"中山區\", \"roadname\": \"北安路\", \"distance_m\": 255 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5872951,
+          25.05293992
+        ]
+      },
+      "properties": {
+        "館所名稱": "新新公園",
+        "建物屬性": "自然生態",
+        "行政區": "南港區",
+        "地址": "臺北市南港區南港路三段109巷南側",
+        "景點介紹": "新新公園是城市中的綠洲，提供市民休閒與親近自然的空間。",
+        "parking_score": 8.1,
+        "nearest_parking": "{ \"area_name\": \"南港區\", \"roadname\": \"南港路3段\", \"distance_m\": 20 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 2,
+        "steal_score": 5.0,
+        "hotel": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498266,
+          25.03769999
+        ]
+      },
+      "properties": {
+        "館所名稱": "華西街夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區華西街28之3號2樓",
+        "景點介紹": "華西街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 9.1,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"桂林路(機車)\", \"distance_m\": 87 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4980504,
+          25.03710248
+        ]
+      },
+      "properties": {
+        "館所名稱": "梧州街夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區華西街40巷3號",
+        "景點介紹": "梧州街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 9.3,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街186巷\", \"distance_m\": 58 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 9,
+        "steal_score": 1.1,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496892,
+          25.03744199
+        ]
+      },
+      "properties": {
+        "館所名稱": "廣州街夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區廣州街253巷25號1樓",
+        "景點介紹": "廣州街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 8.5,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街253巷\", \"distance_m\": 67 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 10,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.500881,
+          25.03656399
+        ]
+      },
+      "properties": {
+        "館所名稱": "西昌街夜市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區廣州街138號",
+        "景點介紹": "西昌街夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街C(機車)\", \"distance_m\": 3 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535007,
+          25.01374199
+        ]
+      },
+      "properties": {
+        "館所名稱": "公館夜市",
+        "建物屬性": "夜市",
+        "行政區": "中正區",
+        "地址": "臺北市中正區羅斯福路四段92號",
+        "景點介紹": "公館夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 4.9,
+        "nearest_parking": "{ \"area_name\": \"中正區\", \"roadname\": \"羅斯福路3、4段(機車)\", \"distance_m\": 16 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 1,
+        "steal_score": 10.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5236881,
+          25.07999032
+        ]
+      },
+      "properties": {
+        "館所名稱": "福華廣場",
+        "建物屬性": "夜市",
+        "行政區": "士林區",
+        "地址": "臺北市士林區通河街323之1號",
+        "景點介紹": "福華廣場是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 5.4,
+        "nearest_parking": "{ \"area_name\": \"士林區\", \"roadname\": \"通河街1巷\", \"distance_m\": 13 }",
+        "toilet": false,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 5,
+        "steal_score": 2.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516628,
+          25.11659901
+        ]
+      },
+      "properties": {
+        "館所名稱": "石牌商城",
+        "建物屬性": "夜市",
+        "行政區": "北投區",
+        "地址": "臺北市北投區裕民一路18號",
+        "景點介紹": "石牌商城是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 6.2,
+        "nearest_parking": "{ \"area_name\": \"北投區\", \"roadname\": \"裕民二路\", \"distance_m\": 41 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 6,
+        "steal_score": 1.7,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511858,
+          25.060079
+        ]
+      },
+      "properties": {
+        "館所名稱": "慈聖宮廣場",
+        "建物屬性": "夜市",
+        "行政區": "大同區",
+        "地址": "臺北市大同區保安街49巷32號後方",
+        "景點介紹": "慈聖宮廣場為歷史悠久的宗教場所，展現傳統信仰與建築藝術。",
+        "parking_score": 9.1,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"大同區\", \"distance_m\": 65 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 8,
+        "steal_score": 1.2,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.502052,
+          25.036027
+        ]
+      },
+      "properties": {
+        "館所名稱": "東三水街日市",
+        "建物屬性": "夜市",
+        "行政區": "萬華區",
+        "地址": "臺北市萬華區三水街70號",
+        "景點介紹": "東三水街日市是台北市具代表性的景點之一，融合地方特色與觀光價值。",
+        "parking_score": 10.0,
+        "nearest_parking": "{ \"area_name\": \"萬華區\", \"roadname\": \"廣州街C(機車)\", \"distance_m\": 59 }",
+        "toilet": true,
+        "無障礙": false,
+        "family": false,
+        "steal_count": 11,
+        "steal_score": 1.0,
+        "hotel": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511024,
+          25.06435901
+        ]
+      },
+      "properties": {
+        "館所名稱": "延三夜市",
+        "建物屬性": "夜市",
+        "行政區": "大同區",
+        "地址": "臺北市大同區延平北路三段32之2號 ",
+        "景點介紹": "延三夜市匯聚在地美食與小吃，是夜晚熱鬧的台北代表之一。",
+        "parking_score": 8.2,
+        "nearest_parking": "{ \"area_name\": \"大同區\", \"roadname\": \"延平北路三段\", \"distance_m\": 43 }",
+        "toilet": true,
+        "無障礙": true,
+        "family": false,
+        "steal_count": 4,
+        "steal_score": 2.5,
+        "hotel": true
+      }
+    }
+  ]
+}
