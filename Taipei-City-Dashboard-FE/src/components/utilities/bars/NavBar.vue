@@ -80,16 +80,16 @@ const isLocalhost = computed(() => {
       >
         地圖交叉比對
       </router-link>
-	  <router-link
-		:to="`/locationinfo${
-			linkQuery.includes('undefined') ? '' : linkQuery
-		}`"
-		:class="{
-			'router-link-active': authStore.currentPath === 'locationinfo',
-		}"
-		>
-		景點推薦分析
-	  </router-link>
+      <router-link
+        :to="`/locationinfo${
+          linkQuery.includes('undefined') ? '' : linkQuery
+        }`"
+        :class="{
+          'router-link-active': authStore.currentPath === 'locationinfo',
+        }"
+      >
+        景點推薦分析
+      </router-link>
     </div>
     <div class="navbar-user">
       <button

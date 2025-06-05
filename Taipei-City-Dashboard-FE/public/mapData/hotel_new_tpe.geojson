@@ -1,0 +1,3821 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519031,25.013517 ]
+    },
+    "properties": {
+    "no":2,
+    "name":"香香雙博士大旅社",
+    "localcall service":"(02)89285168  ",
+    "fax":"(02)29285368  ",
+    "address":"234新北市永和區竹林路73號5樓及8樓",
+    "button_price":880,
+    "higher_price":1350,
+    "room":46,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463024,25.0864029 ]
+    },
+    "properties": {
+    "no":3,
+    "name":"香奈爾汽車旅館",
+    "localcall service":"(02)82855555  ",
+    "fax":"(02)82857777  ",
+    "address":"247新北市蘆洲區長樂路56號",
+    "button_price":2580,
+    "higher_price":5000,
+    "room":31,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.534224,24.958425 ]
+    },
+    "properties": {
+    "no":4,
+    "name":"碧潭飯店",
+    "localcall service":"(02)22116055  ",
+    "fax":"(02)22116111  ",
+    "address":"231新北市新店區碧潭路121號",
+    "button_price":4280,
+    "higher_price":6280,
+    "room":69,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.643493,25.215392 ]
+    },
+    "properties": {
+    "no":6,
+    "name":"沐舍溫泉渡假酒店",
+    "localcall service":"(02)24082559  ",
+    "fax":"(02)24082690  ",
+    "address":"207新北市萬里區萬里加投166之1號",
+    "button_price":16500,
+    "higher_price":45000,
+    "room":50,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513578,25.007732 ]
+    },
+    "properties": {
+    "no":8,
+    "name":"柯達大飯店(永和店)",
+    "localcall service":"(02)29239999  ",
+    "fax":"(02)89216688  ",
+    "address":"234新北市永和區永和路1段103號",
+    "button_price":1200,
+    "higher_price":15000,
+    "room":66,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971153,25.064316 ]
+    },
+    "properties": {
+    "no":9,
+    "name":"綠映旅舍",
+    "localcall service":"(02)29850719  ",
+    "fax":"(02)29850819  ",
+    "address":"241新北市三重區正義北路68號11樓之3及12樓",
+    "button_price":2600,
+    "higher_price":6500,
+    "room":26,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420539,25.184061 ]
+    },
+    "properties": {
+    "no":10,
+    "name":"長緹海景飯店",
+    "localcall service":"(02)28057228  ",
+    "fax":"(02)28057223  ",
+    "address":"251新北市淡水區淡海路176號1至6樓",
+    "button_price":3000,
+    "higher_price":8000,
+    "room":45,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457363,25.006801 ]
+    },
+    "properties": {
+    "no":12,
+    "name":"宮賓大旅社",
+    "localcall service":"(02)29660889  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區南雅南路1段1巷25號2至4樓",
+    "button_price":450,
+    "higher_price":800,
+    "room":20,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.630955,25.071439 ]
+    },
+    "properties": {
+    "no":14,
+    "name":"金龍湖旅館",
+    "localcall service":"(02)26959339  ",
+    "fax":"(02)26958055  ",
+    "address":"221新北市汐止區湖前街103及105號1至5樓",
+    "button_price":2500,
+    "higher_price":2500,
+    "room":31,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466075,25.079361 ]
+    },
+    "properties": {
+    "no":15,
+    "name":"馨記旅館",
+    "localcall service":"(02)28480296  ",
+    "fax":"(02)28481989  ",
+    "address":"247新北市蘆洲區九芎街95號",
+    "button_price":1480,
+    "higher_price":1480,
+    "room":26,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.594999,25.201883 ]
+    },
+    "properties": {
+    "no":16,
+    "name":"陽明山天籟渡假酒店",
+    "localcall service":"(02)24080400  ",
+    "fax":"(02)24080999  ",
+    "address":"208新北市金山區名流路1之7號",
+    "button_price":14500,
+    "higher_price":60000,
+    "room":77,
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4620706,25.0061414 ]
+    },
+    "properties": {
+    "no":17,
+    "name":"冠君大飯店",
+    "localcall service":"(02)89521111  ",
+    "fax":"(02)89521155  ",
+    "address":"220新北市板橋區重慶路91之1號3至7樓(1樓門廳)",
+    "button_price":3800,
+    "higher_price":9000,
+    "room":70,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441707,25.170461 ]
+    },
+    "properties": {
+    "no":18,
+    "name":"享來大旅社",
+    "localcall service":"(02)26228661  ",
+    "fax":"(02)26228662  ",
+    "address":"251新北市淡水區中山路129巷22,23號3至7樓(1樓門廳）",
+    "button_price":1200,
+    "higher_price":1500,
+    "room":25,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6636462,25.0533748 ]
+    },
+    "properties": {
+    "no":21,
+    "name":"薇星旅館",
+    "localcall service":"(02)26435566  ",
+    "fax":"(02)26422711  ",
+    "address":"221新北市汐止區勤進路416號1-10樓,418號2-10樓,420號2-8樓及422號2-7樓",
+    "button_price":4230,
+    "higher_price":4230,
+    "room":32,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4580935,25.0085737 ]
+    },
+    "properties": {
+    "no":23,
+    "name":"富逸旅趣-板橋府中館",
+    "localcall service":"(02)89658288  ",
+    "fax":"(02)29698970  ",
+    "address":"220新北市板橋區東門街30之2號11樓之1及12樓之1",
+    "button_price":20000,
+    "higher_price":30000,
+    "room":46,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457297,25.0068729 ]
+    },
+    "properties": {
+    "no":25,
+    "name":"盟園旅社",
+    "localcall service":"(02)89698016  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區南雅南路1段1巷15號1至4樓",
+    "button_price":700,
+    "higher_price":700,
+    "room":12,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47965,25.019176 ]
+    },
+    "properties": {
+    "no":27,
+    "name":"喬太商務旅館",
+    "localcall service":"(02)29645353  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區中山路2段359及361號10至12樓",
+    "button_price":1100,
+    "higher_price":1100,
+    "room":22,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470317,25.027489 ]
+    },
+    "properties": {
+    "no":29,
+    "name":"富康精彩旅店",
+    "localcall service":"(02)22556336  ",
+    "fax":"(02)22550188  ",
+    "address":"220新北市板橋區文化路2段171號2至5樓",
+    "button_price":5600,
+    "higher_price":5600,
+    "room":24,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420552,25.181656 ]
+    },
+    "properties": {
+    "no":33,
+    "name":"漁人碼頭休閒旅館",
+    "localcall service":"(02)28058886  ",
+    "fax":"(02)28058887  ",
+    "address":"251新北市淡水區中正路2段22巷8號2至7樓",
+    "button_price":3690,
+    "higher_price":5720,
+    "room":36,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378745,24.931984 ]
+    },
+    "properties": {
+    "no":34,
+    "name":"青青汽車旅館",
+    "localcall service":"(02)26743333  ",
+    "fax":"(02)86714343  ",
+    "address":"237新北市三峽區長泰街30號及30號之1至27",
+    "button_price":2680,
+    "higher_price":4800,
+    "room":48,
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482333,25.082416 ]
+    },
+    "properties": {
+    "no":35,
+    "name":"薇薇精品旅館",
+    "localcall service":"(02)82856633  ",
+    "fax":"(02)82856622  ",
+    "address":"247新北市蘆洲區永安北路2段42之1號",
+    "button_price":3080,
+    "higher_price":3600,
+    "room":56,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455955,25.159308 ]
+    },
+    "properties": {
+    "no":36,
+    "name":"觀海樓旅店",
+    "localcall service":"(02)26291117  ",
+    "fax":"(02)26291222  ",
+    "address":"251新北市淡水區中正東路1段129號3至12樓(1樓門廳)",
+    "button_price":5000,
+    "higher_price":28000,
+    "room":60,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4553962,25.0048938 ]
+    },
+    "properties": {
+    "no":42,
+    "name":"菁鳥旅館",
+    "localcall service":"(02)29669621  ",
+    "fax":"(02)22729651  ",
+    "address":"220新北市板橋區南雅南路1段113及115號",
+    "button_price":2500,
+    "higher_price":2800,
+    "room":33,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.49513,25.070647 ]
+    },
+    "properties": {
+    "no":43,
+    "name":"三重旅社",
+    "localcall service":"(02)29832588  ",
+    "fax":"(02)29832588  ",
+    "address":"241新北市三重區正義北路291號2至4樓",
+    "button_price":600,
+    "higher_price":600,
+    "room":20,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.49728,25.064789 ]
+    },
+    "properties": {
+    "no":44,
+    "name":"名爵汽車旅館",
+    "localcall service":"(02)29826145  ",
+    "fax":"(02)29801249  ",
+    "address":"241新北市三重區正義北路73號1,4至7樓",
+    "button_price":3620,
+    "higher_price":4200,
+    "room":49,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462457,25.009211 ]
+    },
+    "properties": {
+    "no":48,
+    "name":"皇品時尚旅店",
+    "localcall service":"(02)89648787  ",
+    "fax":"(02)89646881  ",
+    "address":"220新北市板橋區民族路34巷13號1至5樓",
+    "button_price":4700,
+    "higher_price":4700,
+    "room":20,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456428,25.009997 ]
+    },
+    "properties": {
+    "no":49,
+    "name":"億苑賓館",
+    "localcall service":"(02)29654252  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區後菜園街35號",
+    "button_price":4200,
+    "higher_price":7200,
+    "room":24,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457836,25.00625 ]
+    },
+    "properties": {
+    "no":51,
+    "name":"悅榕汽車旅館",
+    "localcall service":"(02)89516333  ",
+    "fax":"(02)29636262  ",
+    "address":"220新北市板橋區縣民大道1段146號2至3樓(1樓門廳)",
+    "button_price":580,
+    "higher_price":7980,
+    "room":40,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426365,24.993166 ]
+    },
+    "properties": {
+    "no":54,
+    "name":"印象賓館",
+    "localcall service":"(02)26834727  ",
+    "fax":"(02)26852402  ",
+    "address":"238新北市樹林區鎮前街3號4樓",
+    "button_price":1000,
+    "higher_price":2000,
+    "room":17,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426365,24.993166 ]
+    },
+    "properties": {
+    "no":55,
+    "name":"昇園賓館",
+    "localcall service":"(02)26810868  ",
+    "fax":"(02)0000",
+    "address":"238新北市樹林區鎮前街3之4號5樓",
+    "button_price":1000,
+    "higher_price":2000,
+    "room":20,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426859,24.992846 ]
+    },
+    "properties": {
+    "no":56,
+    "name":"佳賓旅社",
+    "localcall service":"(02)26812329  ",
+    "fax":"(02)0000",
+    "address":"238新北市樹林區博愛街2巷24,26,28號",
+    "button_price":800,
+    "higher_price":800,
+    "room":16,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427613,24.993063 ]
+    },
+    "properties": {
+    "no":57,
+    "name":"龍海大飯店",
+    "localcall service":"(02)26813333  ",
+    "fax":"(02)0000",
+    "address":"238新北市樹林區博愛街6號5樓",
+    "button_price":1000,
+    "higher_price":2600,
+    "room":35,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4628644,25.00927183 ]
+    },
+    "properties": {
+    "no":58,
+    "name":"板橋旅居文旅",
+    "localcall service":"(02)29565888  ",
+    "fax":"(02)29565885  ",
+    "address":"220新北市板橋區公園街16號1至6樓",
+    "button_price":12000,
+    "higher_price":12000,
+    "room":47,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460202,25.137578 ]
+    },
+    "properties": {
+    "no":59,
+    "name":"香寧旅店",
+    "localcall service":"(02)28097777  ",
+    "fax":"(02)28097778  ",
+    "address":"251新北市淡水區民權路105至111號7至8樓",
+    "button_price":1480,
+    "higher_price":1480,
+    "room":29,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442042,25.170223 ]
+    },
+    "properties": {
+    "no":67,
+    "name":"新五福旅社",
+    "localcall service":"(02)26211719  ",
+    "fax":"(02)0000",
+    "address":"251新北市淡水區中山路95巷18號2至4樓",
+    "button_price":1200,
+    "higher_price":15000,
+    "room":13,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.537422,24.958785 ]
+    },
+    "properties": {
+    "no":68,
+    "name":"新加州景觀旅館",
+    "localcall service":"(02)29161717  ",
+    "fax":"(02)29177890  ",
+    "address":"231新北市新店區北新路1段1號",
+    "button_price":3800,
+    "higher_price":7500,
+    "room":34,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458429,25.008614 ]
+    },
+    "properties": {
+    "no":69,
+    "name":"蘭竹大飯店",
+    "localcall service":"(02)29680186  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區東門街13及15號",
+    "button_price":1250,
+    "higher_price":1550,
+    "room":40,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4851339,25.0773284 ]
+    },
+    "properties": {
+    "no":77,
+    "name":"丰居旅店微風館",
+    "localcall service":"(02)22862288  ",
+    "fax":"(02)22865656  ",
+    "address":"241新北市三重區三和路4段282號3至12樓(1樓門廳)",
+    "button_price":15000,
+    "higher_price":30000,
+    "room":98,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512874,25.005893 ]
+    },
+    "properties": {
+    "no":78,
+    "name":"相見歡旅館",
+    "localcall service":"(02)29276188  ",
+    "fax":"(02)29272761  ",
+    "address":"234新北市永和區永和路1段23號1至3樓",
+    "button_price":3380,
+    "higher_price":5680,
+    "room":20,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454042,25.0082139 ]
+    },
+    "properties": {
+    "no":79,
+    "name":"華倫大旅社",
+    "localcall service":"(02)29689578  ",
+    "fax":"(02)29609933  ",
+    "address":"220新北市板橋區館前西路265巷3號",
+    "button_price":1200,
+    "higher_price":1200,
+    "room":17,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453421,25.008369 ]
+    },
+    "properties": {
+    "no":80,
+    "name":"美錦樂賓館",
+    "localcall service":"(02)29609933  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區南雅東路118號",
+    "button_price":650,
+    "higher_price":650,
+    "room":19,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.363821,24.935946 ]
+    },
+    "properties": {
+    "no":83,
+    "name":"愛莉亞汽車旅館",
+    "localcall service":"(02)26741133  ",
+    "fax":"(02)86741201  ",
+    "address":"237新北市三峽區中山路169巷10號(代表號)",
+    "button_price":1580,
+    "higher_price":3080,
+    "room":49,
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538625,24.959475 ]
+    },
+    "properties": {
+    "no":84,
+    "name":"龍山旅社",
+    "localcall service":"(02)29111800  ",
+    "fax":"(02)0000",
+    "address":"231新北市新店區光明街52號",
+    "button_price":1000,
+    "higher_price":1000,
+    "room":24,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454078,25.008293 ]
+    },
+    "properties": {
+    "no":85,
+    "name":"南國旅社",
+    "localcall service":"(02)29682121  ",
+    "fax":"(02)29682121  ",
+    "address":"220新北市板橋區館前西路265巷1號1至5樓",
+    "button_price":500,
+    "higher_price":700,
+    "room":25,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561113,25.0088007 ]
+    },
+    "properties": {
+    "no":86,
+    "name":"美莊旅社",
+    "localcall service":"(02)29698225  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區東門街3,5號",
+    "button_price":1000,
+    "higher_price":1600,
+    "room":29,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543257,24.974164 ]
+    },
+    "properties": {
+    "no":89,
+    "name":"愛家旅館",
+    "localcall service":"(02)29129111  ",
+    "fax":"(02)29122493  ",
+    "address":"231新北市新店區北新路2段108號7樓",
+    "button_price":2200,
+    "higher_price":2500,
+    "room":31,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454328,25.003215 ]
+    },
+    "properties": {
+    "no":90,
+    "name":"旅居文旅-板橋驛站2館",
+    "localcall service":"(02)29559199  ",
+    "fax":"(02)2270-0838  ",
+    "address":"220新北市板橋區南雅南路2段28號",
+    "button_price":12000,
+    "higher_price":12000,
+    "room":27,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541418,24.981013 ]
+    },
+    "properties": {
+    "no":91,
+    "name":"黎明旅館",
+    "localcall service":"(02)29119188  ",
+    "fax":"(02)29179776  ",
+    "address":"231新北市新店區北新路3段51之1號4樓",
+    "button_price":1800,
+    "higher_price":3000,
+    "room":37,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502479,25.065202 ]
+    },
+    "properties": {
+    "no":92,
+    "name":"名華大旅社",
+    "localcall service":"(02)29754816  ",
+    "fax":"(02)0000",
+    "address":"241新北市三重區福德北路53巷1號",
+    "button_price":300,
+    "higher_price":1000,
+    "room":28,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496643,25.061991 ]
+    },
+    "properties": {
+    "no":93,
+    "name":"慶都大旅社",
+    "localcall service":"(02)29712263  ",
+    "fax":"(02)29711902  ",
+    "address":"241新北市三重區重新路2段69號2樓及71號2樓",
+    "button_price":700,
+    "higher_price":1200,
+    "room":30,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443392,24.974949 ]
+    },
+    "properties": {
+    "no":95,
+    "name":"庭有名旅居文旅",
+    "localcall service":"(02)22619191  ",
+    "fax":"(02)22700838  ",
+    "address":"236新北市土城區中正路30號1至9樓",
+    "button_price":12000,
+    "higher_price":18000,
+    "room":48,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497482,25.062712 ]
+    },
+    "properties": {
+    "no":98,
+    "name":"名流賓館",
+    "localcall service":"(02)29857515  ",
+    "fax":"(02)29806121  ",
+    "address":"241新北市三重區正義北路6之1號8樓",
+    "button_price":800,
+    "higher_price":2000,
+    "room":30,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456291,25.007824 ]
+    },
+    "properties": {
+    "no":99,
+    "name":"千嘉旅店",
+    "localcall service":"(02)29695066  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區館前西路139號8樓",
+    "button_price":1400,
+    "higher_price":1400,
+    "room":20,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.352599,24.948658 ]
+    },
+    "properties": {
+    "no":100,
+    "name":"玉山旅店",
+    "localcall service":"(02)86776060  ",
+    "fax":"(02)26785487  ",
+    "address":"239新北市鶯歌區文化路228號",
+    "button_price":2000,
+    "higher_price":3000,
+    "room":11,
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517933,25.014253 ]
+    },
+    "properties": {
+    "no":103,
+    "name":"中信旅店",
+    "localcall service":"(02)89250688  ",
+    "fax":"(02)89250686  ",
+    "address":"234新北市永和區竹林路41號7至9樓",
+    "button_price":1380,
+    "higher_price":1880,
+    "room":27,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427613,24.993065 ]
+    },
+    "properties": {
+    "no":104,
+    "name":"明園賓館",
+    "localcall service":"(02)26835057  ",
+    "fax":"(02)0000",
+    "address":"238新北市樹林區博愛街6號4樓",
+    "button_price":900,
+    "higher_price":2000,
+    "room":34,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425571,24.990515 ]
+    },
+    "properties": {
+    "no":107,
+    "name":"豪華旅社",
+    "localcall service":"(02)26861477  ",
+    "fax":"(02)0000",
+    "address":"238新北市樹林區鎮前街77之10號",
+    "button_price":800,
+    "higher_price":1200,
+    "room":17,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496533,25.002629 ]
+    },
+    "properties": {
+    "no":108,
+    "name":"凱帝賓館",
+    "localcall service":"(02)22481998  ",
+    "fax":"(02)22475985  ",
+    "address":"235新北市中和區景平路669號3樓-13至-27,4樓-5,-7,-8",
+    "button_price":1500,
+    "higher_price":1500,
+    "room":31,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.68372,25.18628 ]
+    },
+    "properties": {
+    "no":110,
+    "name":"福泰翡翠灣渡假飯店",
+    "localcall service":"(02)24926565  ",
+    "fax":"(02)24926588  ",
+    "address":"207新北市萬里區翡翠路17號1至2樓,14至18樓",
+    "button_price":8000,
+    "higher_price":25000,
+    "room":240,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440843,24.9734909 ]
+    },
+    "properties": {
+    "no":112,
+    "name":"土城飯店",
+    "localcall service":"(02)82612928  ",
+    "fax":"(02)82617530  ",
+    "address":"236新北市土城區中央路2段223之4號1至2樓,223之5號3至5樓",
+    "button_price":1380,
+    "higher_price":2280,
+    "room":19,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488095,25.051515 ]
+    },
+    "properties": {
+    "no":115,
+    "name":"沃客伽洲旅社",
+    "localcall service":"(02)29737000  ",
+    "fax":"(02)29737000  ",
+    "address":"241新北市三重區成功路97號8至9樓",
+    "button_price":16800,
+    "higher_price":31800,
+    "room":53,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458116,25.007901 ]
+    },
+    "properties": {
+    "no":118,
+    "name":"馥俐商旅",
+    "localcall service":"(02)29679008  ",
+    "fax":"(02)29673578  ",
+    "address":"220新北市板橋區東門街36之5號",
+    "button_price":9900,
+    "higher_price":16000,
+    "room":42,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44481,24.987039 ]
+    },
+    "properties": {
+    "no":119,
+    "name":"新莊客旅",
+    "localcall service":"(02)22776599  ",
+    "fax":"(02)22776509  ",
+    "address":"242新北市新莊區中華路1段103號3樓",
+    "button_price":4500,
+    "higher_price":10000,
+    "room":39,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5172134,25.0073466 ]
+    },
+    "properties": {
+    "no":120,
+    "name":"嘉家旅店",
+    "localcall service":"(02)29297029  ",
+    "fax":"(02)22324019  ",
+    "address":"234新北市永和區福和路292號5樓(含5樓之1)至6樓及294號5至6樓",
+    "button_price":800,
+    "higher_price":1380,
+    "room":20,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442574,25.03261 ]
+    },
+    "properties": {
+    "no":122,
+    "name":"極品旅館",
+    "localcall service":"(02)22085518  ",
+    "fax":"(02)22085592  ",
+    "address":"242新北市新莊區新莊路757號",
+    "button_price":4980,
+    "higher_price":4980,
+    "room":10,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497469,25.062783 ]
+    },
+    "properties": {
+    "no":124,
+    "name":"華園旅社",
+    "localcall service":"(02)29714231  ",
+    "fax":"(02)29715572  ",
+    "address":"241新北市三重區正義北路8號2至4樓",
+    "button_price":800,
+    "higher_price":800,
+    "room":22,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543171,24.9826349 ]
+    },
+    "properties": {
+    "no":125,
+    "name":"仲信商務會館",
+    "localcall service":"(02)29106600  ",
+    "fax":"(02)29103279  ",
+    "address":"231新北市新店區中興路3段219之2號1至10樓",
+    "button_price":4400,
+    "higher_price":6600,
+    "room":71,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462419,25.007451 ]
+    },
+    "properties": {
+    "no":126,
+    "name":"首府大旅社",
+    "localcall service":"(02)29598911  ",
+    "fax":"(02)29636461  ",
+    "address":"220新北市板橋區館前東路96號7樓",
+    "button_price":3000,
+    "higher_price":9600,
+    "room":42,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490602,25.059037 ]
+    },
+    "properties": {
+    "no":128,
+    "name":"華春林賓館",
+    "localcall service":"(02)29769825  ",
+    "fax":"(02)29747232  ",
+    "address":"241新北市三重區重新路3段180號1至5樓",
+    "button_price":700,
+    "higher_price":2180,
+    "room":22,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.551769,24.864253 ]
+    },
+    "properties": {
+    "no":129,
+    "name":"秀山大飯店",
+    "localcall service":"(02)26616789  ",
+    "fax":"(02)26618168  ",
+    "address":"233新北市烏來區烏來街83號",
+    "button_price":2500,
+    "higher_price":4500,
+    "room":10,
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.551659,24.864752 ]
+    },
+    "properties": {
+    "no":134,
+    "name":"烏來輕井澤溫泉旅館",
+    "localcall service":"(02)26616425  ",
+    "fax":"(02)0000",
+    "address":"233新北市烏來區烏來街6號",
+    "button_price":8800,
+    "higher_price":11000,
+    "room":16,
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.500698,25.067675 ]
+    },
+    "properties": {
+    "no":137,
+    "name":"三和旅舍",
+    "localcall service":"(02)29735264  ",
+    "fax":"(02)29723985  ",
+    "address":"241新北市三重區三和路2段49號",
+    "button_price":1050,
+    "higher_price":1750,
+    "room":40,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494895,25.070982 ]
+    },
+    "properties": {
+    "no":139,
+    "name":"喜客商旅-三重館",
+    "localcall service":"(02)29870660  ",
+    "fax":"(02)0000",
+    "address":"241新北市三重區龍門路1號10至12樓及10樓之1至12樓之1",
+    "button_price":14800,
+    "higher_price":16800,
+    "room":31,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45756,25.008538 ]
+    },
+    "properties": {
+    "no":140,
+    "name":"百麗旅店",
+    "localcall service":"(02)22727398  ",
+    "fax":"(02)22729331  ",
+    "address":"220新北市板橋區南門街1巷2號",
+    "button_price":9880,
+    "higher_price":12800,
+    "room":48,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512463,24.990141 ]
+    },
+    "properties": {
+    "no":142,
+    "name":"宏仁旅店",
+    "localcall service":"(02)29449985  ",
+    "fax":"(02)0000",
+    "address":"235新北市中和區景新街391號2至5樓",
+    "button_price":1980,
+    "higher_price":2580,
+    "room":27,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480634,25.0825719 ]
+    },
+    "properties": {
+    "no":145,
+    "name":"嘉年華汽車旅館",
+    "localcall service":"(02)28475211  ",
+    "fax":"(02)28476244  ",
+    "address":"247新北市蘆洲區集賢路385號(代表號)",
+    "button_price":2900,
+    "higher_price":2900,
+    "room":31,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497167,25.061757 ]
+    },
+    "properties": {
+    "no":146,
+    "name":"台北薇米商旅",
+    "localcall service":"(02)29746636  ",
+    "fax":"(02)29755124  ",
+    "address":"241新北市三重區重新路2段78號16至17樓",
+    "button_price":4800,
+    "higher_price":17800,
+    "room":51,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.640948,25.2208319 ]
+    },
+    "properties": {
+    "no":147,
+    "name":"怡美賓館",
+    "localcall service":"(02)24982212  ",
+    "fax":"(02)0000",
+    "address":"208新北市金山區民生路206號",
+    "button_price":1400,
+    "higher_price":2000,
+    "room":32,
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.552134,24.84898 ]
+    },
+    "properties": {
+    "no":148,
+    "name":"雲仙大飯店",
+    "localcall service":"(02)26616510  ",
+    "fax":"(02)26616710  ",
+    "address":"233新北市烏來區烏來里瀑布路1之1號",
+    "button_price":4400,
+    "higher_price":8500,
+    "room":60,
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461666,25.0064229 ]
+    },
+    "properties": {
+    "no":157,
+    "name":"友愛金色商旅",
+    "localcall service":"(02)29647599  ",
+    "fax":"(02)29646229  ",
+    "address":"220新北市板橋區重慶路66號11至13樓",
+    "button_price":3300,
+    "higher_price":12800,
+    "room":47,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484617,24.994595 ]
+    },
+    "properties": {
+    "no":158,
+    "name":"香格里拉汽車旅館",
+    "localcall service":"(02)82213666  ",
+    "fax":"(02)82213536  ",
+    "address":"235新北市中和區中正路637巷52弄12號",
+    "button_price":2600,
+    "higher_price":3200,
+    "room":49,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484381,24.994105 ]
+    },
+    "properties": {
+    "no":159,
+    "name":"香格里拉汽車旅館中和館",
+    "localcall service":"(02)82213666  ",
+    "fax":"(02)82213536  ",
+    "address":"235新北市中和區連城路469巷79弄25號",
+    "button_price":2600,
+    "higher_price":2600,
+    "room":31,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457892,25.0090009 ]
+    },
+    "properties": {
+    "no":161,
+    "name":"馥俐旅店",
+    "localcall service":"(02)22722625  ",
+    "fax":"(02)22722606  ",
+    "address":"220新北市板橋區東門街10號2至5樓,12號1至5樓",
+    "button_price":9900,
+    "higher_price":9900,
+    "room":28,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433046,25.053278 ]
+    },
+    "properties": {
+    "no":162,
+    "name":"君祥酒店",
+    "localcall service":"(02)28345102  ",
+    "fax":"(02)29007593  ",
+    "address":"243新北市泰山區中港西路456號",
+    "button_price":3600,
+    "higher_price":5200,
+    "room":133,
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442574,25.03261 ]
+    },
+    "properties": {
+    "no":163,
+    "name":"雅都旅社",
+    "localcall service":"(02)29682345  ",
+    "fax":"(02)0000",
+    "address":"220新北市板橋區中興路5號2至3樓",
+    "button_price":6980,
+    "higher_price":6980,
+    "room":14,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4543127,25.00683152 ]
+    },
+    "properties": {
+    "no":164,
+    "name":"旅居文旅-板橋驛站1館",
+    "localcall service":"(02)89682228  ",
+    "fax":"(02)29565885  ",
+    "address":"220新北市板橋區南雅東路46號",
+    "button_price":12000,
+    "higher_price":12000,
+    "room":24,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497481,25.062712 ]
+    },
+    "properties": {
+    "no":165,
+    "name":"柜富旅店",
+    "localcall service":"(02)29836801  ",
+    "fax":"(02)29836808  ",
+    "address":"241新北市三重區正義北路6之1號10至11樓",
+    "button_price":12000,
+    "higher_price":18000,
+    "room":58,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453753,25.010996 ]
+    },
+    "properties": {
+    "no":166,
+    "name":"夢綺旅店",
+    "localcall service":"(02)29600888  ",
+    "fax":"(02)29600891  ",
+    "address":"220新北市板橋區西門街20號1至4樓",
+    "button_price":12000,
+    "higher_price":15000,
+    "room":27,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424413,25.0384089 ]
+    },
+    "properties": {
+    "no":167,
+    "name":"台麗精品旅店",
+    "localcall service":"(02)29025161  ",
+    "fax":"(02)29086618  ",
+    "address":"243新北市泰山區台麗街11巷1號1至5樓",
+    "button_price":4500,
+    "higher_price":8000,
+    "room":34,
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5034069,25.0078468 ]
+    },
+    "properties": {
+    "no":168,
+    "name":"愛摩兒時尚旅?",
+    "localcall service":"(02)89217721  ",
+    "fax":"(02)89217715  ",
+    "address":"234新北市永和區仁愛路316,318號",
+    "button_price":3500,
+    "higher_price":6800,
+    "room":73,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488743,25.051896 ]
+    },
+    "properties": {
+    "no":169,
+    "name":"上格大飯店",
+    "localcall service":"(02)29775678  ",
+    "fax":"(02)29775688  ",
+    "address":"241新北市三重區集成路11號",
+    "button_price":18800,
+    "higher_price":18800,
+    "room":60,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9412014,25.01949324 ]
+    },
+    "properties": {
+    "no":170,
+    "name":"大東旅社",
+    "localcall service":"(02)24991362  ",
+    "fax":"(02)0000",
+    "address":"228新北市貢寮區福隆里興隆街4之1號",
+    "button_price":1200,
+    "higher_price":2800,
+    "room":15,
+    "area":"貢寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451488,25.053349 ]
+    },
+    "properties": {
+    "no":172,
+    "name":"花蝶晶漾商旅（HOTEL）",
+    "localcall service":"(02)22779601  ",
+    "fax":"(02)22779606  ",
+    "address":"242新北市新莊區中港路572號1樓",
+    "button_price":3980,
+    "higher_price":4980,
+    "room":36,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6831496,25.1908987 ]
+    },
+    "properties": {
+    "no":177,
+    "name":"群策翡翠灣溫泉飯店",
+    "localcall service":"(02)24925511  ",
+    "fax":"(02)24921511  ",
+    "address":"207新北市萬里區海景路1號1樓、2樓之1至之8、3樓之1至之8、4樓之1至之11、5樓之1至之11、6樓之1至之11、7樓之1至之11、8樓之1至之11",
+    "button_price":6600,
+    "higher_price":20460,
+    "room":62,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.780458,25.048758 ]
+    },
+    "properties": {
+    "no":178,
+    "name":"河灣渡假村",
+    "localcall service":"(02)24958325  ",
+    "fax":"(02)24958646  ",
+    "address":"226新北市平溪區靜安路三段385號2樓",
+    "button_price":4000,
+    "higher_price":7200,
+    "room":12,
+    "area":"平溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484415,24.982353 ]
+    },
+    "properties": {
+    "no":179,
+    "name":"儷閣經典旅館",
+    "localcall service":"(02)82286686  ",
+    "fax":"(02)82286676  ",
+    "address":"235新北市中和區員山路8之6及8之7號",
+    "button_price":6960,
+    "higher_price":6960,
+    "room":40,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.333863,24.963037 ]
+    },
+    "properties": {
+    "no":180,
+    "name":"北國之春和風汽車旅館",
+    "localcall service":"(02)26780899  ",
+    "fax":"(02)26781130  ",
+    "address":"239新北市鶯歌區鶯桃路362之1號",
+    "button_price":1680,
+    "higher_price":20000,
+    "room":24,
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4582219,25.0076129 ]
+    },
+    "properties": {
+    "no":182,
+    "name":"馥都飯店",
+    "localcall service":"(02)29658008  ",
+    "fax":"(02)29658060  ",
+    "address":"220新北市板橋區縣民大道1段189號",
+    "button_price":11600,
+    "higher_price":36000,
+    "room":111,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538401,24.981689 ]
+    },
+    "properties": {
+    "no":185,
+    "name":"安盛商務旅館",
+    "localcall service":"(02)29101477  ",
+    "fax":"(02)29127694  ",
+    "address":"231新北市新店區二十張路31號",
+    "button_price":3400,
+    "higher_price":3400,
+    "room":21,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4667039,25.020321 ]
+    },
+    "properties": {
+    "no":187,
+    "name":"帝苑旅店",
+    "localcall service":"(02)22572525  ",
+    "fax":"(02)22577228  ",
+    "address":"220新北市板橋區文化路1段218號1樓及3至7樓",
+    "button_price":8880,
+    "higher_price":8888,
+    "room":45,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5041684,25.0098812 ]
+    },
+    "properties": {
+    "no":188,
+    "name":"探索汽車旅館永和館",
+    "localcall service":"(02)22323103  ",
+    "fax":"(02)22323107  ",
+    "address":"234新北市永和區保順路27及31號",
+    "button_price":4980,
+    "higher_price":9980,
+    "room":65,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5035418,24.9933862 ]
+    },
+    "properties": {
+    "no":189,
+    "name":"日暉商務旅館",
+    "localcall service":"(02)22479997  ",
+    "fax":"(02)22479761  ",
+    "address":"235新北市中和區景平路381號 ",
+    "button_price":1980,
+    "higher_price":2780,
+    "room":20,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445757,25.17041 ]
+    },
+    "properties": {
+    "no":190,
+    "name":"福格大飯店",
+    "localcall service":"(02)26262929  ",
+    "fax":"(02)26268165  ",
+    "address":"251新北市淡水區學府路89號5至16樓",
+    "button_price":5000,
+    "higher_price":12500,
+    "room":168,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.642884,25.215917 ]
+    },
+    "properties": {
+    "no":191,
+    "name":"萬里仙境溫泉會館",
+    "localcall service":"(02)24082669  ",
+    "fax":"(02)24989269  ",
+    "address":"207新北市萬里區萬里加投197-3號1-4樓",
+    "button_price":5280,
+    "higher_price":5280,
+    "room":35,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489257,25.051607 ]
+    },
+    "properties": {
+    "no":192,
+    "name":"藏愛旅店",
+    "localcall service":"(02)29788880  ",
+    "fax":"(02)29788810  ",
+    "address":"241新北市三重區成功路73巷6號",
+    "button_price":12000,
+    "higher_price":15000,
+    "room":24,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5005038,25.001258 ]
+    },
+    "properties": {
+    "no":194,
+    "name":"全家旅店",
+    "localcall service":"(02)82455151  ",
+    "fax":"(02)82459191  ",
+    "address":"235新北市中和區中和路59之1號、59號5.6樓及9至11樓",
+    "button_price":6600,
+    "higher_price":12000,
+    "room":50,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453804,25.036103 ]
+    },
+    "properties": {
+    "no":196,
+    "name":"大觀商旅",
+    "localcall service":"(02)89911278  ",
+    "fax":"(02)29937178  ",
+    "address":"242新北市新莊區大觀街60號",
+    "button_price":12000,
+    "higher_price":12000,
+    "room":53,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.548002,24.871593 ]
+    },
+    "properties": {
+    "no":198,
+    "name":"璞石麗緻溫泉會館",
+    "localcall service":"(02)26618000  ",
+    "fax":"(02)26618080  ",
+    "address":"233新北市烏來區忠治里新烏路五段88號",
+    "button_price":7920,
+    "higher_price":28600,
+    "room":30,
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460759,25.013618 ]
+    },
+    "properties": {
+    "no":199,
+    "name":"正點旅店",
+    "localcall service":"(02)29684152  ",
+    "fax":"(02)29666427  ",
+    "address":"220新北市板橋區文化路1段55號1至4樓,57號3樓,59號3樓",
+    "button_price":2980,
+    "higher_price":2980,
+    "room":23,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5044463,24.9961865 ]
+    },
+    "properties": {
+    "no":200,
+    "name":"景安精品旅館",
+    "localcall service":"(02)22438989  ",
+    "fax":"(02)82431568  ",
+    "address":"235新北市中和區明禮街32號2至9樓",
+    "button_price":3250,
+    "higher_price":6000,
+    "room":39,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488093,25.051517 ]
+    },
+    "properties": {
+    "no":202,
+    "name":"沃客新舍旅社",
+    "localcall service":"(02)29737000  ",
+    "fax":"(02)29736611  ",
+    "address":"241新北市三重區成功路97號6至7樓",
+    "button_price":16800,
+    "higher_price":31800,
+    "room":54,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4613146,25.1548826 ]
+    },
+    "properties": {
+    "no":203,
+    "name":"挪威森林森森休閒旅館",
+    "localcall service":"(02)88096789  ",
+    "fax":"(02)88095777  ",
+    "address":"251新北市淡水區八勢一街83號",
+    "button_price":1980,
+    "higher_price":20000,
+    "room":65,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.943978,25.018408 ]
+    },
+    "properties": {
+    "no":204,
+    "name":"福容大飯店 福隆貝悅",
+    "localcall service":"(02)24992381  ",
+    "fax":"(02)24991211  ",
+    "address":"228新北市貢寮區福隆里福隆街40號",
+    "button_price":14080,
+    "higher_price":62480,
+    "room":54,
+    "area":"貢寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4649854,25.0902313 ]
+    },
+    "properties": {
+    "no":205,
+    "name":"紫虹汽車旅館",
+    "localcall service":"(02)22887000  ",
+    "fax":"(02)22897899  ",
+    "address":"247新北市蘆洲區中正路367號",
+    "button_price":980,
+    "higher_price":8880,
+    "room":50,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4336972,25.0284124 ]
+    },
+    "properties": {
+    "no":207,
+    "name":"香奈爾汽車旅館 (新莊店)",
+    "localcall service":"(02)29065555  ",
+    "fax":"(02)29062106  ",
+    "address":"242新北市新莊區後港一路187號",
+    "button_price":13800,
+    "higher_price":17080,
+    "room":55,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417222,24.9734399 ]
+    },
+    "properties": {
+    "no":208,
+    "name":"月圓汽車旅館",
+    "localcall service":"(02)86862828  ",
+    "fax":"(02)86851199  ",
+    "address":"238新北市樹林區八德街208巷12號",
+    "button_price":1380,
+    "higher_price":2580,
+    "room":4,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451993,25.124454 ]
+    },
+    "properties": {
+    "no":209,
+    "name":"新八里汽車旅館",
+    "localcall service":"(02)26188866  ",
+    "fax":"(02)26188868  ",
+    "address":"249新北市八里區頂寮一街12號",
+    "button_price":3440,
+    "higher_price":3440,
+    "room":47,
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378884,24.944468 ]
+    },
+    "properties": {
+    "no":210,
+    "name":"金莎旗艦汽車旅館",
+    "localcall service":"(02)89700189  ",
+    "fax":"(02)89700327  ",
+    "address":"238新北市樹林區學成路468號及大義路36號",
+    "button_price":6980,
+    "higher_price":9080,
+    "room":48,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.929664,25.053531 ]
+    },
+    "properties": {
+    "no":212,
+    "name":"莫瑞納海灣會館",
+    "localcall service":"(02)24903955  ",
+    "fax":"(02)24903964  ",
+    "address":"228新北市貢寮區仁愛路106巷36號",
+    "button_price":6500,
+    "higher_price":12000,
+    "room":70,
+    "area":"貢寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460677,25.0443789 ]
+    },
+    "properties": {
+    "no":213,
+    "name":"雅緹汽車旅館",
+    "localcall service":"(02)22761818  ",
+    "fax":"(02)89916083  ",
+    "address":"242新北市新莊區復興路3段8號",
+    "button_price":5900,
+    "higher_price":5900,
+    "room":40,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4809741,25.0101816 ]
+    },
+    "properties": {
+    "no":214,
+    "name":"美芙精品旅館",
+    "localcall service":"(02)22232399  ",
+    "fax":"(02)32344530  ",
+    "address":"235新北市中和區中正路1184號",
+    "button_price":3980,
+    "higher_price":4980,
+    "room":57,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444601,24.98979 ]
+    },
+    "properties": {
+    "no":215,
+    "name":"Q汽車旅館",
+    "localcall service":"(02)22629999  ",
+    "fax":"(02)22629060  ",
+    "address":"236新北市土城區中華路1段56巷38號",
+    "button_price":5500,
+    "higher_price":12000,
+    "room":37,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5990502,25.0044941 ]
+    },
+    "properties": {
+    "no":216,
+    "name":"海灣假日酒店",
+    "localcall service":"(02)26628000  ",
+    "fax":"(02)26627428  ",
+    "address":"222新北市深坑區北深路3段265號",
+    "button_price":8000,
+    "higher_price":20000,
+    "room":252,
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4375887,24.9769637 ]
+    },
+    "properties": {
+    "no":217,
+    "name":"艾蔓精緻旅館-土城館",
+    "localcall service":"(02)22673399  ",
+    "fax":"(02)22689868  ",
+    "address":"236新北市土城區城林路6巷18號",
+    "button_price":4300,
+    "higher_price":12000,
+    "room":69,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498171,25.062548 ]
+    },
+    "properties": {
+    "no":218,
+    "name":"薇城精緻旅店",
+    "localcall service":"(02)89882868  ",
+    "fax":"(02)89882218  ",
+    "address":"241新北市三重區重新路2段21號7樓",
+    "button_price":1380,
+    "higher_price":2880,
+    "room":8,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531446,24.954004 ]
+    },
+    "properties": {
+    "no":219,
+    "name":"唯愛汽車旅館",
+    "localcall service":"(02)86661699  ",
+    "fax":"(02)22123397  ",
+    "address":"231新北市新店區永業路46號",
+    "button_price":4980,
+    "higher_price":11980,
+    "room":17,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487976,25.006308 ]
+    },
+    "properties": {
+    "no":221,
+    "name":"美麗殿精品汽車旅館",
+    "localcall service":"(02)22226868  ",
+    "fax":"(02)22288809  ",
+    "address":"235新北市中和區板南路487號",
+    "button_price":8888,
+    "higher_price":22000,
+    "room":51,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4171343,25.0061048 ]
+    },
+    "properties": {
+    "no":222,
+    "name":"慕朵微風時尚休閒汽車旅館",
+    "localcall service":"(02)26870033  ",
+    "fax":"(02)26750598  ",
+    "address":"238新北市樹林區中正路349號",
+    "button_price":3280,
+    "higher_price":3280,
+    "room":36,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460704,24.993067 ]
+    },
+    "properties": {
+    "no":223,
+    "name":"挪威森林頂級汽車旅館",
+    "localcall service":"(02)89513311  ",
+    "fax":"(02)29641199  ",
+    "address":"220新北市板橋區和平路14巷3號",
+    "button_price":20000,
+    "higher_price":20000,
+    "room":59,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4187769,25.0066047 ]
+    },
+    "properties": {
+    "no":224,
+    "name":"貝爾頌精緻汽車旅館",
+    "localcall service":"(02)26751199  ",
+    "fax":"(02)26830423  ",
+    "address":"238新北市樹林區中正路226號",
+    "button_price":2900,
+    "higher_price":7200,
+    "room":61,
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.643152,25.216053 ]
+    },
+    "properties": {
+    "no":226,
+    "name":"金湧泉溫泉會館",
+    "localcall service":"(02)24983588  ",
+    "fax":"(02)24989699  ",
+    "address":"207新北市萬里區萬里加投213之3號",
+    "button_price":6200,
+    "higher_price":32000,
+    "room":21,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4833081,25.009619 ]
+    },
+    "properties": {
+    "no":228,
+    "name":"悅池精品旅館",
+    "localcall service":"(02)22211234  ",
+    "fax":"(02)22233199  ",
+    "address":"235新北市中和區立德街299號",
+    "button_price":3980,
+    "higher_price":14800,
+    "room":49,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4847931,24.9939553 ]
+    },
+    "properties": {
+    "no":229,
+    "name":"君迪商旅",
+    "localcall service":"(02)82213666  ",
+    "fax":"(02)82213536  ",
+    "address":"235新北市中和區和城路1段230、232號",
+    "button_price":4600,
+    "higher_price":6200,
+    "room":93,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.407251,24.870591 ]
+    },
+    "properties": {
+    "no":232,
+    "name":"大板根太子會館",
+    "localcall service":"(02)26749228  ",
+    "fax":"(02)26720535  ",
+    "address":"237新北市三峽區插角里插角76號1-5樓",
+    "button_price":8140,
+    "higher_price":11880,
+    "room":36,
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439199,24.97144 ]
+    },
+    "properties": {
+    "no":233,
+    "name":"有馬溫泉MOTEL",
+    "localcall service":"(02)22606666  ",
+    "fax":"(02)82619788  ",
+    "address":"236新北市土城區中央路2段392號",
+    "button_price":2580,
+    "higher_price":5000,
+    "room":80,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6363737,25.0622109 ]
+    },
+    "properties": {
+    "no":235,
+    "name":"芬多精加香汽車旅館",
+    "localcall service":"(02)26476858  ",
+    "fax":"(02)0000",
+    "address":"221新北市汐止區工建路206號",
+    "button_price":3580,
+    "higher_price":3580,
+    "room":25,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.630749,25.054608 ]
+    },
+    "properties": {
+    "no":236,
+    "name":"慾望精緻汽車旅館",
+    "localcall service":"(02)26419955  ",
+    "fax":"(02)26497766  ",
+    "address":"221新北市汐止區大同路1段118號",
+    "button_price":10000,
+    "higher_price":10000,
+    "room":27,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5507933,24.9808276 ]
+    },
+    "properties": {
+    "no":237,
+    "name":"挪威森林精品SPA汽車旅館",
+    "localcall service":"(02)89116866  ",
+    "fax":"(02)29177633  ",
+    "address":"231新北市新店區寶橋路235巷15號",
+    "button_price":20000,
+    "higher_price":20000,
+    "room":76,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436956,24.971006 ]
+    },
+    "properties": {
+    "no":239,
+    "name":"雪?花園汽車旅館",
+    "localcall service":"(02)22677899  ",
+    "fax":"(02)22674555  ",
+    "address":"236新北市土城區中華路2段194號",
+    "button_price":1580,
+    "higher_price":2880,
+    "room":34,
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420339,25.183911 ]
+    },
+    "properties": {
+    "no":240,
+    "name":"富悅渡假休閒旅館",
+    "localcall service":"(02)28051010  ",
+    "fax":"(02)28051628  ",
+    "address":"251新北市淡水區淡海路171號",
+    "button_price":7000,
+    "higher_price":8800,
+    "room":40,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497388,25.062499 ]
+    },
+    "properties": {
+    "no":241,
+    "name":"金國旅社",
+    "localcall service":"(02)29828158  ",
+    "fax":"(02)29824920  ",
+    "address":"241新北市三重區正義北路4號6樓",
+    "button_price":900,
+    "higher_price":900,
+    "room":17,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5291849,24.9725868 ]
+    },
+    "properties": {
+    "no":242,
+    "name":"九閣商旅",
+    "localcall service":"(02)22182118  ",
+    "fax":"(02)22183288  ",
+    "address":"231新北市新店區中央路238號",
+    "button_price":6000,
+    "higher_price":15000,
+    "room":57,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.600619,25.004084 ]
+    },
+    "properties": {
+    "no":244,
+    "name":"福容大飯店 台北二館",
+    "localcall service":"(02)26620088  ",
+    "fax":"(02)26621669  ",
+    "address":"222新北市深坑區萬福里北深路3段236號",
+    "button_price":6050,
+    "higher_price":16500,
+    "room":317,
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458087,25.037679 ]
+    },
+    "properties": {
+    "no":245,
+    "name":"翰品酒店",
+    "localcall service":"(02)29987699  ",
+    "fax":"(02)89943000  ",
+    "address":"242新北市新莊區中正路82號",
+    "button_price":5800,
+    "higher_price":36000,
+    "room":145,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374467,25.081484 ]
+    },
+    "properties": {
+    "no":249,
+    "name":"歐悅精品汽車旅館-林口館",
+    "localcall service":"(02)26086611  ",
+    "fax":"(02)26095511  ",
+    "address":"244新北市林口區文化三路二段115巷163號",
+    "button_price":15800,
+    "higher_price":30880,
+    "room":65,
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.690402,25.180397 ]
+    },
+    "properties": {
+    "no":252,
+    "name":"白宮行館",
+    "localcall service":"(02)24926768  ",
+    "fax":"(02)24926756  ",
+    "address":"207新北市萬里區瑪鋉路264號1樓及262號",
+    "button_price":12000,
+    "higher_price":14600,
+    "room":79,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6442351,25.2149574 ]
+    },
+    "properties": {
+    "no":253,
+    "name":"金湯溫泉會館",
+    "localcall service":"(02)24988788  ",
+    "fax":"(02)24985999  ",
+    "address":"207新北市萬里區萬里區大鵬里萬里加投路197之5號2樓",
+    "button_price":3420,
+    "higher_price":7700,
+    "room":10,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459856,25.009502 ]
+    },
+    "properties": {
+    "no":254,
+    "name":"府中棧精品商旅",
+    "localcall service":"(02)89698989  ",
+    "fax":"(02)29668585  ",
+    "address":"220新北市板橋區府中路9號及9號2至7樓",
+    "button_price":5500,
+    "higher_price":9000,
+    "room":47,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4620831,25.060504 ]
+    },
+    "properties": {
+    "no":255,
+    "name":"美麗海精品汽車旅館",
+    "localcall service":"(02)85225050  ",
+    "fax":"(02)85225051  ",
+    "address":"242新北市新莊區新北大道二段231號",
+    "button_price":11180,
+    "higher_price":11180,
+    "room":46,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.646519,25.229704 ]
+    },
+    "properties": {
+    "no":256,
+    "name":"遠東金山海灣溫泉HOTEL",
+    "localcall service":"(02)24980007  ",
+    "fax":"(02)24987116  ",
+    "address":"208新北市金山區磺港路326號",
+    "button_price":5200,
+    "higher_price":13200,
+    "room":64,
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5335311,24.982458 ]
+    },
+    "properties": {
+    "no":257,
+    "name":"矽谷溫泉會館",
+    "localcall service":"(02)22180101  ",
+    "fax":"(02)22183328  ",
+    "address":"231新北市新店區中正路491之1號",
+    "button_price":3000,
+    "higher_price":20000,
+    "room":132,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480455,25.080429 ]
+    },
+    "properties": {
+    "no":258,
+    "name":"成旅晶贊飯店台北蘆洲",
+    "localcall service":"(02)22855799  ",
+    "fax":"(02)22853358  ",
+    "address":"247新北市蘆洲區中山一路8號6,8-15樓",
+    "button_price":7200,
+    "higher_price":12000,
+    "room":140,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485301,25.000404 ]
+    },
+    "properties": {
+    "no":259,
+    "name":"集璦飯店",
+    "localcall service":"(02)66202888  ",
+    "fax":"(02)66207888  ",
+    "address":"235新北市中和區中正路776號",
+    "button_price":10000,
+    "higher_price":12000,
+    "room":77,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4806581,25.0831617 ]
+    },
+    "properties": {
+    "no":260,
+    "name":"台北集賢商旅",
+    "localcall service":"(02)82813888  ",
+    "fax":"(02)82831333  ",
+    "address":"247新北市蘆洲區集賢路372號",
+    "button_price":6000,
+    "higher_price":10400,
+    "room":45,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43819,25.172761 ]
+    },
+    "properties": {
+    "no":263,
+    "name":"藍色水岸海景旅店",
+    "localcall service":"(02)86316188  ",
+    "fax":"(02)0000",
+    "address":"251新北市淡水區文化路63號10樓之1,11樓之1",
+    "button_price":8000,
+    "higher_price":8000,
+    "room":1,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420512,25.180962 ]
+    },
+    "properties": {
+    "no":264,
+    "name":"承億文旅 淡水吹風",
+    "localcall service":"(02)28051212  ",
+    "fax":"(02)28055050  ",
+    "address":"251新北市淡水區沙崙路27號",
+    "button_price":6000,
+    "higher_price":8500,
+    "room":106,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498227,25.060405 ]
+    },
+    "properties": {
+    "no":265,
+    "name":"沃客商旅-正義館",
+    "localcall service":"(02)29706005  ",
+    "fax":"(02)29706015  ",
+    "address":"241新北市三重區正義南路55號5樓,5樓-1,5樓-2,6樓,6樓-1至-8",
+    "button_price":14800,
+    "higher_price":21800,
+    "room":98,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442302,25.170475 ]
+    },
+    "properties": {
+    "no":266,
+    "name":"歐朋侖旅店",
+    "localcall service":"0976-926158  ",
+    "fax":"(02)0000",
+    "address":"251新北市淡水區中山路93號9樓及93-1號9樓",
+    "button_price":2500,
+    "higher_price":3300,
+    "room":6,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460461,25.007125 ]
+    },
+    "properties": {
+    "no":268,
+    "name":"清翼居旅店",
+    "localcall service":"(02)29541808  ",
+    "fax":"(02)29541815  ",
+    "address":"220新北市板橋區館前東路26號6樓及6樓之1",
+    "button_price":7000,
+    "higher_price":8500,
+    "room":30,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432931,25.018673 ]
+    },
+    "properties": {
+    "no":270,
+    "name":"美麗心精品汽車旅館",
+    "localcall service":"(02)22051111  ",
+    "fax":"(02)22010193  ",
+    "address":"242新北市新莊區新樹路242號",
+    "button_price":1280,
+    "higher_price":13980,
+    "room":41,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6286358,25.0544102 ]
+    },
+    "properties": {
+    "no":271,
+    "name":"富士大飯店",
+    "localcall service":"(02)26918999  ",
+    "fax":"(02)2960  ",
+    "address":"221新北市汐止區大同路1段128號",
+    "button_price":13200,
+    "higher_price":13200,
+    "room":214,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447946,25.169145 ]
+    },
+    "properties": {
+    "no":273,
+    "name":"雅歌會館",
+    "localcall service":"(02)26260806  ",
+    "fax":"(02)26260807  ",
+    "address":"251新北市淡水區學府路36號5至7樓",
+    "button_price":5000,
+    "higher_price":14000,
+    "room":39,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.690128,25.204291 ]
+    },
+    "properties": {
+    "no":275,
+    "name":"薆悅酒店野柳渡假館二館",
+    "localcall service":"(02)77035777  ",
+    "fax":"(02)24928619  ",
+    "address":"207新北市萬里區野柳里港東路162-3號",
+    "button_price":9680,
+    "higher_price":33880,
+    "room":141,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479499,25.021378 ]
+    },
+    "properties": {
+    "no":276,
+    "name":"悅客商務飯店",
+    "localcall service":"(02)29648889  ",
+    "fax":"(02)29644831  ",
+    "address":"220新北市板橋區三民路一段107號1-9樓",
+    "button_price":6000,
+    "higher_price":10000,
+    "room":69,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485894,24.999059 ]
+    },
+    "properties": {
+    "no":277,
+    "name":"探索汽車旅館中和館",
+    "localcall service":"(02)82217070  ",
+    "fax":"(02)82214434  ",
+    "address":"235新北市中和區建八路3號",
+    "button_price":3580,
+    "higher_price":9980,
+    "room":56,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.690337,25.204077 ]
+    },
+    "properties": {
+    "no":278,
+    "name":"薆悅酒店野柳渡假館一館",
+    "localcall service":"(02)77035777  ",
+    "fax":"(02)24928619  ",
+    "address":"207新北市萬里區野柳里港東路162-2號",
+    "button_price":14080,
+    "higher_price":33880,
+    "room":118,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4580337,25.0092954 ]
+    },
+    "properties": {
+    "no":279,
+    "name":"美麗殿商旅",
+    "localcall service":"(02)29698588  ",
+    "fax":"(02)89682333  ",
+    "address":"220新北市板橋區府中路67號2樓、5至10樓",
+    "button_price":3600,
+    "higher_price":6600,
+    "room":66,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461804,25.005156 ]
+    },
+    "properties": {
+    "no":280,
+    "name":"清翼居旅店海洋館",
+    "localcall service":"(02)29596996  ",
+    "fax":"(02)29592183  ",
+    "address":"220新北市板橋區成都街65號",
+    "button_price":6500,
+    "higher_price":8500,
+    "room":31,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499102,25.003007 ]
+    },
+    "properties": {
+    "no":282,
+    "name":"葛瑞絲商旅",
+    "localcall service":"(02)22483666  ",
+    "fax":"(02)82412558  ",
+    "address":"235新北市中和區中山路二段228號5樓",
+    "button_price":4800,
+    "higher_price":7600,
+    "room":22,
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458935,25.010383 ]
+    },
+    "properties": {
+    "no":283,
+    "name":"SINGLEINN 單人房-台北館",
+    "localcall service":"(02)29691777  ",
+    "fax":"(07)2364889  ",
+    "address":"220新北市板橋區府後街6號3至6樓",
+    "button_price":2800,
+    "higher_price":12900,
+    "room":151,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.41914,25.032065 ]
+    },
+    "properties": {
+    "no":284,
+    "name":"麗京棧酒店",
+    "localcall service":"(02)29010909  ",
+    "fax":"(02)29040909  ",
+    "address":"243新北市泰山區新北大道7段36號",
+    "button_price":6600,
+    "higher_price":11000,
+    "room":168,
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3725414,24.9467525 ]
+    },
+    "properties": {
+    "no":285,
+    "name":"熊旅溫泉飯店",
+    "localcall service":"(02)26739456  ",
+    "fax":"(02)26738483  ",
+    "address":"237新北市三峽區大德路213號",
+    "button_price":9000,
+    "higher_price":15000,
+    "room":88,
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515578,24.975192 ]
+    },
+    "properties": {
+    "no":286,
+    "name":"白金花園酒店",
+    "localcall service":"(02)86665888  ",
+    "fax":"(02)86661010  ",
+    "address":"231新北市新店區安興路77號",
+    "button_price":6000,
+    "higher_price":12000,
+    "room":225,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5060771,25.0063031 ]
+    },
+    "properties": {
+    "no":287,
+    "name":"紅浮浮逸旅館",
+    "localcall service":"(02)32330100  ",
+    "fax":"(02)0000",
+    "address":"234新北市永和區中山路1段331號B1-6樓",
+    "button_price":1680,
+    "higher_price":12000,
+    "room":37,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4565846,25.005939 ]
+    },
+    "properties": {
+    "no":288,
+    "name":"黑熊好眠站",
+    "localcall service":"(02)89880000  ",
+    "fax":"(02)89882191  ",
+    "address":"241新北市三重區重新路2段1號8至9樓",
+    "button_price":20000,
+    "higher_price":60000,
+    "room":19,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611437,25.0509884 ]
+    },
+    "properties": {
+    "no":289,
+    "name":"幸福讚精品飯店",
+    "localcall service":"(02)29975186  ",
+    "fax":"(02)29981155  ",
+    "address":"242新北市新莊區思源路332巷9號1至8樓及11號2至5樓",
+    "button_price":3990,
+    "higher_price":48800,
+    "room":44,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457245,25.008131 ]
+    },
+    "properties": {
+    "no":290,
+    "name":"板橋王旅館",
+    "localcall service":"(02)29662670  ",
+    "fax":"(02)29662610  ",
+    "address":"220新北市板橋區南門街61號13樓",
+    "button_price":2500,
+    "higher_price":4500,
+    "room":31,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459878,25.007172 ]
+    },
+    "properties": {
+    "no":291,
+    "name":"台北輕旅複合式旅店",
+    "localcall service":"(02)29515121  ",
+    "fax":"(02)29515086  ",
+    "address":"220新北市板橋區館前東路13號4樓之2",
+    "button_price":780,
+    "higher_price":5980,
+    "room":18,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4799862,25.0820839 ]
+    },
+    "properties": {
+    "no":292,
+    "name":"樂頤飯店",
+    "localcall service":"(02)82811234  ",
+    "fax":"(02)82823322  ",
+    "address":"247新北市蘆洲區集賢路402號3樓至12樓",
+    "button_price":5600,
+    "higher_price":12880,
+    "room":49,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460103,25.059801 ]
+    },
+    "properties": {
+    "no":293,
+    "name":"歐遊國際連鎖精品旅館",
+    "localcall service":"(02)85221100  ",
+    "fax":"(05)5517755  ",
+    "address":"242新北市新莊區思源路746號",
+    "button_price":6600,
+    "higher_price":36800,
+    "room":80,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5154175,25.0128522 ]
+    },
+    "properties": {
+    "no":294,
+    "name":"晶贊都會旅店台北永和",
+    "localcall service":"(02)29206789  ",
+    "fax":"(02)29232345  ",
+    "address":"234新北市永和區永和路2段168號3樓",
+    "button_price":4200,
+    "higher_price":8000,
+    "room":41,
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6298303,25.0554328 ]
+    },
+    "properties": {
+    "no":295,
+    "name":"富信大飯店",
+    "localcall service":"(02)26416333  ",
+    "fax":"(02)26430222  ",
+    "address":"221新北市汐止區大同路1段152號",
+    "button_price":5000,
+    "higher_price":8500,
+    "room":202,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454358,25.161639 ]
+    },
+    "properties": {
+    "no":296,
+    "name":"蘊泉庄(鴻寬)",
+    "localcall service":"(02)26227888  ",
+    "fax":"(02)26226827  ",
+    "address":"251新北市淡水區淡金路79巷16號(代表號)",
+    "button_price":22800,
+    "higher_price":38800,
+    "room":78,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455904,25.006623 ]
+    },
+    "properties": {
+    "no":297,
+    "name":"睡台北複合式旅店",
+    "localcall service":"(02)29655480  ",
+    "fax":"(02)2956250  ",
+    "address":"220新北市板橋區南雅南路一段8號5樓、5樓之1至5樓之24",
+    "button_price":15000,
+    "higher_price":35000,
+    "room":24,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.638557,25.219365 ]
+    },
+    "properties": {
+    "no":298,
+    "name":"TS MOTEL（鼎帥?泉汽車旅館)",
+    "localcall service":"(02)24988866  ",
+    "fax":"(02)24081551  ",
+    "address":"208新北市金山區金美街9號及11號",
+    "button_price":5000,
+    "higher_price":9800,
+    "room":45,
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438965,25.171674 ]
+    },
+    "properties": {
+    "no":299,
+    "name":"台北旅人國際青年旅館",
+    "localcall service":"(02)26258222  ",
+    "fax":"(02)26256377  ",
+    "address":"251新北市淡水區三民街22號",
+    "button_price":3800,
+    "higher_price":15200,
+    "room":16,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497863,25.06068 ]
+    },
+    "properties": {
+    "no":301,
+    "name":"慶城商旅 Urbanone Hotel",
+    "localcall service":"(02)29701229  ",
+    "fax":"(02)29701959  ",
+    "address":"241新北市三重區正義南路55號4樓、4樓之1、4樓之2",
+    "button_price":4980,
+    "higher_price":5280,
+    "room":46,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.64323,25.21591 ]
+    },
+    "properties": {
+    "no":302,
+    "name":"大埔硫磺溫泉商務旅?",
+    "localcall service":"(02)24986333  ",
+    "fax":"(02)24982400  ",
+    "address":"207新北市萬里區萬里加投205-5號2樓",
+    "button_price":2980,
+    "higher_price":9130,
+    "room":11,
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463462,25.011262 ]
+    },
+    "properties": {
+    "no":303,
+    "name":"趣淘漫旅-台北 Hotel Cham Cham Taipei",
+    "localcall service":"(02)89516686  ",
+    "fax":"(02)89516626  ",
+    "address":"220新北市板橋區中山路一段139號",
+    "button_price":10000,
+    "higher_price":15000,
+    "room":337,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.414588,25.023197 ]
+    },
+    "properties": {
+    "no":304,
+    "name":"丹鳳大旅館",
+    "localcall service":"(02)29071188  ",
+    "fax":"(02)29039789  ",
+    "address":"242新北市新莊區中正路740之4號1至5樓",
+    "button_price":3800,
+    "higher_price":5800,
+    "room":40,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.660383,25.062104 ]
+    },
+    "properties": {
+    "no":305,
+    "name":"少爺時尚旅館",
+    "localcall service":"(02)26410599  ",
+    "fax":"(02)26482401  ",
+    "address":"221新北市汐止區勤進路83巷1之1號",
+    "button_price":4800,
+    "higher_price":6000,
+    "room":66,
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460825,25.006011 ]
+    },
+    "properties": {
+    "no":306,
+    "name":"品川商旅",
+    "localcall service":"(02)29548166  ",
+    "fax":"(02)29544000  ",
+    "address":"220新北市板橋區重慶路37之1號、37之1號2至6樓",
+    "button_price":18000,
+    "higher_price":28000,
+    "room":62,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533012,25.042385 ]
+    },
+    "properties": {
+    "no":307,
+    "name":"富裕自由旅店正義館",
+    "localcall service":"(02)27522125  ",
+    "fax":"(02)89762101  ",
+    "address":"241新北市三重區重新路2段68號9樓、70號9樓",
+    "button_price":20000,
+    "higher_price":25000,
+    "room":15,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.36098,25.06618 ]
+    },
+    "properties": {
+    "no":311,
+    "name":"亞昕福朋喜來登酒店",
+    "localcall service":"(02)77276988  ",
+    "fax":"(02)77276989  ",
+    "address":"244新北市林口區文化三路一段1號，1號2樓，1號3樓",
+    "button_price":18000,
+    "higher_price":200000,
+    "room":165,
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432168,25.028475 ]
+    },
+    "properties": {
+    "no":312,
+    "name":"驛德世紀酒店",
+    "localcall service":"(02)29086888  ",
+    "fax":"(02)29081133  ",
+    "address":"242新北市新莊區後港一路169號",
+    "button_price":5200,
+    "higher_price":6800,
+    "room":160,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460801,25.0120576 ]
+    },
+    "properties": {
+    "no":313,
+    "name":"台北新板希爾頓酒店",
+    "localcall service":"(02)29583000  ",
+    "fax":"(02)29583011  ",
+    "address":"220新北市板橋區民權路88號、88號(2至31樓)、90號",
+    "button_price":4500,
+    "higher_price":29500,
+    "room":400,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469293,25.04517 ]
+    },
+    "properties": {
+    "no":314,
+    "name":"三重江月行館",
+    "localcall service":"(02)85110998  ",
+    "fax":"(02)0000",
+    "address":"241新北市三重區重新路5段598號",
+    "button_price":6000,
+    "higher_price":18800,
+    "room":37,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4446987,25.1692679 ]
+    },
+    "properties": {
+    "no":315,
+    "name":"雀客快捷",
+    "localcall service":"(02)26238111  ",
+    "fax":"(02)26297222  ",
+    "address":"251新北市淡水區長庚里中山路8號7樓",
+    "button_price":22000,
+    "higher_price":29480,
+    "room":22,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487504,25.077409 ]
+    },
+    "properties": {
+    "no":316,
+    "name":"捷絲旅台北三重館",
+    "localcall service":"(02)22806111  ",
+    "fax":"(02)22807700  ",
+    "address":"241新北市三重區三和路4段107-1號",
+    "button_price":7700,
+    "higher_price":11000,
+    "room":95,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480537,25.081309 ]
+    },
+    "properties": {
+    "no":317,
+    "name":"雀客旅館新北蘆洲",
+    "localcall service":"(02)22892299  ",
+    "fax":"(02)28472425  ",
+    "address":"247新北市蘆洲區集賢路409號2樓(1層)、3樓至9樓",
+    "button_price":7600,
+    "higher_price":20800,
+    "room":82,
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4288468,25.1756671 ]
+    },
+    "properties": {
+    "no":318,
+    "name":"將捷金鬱金香酒店",
+    "localcall service":"(02)26210333  ",
+    "fax":"(02)26211728  ",
+    "address":"251新北市淡水區中正路一段2號",
+    "button_price":10560,
+    "higher_price":28380,
+    "room":175,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.347625,24.9509759 ]
+    },
+    "properties": {
+    "no":319,
+    "name":"私客創旅",
+    "localcall service":"(02)26798789  ",
+    "fax":"(02)26708789  ",
+    "address":"239新北市鶯歌區尖山埔路89號及89號3樓",
+    "button_price":2560,
+    "higher_price":9680,
+    "room":22,
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5343286,24.9574561 ]
+    },
+    "properties": {
+    "no":320,
+    "name":"帝景飯店",
+    "localcall service":"(02)82121100  ",
+    "fax":"(02)21211000  ",
+    "address":"231新北市新店區新店區碧潭路77巷2號",
+    "button_price":7650,
+    "higher_price":10800,
+    "room":28,
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46958,25.01808 ]
+    },
+    "properties": {
+    "no":321,
+    "name":"傑仕堡有氧酒店",
+    "localcall service":"(02)77273000  ",
+    "fax":"(02)77273100  ",
+    "address":"220新北市板橋區縣民大道2段275號、275號2至17樓、277號2樓",
+    "button_price":9900,
+    "higher_price":19800,
+    "room":204,
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 118.363273,24.459312 ]
+    },
+    "properties": {
+    "no":322,
+    "name":"東暘旅店",
+    "localcall service":"(02)29737000  ",
+    "fax":"(02)29736611  ",
+    "address":"241新北市三重區成功路97號3至5樓",
+    "button_price":16800,
+    "higher_price":31800,
+    "room":64,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4511082,25.1652276 ]
+    },
+    "properties": {
+    "no":323,
+    "name":"淡水淶滬文旅",
+    "localcall service":"(02)26222023  ",
+    "fax":"(02)26217222  ",
+    "address":"251新北市淡水區中正東路1段3巷1號",
+    "button_price":7000,
+    "higher_price":18000,
+    "room":183,
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4832322,25.0556913 ]
+    },
+    "properties": {
+    "no":324,
+    "name":"雀客藏居新北三重水漾",
+    "localcall service":"(02)29846680  ",
+    "fax":"(02)0000",
+    "address":"241新北市三重區新北市三重區捷運路77號2至17樓",
+    "button_price":25080,
+    "higher_price":50600,
+    "room":128,
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375381,25.0770812 ]
+    },
+    "properties": {
+    "no":325,
+    "name":"富碧酒店公寓",
+    "localcall service":"(02)66319700  ",
+    "fax":"(02)0000",
+    "address":"244新北市林口區文化二路一段390號",
+    "button_price":18800,
+    "higher_price":18800,
+    "room":80,
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454218,25.060113 ]
+    },
+    "properties": {
+    "no":326,
+    "name":"新北新莊凱悅嘉軒酒店",
+    "localcall service":"(02)85229980  ",
+    "fax":"(02)0000",
+    "address":"242新北市新莊區新北大道三段79號",
+    "button_price":8800,
+    "higher_price":26400,
+    "room":280,
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3604842,25.0655261 ]
+    },
+    "properties": {
+    "no":327,
+    "name":"新北林口爵怡溫德姆酒店",
+    "localcall service":"(02)26095500  ",
+    "fax":"(02)26007910  ",
+    "address":"244新北市林口區新北市林口區八德路339號",
+    "button_price":11800,
+    "higher_price":28800,
+    "room":85,
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4461377,25.0913756 ]
+    },
+    "properties": {
+    "no":328,
+    "name":"新城九八精緻旅館",
+    "localcall service":"(02)22953499  ",
+    "fax":"(02)0000",
+    "address":"248新北市五股區新城六路135號",
+    "button_price":4680,
+    "higher_price":5980,
+    "room":50,
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5973,25.2059 ]
+    },
+    "properties": {
+    "no":329,
+    "name":"陽明山家新休閒君鈺會館",
+    "localcall service":"(02)24080028",
+    "fax":"(02)0000",
+    "address":"208新北市金山區新北市金山區中信北路16巷38號1至3樓",
+    "button_price":12800,
+    "higher_price":14800,
+    "room":6,
+    "area":"金山區"
+    }
+  }
+]
+}

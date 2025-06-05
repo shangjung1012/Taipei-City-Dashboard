@@ -1,0 +1,9651 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373676811891,24.938702908405 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市三峽區國光街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535892763219,24.971664948859 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市新店區三民路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469716876843,25.091166869072 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市蘆洲區水湳街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46253245119,25.003205328732 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市板橋區重慶路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485429720585,25.091672659571 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市蘆洲區復興路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008581,24.998512 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市中和區興南路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456397654522,24.992366029493 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市土城區廣福街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市土城區永和路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482805798312,24.961136136279 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市新店區安祥路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432313975614,25.071714001275 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140101,
+    "location":"新北市三重區自強路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5202721,25.0091739 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140102,
+    "location":"新北市永和區環河西路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520285986683,24.986218288893 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140102,
+    "location":"新北市新店區永安街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140102,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43133957937,24.9995064619 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140102,
+    "location":"新北市新莊區莊崑路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140102,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538805662152,24.977823922179 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市新店區民族路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市林口區文化一路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510927376908,25.002554656999 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市永和區中和路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516745676069,24.970280257863 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市新店區安民街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373720202726,24.892056202772 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140103,
+    "location":"新北市三峽區大埔路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449352624577,24.986918092374 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市土城區海山路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418599285804,24.988934778319 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市樹林區復興路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5202721,25.0091739 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市永和區環河西路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44639673942,25.011741202377 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市板橋區僑中一街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436736626239,25.085710360868 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市五股區工商路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423255528641,24.963373418123 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市板橋區中山路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140104,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491928109843,25.064682299732 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140105,
+    "location":"新北市三重區大仁街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.539456364822,24.961899088381 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市新店區光明街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市新店區安康路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450596774287,25.049201757861 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市新莊區幸福路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432313975614,25.071714001275 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市三重區自強路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462937221679,25.13473657494 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市淡水區民族路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418599285804,24.988934778319 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市樹林區復興路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市板橋區中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.337072624334,24.958930462737 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市鶯歌區鶯桃路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459623184165,24.98370502237 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市土城區立雲街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662801796931,25.070770177434 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140106,
+    "location":"新北市汐止區和平街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523909420325,25.006519503745 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市永和區國中路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443183420652,25.030503888908 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市新莊區瓊泰路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.408205954316,24.931792526802 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市三峽區溪東路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市五股區中興路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424658,24.989851 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市樹林區柑園街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451865402995,24.986988433472 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市土城區學享街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492019622266,25.078318821085 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市三重區仁政街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.389085676611,25.077722097252 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140107,
+    "location":"新北市林口區中正路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496939819041,25.0813397497 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市三重區仁義街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424658,24.989851 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市樹林區柑園街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460345623331,25.065884352513 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市新莊區五工二路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463745333401,25.023513642182 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市板橋區陽明街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432262587159,25.024741185725 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市新莊區建國二路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4737323,25.0846694 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市蘆洲區永安南路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472613352618,25.084183200818 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市蘆洲區中央路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450065722098,24.979525354515 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市土城區學士路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.370205502733,24.936640290774 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市三峽區和平街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市五股區成泰路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481864017378,25.067917403635 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市三重區中正北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市林口區文化一路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.412988239599,25.044704272126 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市泰山區南林路",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140108,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.340238284621,24.94039680336 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市鶯歌區國中街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.622710620358,24.998589895678 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市深坑區雲鄉路",
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477588642408,25.082624020054 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市蘆洲區鷺江街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449069056035,25.095596088434 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市五股區成洲一路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430106701834,25.090761730413 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市五股區六合街",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市五股區中興路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.342919541302,24.954634161533 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市鶯歌區國華路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450502,25.0358987 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市新莊區環漢路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501223346708,24.993466330462 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140109,
+    "location":"新北市中和區中正路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市板橋區民生路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市林口區A9捷運站",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市板橋區長江路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市淡水區新市三路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.552954838647,24.977423182352 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市新店區寶高路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475152911073,25.003270731122 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市中和區自治街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5202721,25.0091739 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140110,
+    "location":"新北市永和區保福路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.353368721616,24.95510281278 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市鶯歌區信義街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497027615591,25.06447668113 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市三重區信義西街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44621335581,25.094381102879 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市五股區西雲路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.624625041372,25.047701918063 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市汐止區橫科路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492842549269,25.058549482095 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140111,
+    "location":"新北市三重區中寮街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.35038304956,24.954338514513 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市鶯歌區國慶街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市板橋區民生路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.537524266311,24.980946460002 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市新店區二十張路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市新店區中山路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市板橋區南雅南路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426024276623,25.013596989289 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市新莊區民安西路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.632841373967,25.221886749129 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市金山區中華路",
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4326240272,25.057537501972 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市泰山區福興二街",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市三重區水漾路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469620526988,25.04957921194 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140112,
+    "location":"新北市三重區中興北街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.539456364822,24.961899088381 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市新店區光明街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512384839454,25.015333456743 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市永和區文化路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463464846683,25.002380788112 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市板橋區忠孝路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474117326332,25.087944602736 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市蘆洲區民權路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市板橋區三民路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417259127325,25.015497774726 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140113,
+    "location":"新北市樹林區三俊街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140114,
+    "location":"新北市板橋區大觀路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.362157187425,24.93599719017 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140114,
+    "location":"新北市三峽區文化路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140114,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.383177541804,25.091404268458 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140114,
+    "location":"新北市八里區中華路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496377544521,25.067549037173 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140114,
+    "location":"新北市三重區正義北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459637649484,25.018130607563 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140115,
+    "location":"新北市板橋區國光路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662801796931,25.070770177434 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140115,
+    "location":"新北市汐止區和平街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436299154172,25.179701798682 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140115,
+    "location":"新北市淡水區新民街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516839179284,24.991462941519 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140115,
+    "location":"新北市中和區景德街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431651911667,24.988624043149 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140115,
+    "location":"新北市板橋區金門街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481292500416,24.999142653332 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市中和區員山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50762,25.2703 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市三芝區新庄子",
+    "area":"三芝區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472659117257,24.999191430714 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市中和區莒光路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440150641485,24.975863010045 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市土城區福仁街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.630449801262,25.071894745418 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市汐止區湖前街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491810695869,25.057603747766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140116,
+    "location":"新北市三重區光明路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512497566413,25.004373057747 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市中和區中和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市板橋區板橋捷運站",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市板橋區前中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522397203894,25.001598490725 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市永和區永元路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512497566413,25.004373057747 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市中和區中和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517835,25.246231 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市三芝區埔頭坑",
+    "area":"三芝區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501160012106,25.068362465677 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市三重區長壽街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495577623006,25.067690541737 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市三重區雙園街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市板橋區中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428068439248,25.015508550362 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市新莊區西盛街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547663856943,24.976467128022 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140117,
+    "location":"新北市新店區寶橋路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458507328196,25.091001950955 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市蘆洲區永平街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44621335581,25.094381102879 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市五股區西雲路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458507328196,25.091001950955 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市蘆洲區永平街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市汐止區水源路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493994291865,25.056466367074 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市三重區中正南路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493191763903,25.055701094915 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140118,
+    "location":"新北市三重區重安街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492856753151,25.064809976363 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市三重區大同北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市板橋區南雅南路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450231032579,25.033018150359 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市新莊區武前街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501873967207,25.068926051322 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市三重區長榮路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450231032579,25.033018150359 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市新莊區武前街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420846346726,25.023011811092 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140119,
+    "location":"新北市新莊區萬安街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市板橋區縣民大道",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491979236166,25.068873473973 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市三重區大智街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.414531752825,24.971210161773 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市樹林區八德街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468576108282,25.089215587518 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市蘆洲區三民路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市林口區文化一路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.34116625623,24.912759726612 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市三峽區弘道路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.571830825958,24.948959433212 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市新店區中生路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420590364976,24.98927096918 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市樹林區育英街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508349937404,25.011612917812 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市永和區仁愛路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416227218235,25.029131144666 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市新莊區天祥街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424658,24.989851 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140120,
+    "location":"新北市樹林區環漢路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465348083111,25.026585738846 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市板橋區民有街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464218725789,24.994287493591 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市板橋區五權街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.622747799761,25.042847079933 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市汐止區宜興街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477965685626,25.085062112424 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市蘆洲區民族路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47270286355,25.080574557144 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市蘆洲區成功路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491979236166,25.068873473973 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市三重區大智街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509350382806,24.993543030887 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140121,
+    "location":"新北市中和區景新街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.370205502733,24.936640290774 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140122,
+    "location":"新北市三峽區和平街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496377544521,25.067549037173 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140122,
+    "location":"新北市三重區正義北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454714474323,25.015230236396 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140122,
+    "location":"新北市板橋區大智街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140122,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45978286874,25.082571139122 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140122,
+    "location":"新北市蘆洲區中原路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.383177541804,25.091404268458 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市八里區中華路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472659117257,24.999191430714 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市中和區莒光路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469716876843,25.091166869072 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市蘆洲區水湳街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490538133958,24.994096779428 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市中和區錦和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.353511189081,24.95316379624 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市鶯歌區文化路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45973825966,25.087049067795 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140123,
+    "location":"新北市蘆洲區長榮路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519955552191,24.985512533089 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140124,
+    "location":"新北市新店區新和街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140124,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140124,
+    "location":"新北市新店區安康路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450596774287,25.049201757861 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140124,
+    "location":"新北市新莊區幸福路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501223346708,24.993466330462 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市中和區中正路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444069820251,24.987787600242 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市土城區日新街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515262704491,24.950868980815 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市新店區青山路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45006654109,25.133500761191 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市八里區龍形五街",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508349937404,25.011612917812 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市永和區仁愛路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6159209,25.0024909 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市深坑區北深路",
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140125,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458019210749,25.053717177276 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市新莊區福壽街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市淡水區水源街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482446911394,25.02840808628 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市板橋區田單街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453972707039,25.012203310853 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市板橋區光華街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519624252753,25.012206834333 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市永和區竹林路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519624252753,25.012206834333 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市永和區竹林路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140126,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44808517644,25.05279062253 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市新莊區中榮街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469045986091,24.985549248956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市土城區延吉街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491810695869,25.057603747766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市三重區光明路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.537524266311,24.980946460002 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市新店區二十張路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.634932099736,25.222917019919 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市金山區四維路",
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477361301118,25.067038140173 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140127,
+    "location":"新北市三重區頂崁街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531880957066,24.954376223416 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140128,
+    "location":"新北市新店區永業路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375088360974,24.929375673 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140128,
+    "location":"新北市三峽區永安街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417274274439,24.959271196127 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140128,
+    "location":"新北市土城區頂埔街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140128,
+    "location":"新北市板橋區南雅西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.343902801784,24.929951413948 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140128,
+    "location":"新北市樹林區中山路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487693225769,25.051484575959 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市三重區成功路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516881857571,25.013342786076 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市永和區勵行街",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.62934755769,25.071303501954 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市汐止區民族五街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481157514595,25.084369372884 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市蘆洲區集賢路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.33045265315,24.936941710673 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市鶯歌區中正三路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市三重區重陽路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44621335581,25.094381102879 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140129,
+    "location":"新北市五股區西雲路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.355468519663,25.066068810442 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140130,
+    "location":"新北市林口區八德路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460625272453,25.012354871003 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140130,
+    "location":"新北市板橋區民權路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532599521332,24.986298676188 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140130,
+    "location":"新北市新店區民生路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4737323,25.0846694 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140130,
+    "location":"新北市蘆洲區",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140130,
+    "location":"新北市林口區",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6159209,25.0024909 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市深坑區北深路",
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445985559532,25.008012003224 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市板橋區僑中二街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市新店區安康路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市新店區北宜路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4402364586,25.182018837408 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市淡水區新春街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6159209,25.0024909 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市深坑區北深路",
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473663016067,25.082049145564 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市蘆洲區中山二路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.385946326745,25.087926935269 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市林口區中北一街",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485674755304,25.081634636064 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140131,
+    "location":"新北市三重區仁愛街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469045986091,24.985549248956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市土城區延吉街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市板橋區大觀路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市淡水區中山北路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.806839642356,25.105185942036 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市瑞芳區三爪子坑路",
+    "area":"瑞芳區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447988956788,25.173478066185 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市淡水區學府路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416227218235,25.029131144666 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市新莊區天祥街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484148681806,25.019133087207 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140201,
+    "location":"新北市板橋區光復街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503400001061,24.993589132172 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市中和區景平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429470341008,25.02731697075 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市新莊區後港一路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.33045265315,24.936941710673 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市鶯歌區中正三路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市三峽區添福路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44639673942,25.011741202377 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市板橋區僑中一街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.437937940978,25.172984912531 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市淡水區文化路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519624252753,25.012206834333 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市永和區竹林路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519955552191,24.985512533089 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市新店區新和街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418264604188,24.988309359934 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市樹林區文化街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47903975696,25.0751637238 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140202,
+    "location":"新北市三重區永福街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474646021707,24.99923274898 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市中和區民享街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523273930579,25.004725084037 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市永和區永亨路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市中和區佳和里中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512384839454,25.015333456743 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市永和區文化路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市淡水區水源街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市板橋區民生路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520567719793,24.999976251282 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市中和區得和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523273930579,25.004725084037 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市永和區永亨路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.665301844586,25.069884681579 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市汐止區忠孝東路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.867163829776,25.041017808696 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市雙溪區中華路",
+    "area":"雙溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492856753151,25.064809976363 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市三重區大同北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140203,
+    "location":"新北市土城區明德路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市汐止區新台五路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491979236166,25.068873473973 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市三重區大智街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446360608202,25.170436404534 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市淡水區仁愛街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431651911667,24.988624043149 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市板橋區金門街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431372,25.0593538 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市泰山區明志路",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.367330494624,24.92311771465 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市三峽區中園街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434060197176,25.071229168923 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140204,
+    "location":"新北市五股區明德路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424658,24.989851 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市樹林區保安街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465142,25.245782 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市三芝區土地公坑",
+    "area":"三芝區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.850480371888,25.031873646658 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市雙溪區梅竹蹊路",
+    "area":"雙溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.656086489009,25.061188511146 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市汐止區莊敬街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市板橋區中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423255528641,24.963373418123 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市板橋區中山路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431372,25.0593538 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140205,
+    "location":"新北市泰山區新五路",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472688635007,25.023983762808 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140206,
+    "location":"新北市板橋區莒光路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466440821635,25.013064698635 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140206,
+    "location":"新北市板橋區新站路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519850321963,24.996773999065 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140206,
+    "location":"新北市永和區中正路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455640183508,25.005664499479 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市板橋區南雅東路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488962488836,24.936610655672 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市新店區安泰路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436299154172,25.179701798682 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市淡水區新民街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469080428296,25.081447361573 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市蘆洲區正和街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.362415614283,24.95015798074 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140207,
+    "location":"新北市鶯歌區三鶯路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503400001061,24.993589132172 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市中和區景平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448490154964,25.178478146626 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市淡水區北新路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市三重區光復路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436299154172,25.179701798682 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市淡水區新民街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140208,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418649336071,24.980941745619 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市樹林區中華路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市汐止區新台五路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445793367512,25.177246020332 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市淡水區大忠街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140209,
+    "location":"新北市板橋區環河西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47406485966,25.080956764168 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市蘆洲區中山一路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491979236166,25.068873473973 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市三重區大智街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512384839454,25.015333456743 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市永和區文化路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47406485966,25.080956764168 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市蘆洲區中山一路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市汐止區汐萬路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140210,
+    "location":"新北市五股區成泰路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008581,24.998512 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市中和區中原捷運站",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市三峽區",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439138604338,25.174803310161 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市淡水區新生街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547269208674,24.854816514313 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市烏來區野要街",
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422826108051,25.022540450343 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市新莊區四維路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455531877643,25.088213591083 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140211,
+    "location":"新北市蘆洲區環堤大道",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473663016067,25.082049145564 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140212,
+    "location":"新北市蘆洲區中山二路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458507328196,25.091001950955 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140212,
+    "location":"新北市蘆洲區永平街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6364639,25.2222701 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140212,
+    "location":"新北市金山區",
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459787483705,25.138703033631 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140212,
+    "location":"新北市淡水區中正路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140212,
+    "location":"新北市三重區重新路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451471261443,25.052707020605 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市新莊區中港路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518439527072,24.998433983342 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市永和區民族街",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448490154964,25.178478146626 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市淡水區北新路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459787483705,25.138703033631 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市淡水區中正路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472688635007,25.023983762808 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市板橋區莒光路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481292500416,24.999142653332 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市中和區員山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.404508459248,25.075711960001 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市林口區工九路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472838138518,25.061533071414 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140213,
+    "location":"新北市三重區疏洪西路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市板橋區板橋捷運站",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449545785528,25.033595305883 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市新莊區新泰路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.828091,24.977776 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市雙溪區太平路",
+    "area":"雙溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469045986091,24.985549248956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市土城區延吉街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市板橋區大觀路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458507328196,25.091001950955 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市蘆洲區永平街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436299154172,25.179701798682 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市淡水區新民街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450596774287,25.049201757861 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140214,
+    "location":"新北市新莊區幸福路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426822219848,24.998346577097 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市樹林區千歲街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503400001061,24.993589132172 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市中和區景平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.419095568453,24.991495875615 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市樹林區文德街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544355089823,24.971548976464 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市新店區德正街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531462485744,24.975534619137 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市新店區中央路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477588642408,25.082624020054 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市蘆洲區鷺江街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.362415614283,24.95015798074 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市鶯歌區三鶯路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4737323,25.0846694 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市蘆洲區蘆洲捷運站",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.576870139868,25.297301813732 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市石門區中央路",
+    "area":"石門區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375521946436,24.927556464742 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市三峽區大同路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472838138518,25.061533071414 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140215,
+    "location":"新北市三重區疏洪西路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423255528641,24.963373418123 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市板橋區中山路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503712556923,25.010340217138 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市永和區保順路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503712556923,25.010340217138 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市永和區保順路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466228892417,25.079436810094 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市蘆洲區九芎街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436299154172,25.179701798682 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市淡水區新民街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428068439248,25.015508550362 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市新莊區西盛街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384797143764,25.079908065568 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市八里區中山路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503712556923,25.010340217138 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市永和區保順路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469080428296,25.081447361573 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市蘆洲區正和街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373067275772,24.942167919208 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市三峽區國學街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140216,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459787200107,25.024956370146 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市板橋區新海路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464262450783,24.996434863525 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市中和區和平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456037651406,24.996281972681 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市板橋區四川路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464262450783,24.996434863525 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市中和區和平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418649336071,24.980941745619 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市樹林區中華路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662134476689,25.067776001386 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市汐止區新昌路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140217,
+    "location":"新北市三峽區長泰路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140218,
+    "location":"新北市板橋區南雅南路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.652296775305,25.061556681432 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140218,
+    "location":"新北市汐止區南興路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.345544149778,24.952886902986 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140218,
+    "location":"新北市鶯歌區建國路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440387351964,24.965166606983 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140218,
+    "location":"新北市土城區忠義路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市林口區文化一路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.365789404522,24.938892607517 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市三峽區復興路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447988956788,25.173478066185 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市淡水區學府路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471780497407,25.025172963797 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市板橋區莊敬路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423255528641,24.963373418123 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市板橋區中山路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008581,24.998512 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市中和區景新路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.337072624334,24.958930462737 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市鶯歌區鶯桃路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443731621295,24.996502911264 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市板橋區合宜一路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442760149331,25.173006842598 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140219,
+    "location":"新北市淡水區原德路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.353511189081,24.95316379624 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市鶯歌區文化路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427691707533,25.040970606291 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市泰山區貴子路",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市汐止區新台五路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市淡水區水源街",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478947863323,25.085119305178 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市蘆洲區信義路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481157514595,25.084369372884 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市蘆洲區集賢路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509350382806,24.993543030887 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市中和區景新街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518342366737,25.007515624182 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140220,
+    "location":"新北市永和區福和路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519624252753,25.012206834333 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市永和區竹林路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463464846683,25.002380788112 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市板橋區忠孝路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420846346726,25.023011811092 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市新莊區萬安街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499489536922,25.000334322377 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市中和區泰和街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417274274439,24.959271196127 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市土城區頂埔街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378032766576,25.089118511043 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市林口區福林路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512384839454,25.015333456743 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市永和區文化路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.343902801784,24.929951413948 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市三峽區中山路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市三重區新北大道",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.337072624334,24.958930462737 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市鶯歌區鶯桃路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市板橋區雙十路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434243140271,25.009846802523 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140221,
+    "location":"新北市新莊區瓊林南路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421709315911,25.019444330739 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市新莊區龍安路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491979236166,25.068873473973 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市三重區大智街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477348362867,25.032838353241 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市板橋區仁化街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市三重區光復路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4013922,25.1494122 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市八里區龍米路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430106701834,25.090761730413 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市五股區六合街",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466237621593,25.053549835445 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市新莊區化成路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市林口區文化二路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.362415614283,24.95015798074 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140222,
+    "location":"新北市鶯歌區三鶯路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140223,
+    "location":"新北市板橋區南雅西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140223,
+    "location":"新北市五股區成泰路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477965685626,25.085062112424 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140223,
+    "location":"新北市蘆洲區民族路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373015231861,24.941220199493 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市三峽區學成路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市板橋區篤行路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516745676069,24.970280257863 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市新店區安民街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462302128943,25.087534278092 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市蘆洲區長樂路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456528614166,25.008702557498 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市板橋大東街",
+    "area":"板橋大"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市板橋區篤行路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140224,
+    "location":"新北市板橋區三民路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市板橋區南雅南路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427538745662,24.989895127818 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市板橋區溪崑二街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454714474323,25.015230236396 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市板橋區大智街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518987611852,25.004467581845 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市永和區永貞路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市淡水區新市一路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459518127014,25.082731423935 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市蘆洲區長安街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市板橋區南雅西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384797143764,25.079908065568 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140225,
+    "location":"新北市八里區中山路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521638367718,25.003123038347 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市永和區永利路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47270286355,25.080574557144 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市蘆洲區成功路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48816467699,24.99616403066 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市中和區連城路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482805798312,24.961136136279 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市新店區安祥路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4013922,25.1494122 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市八里區",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375088360974,24.929375673 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140226,
+    "location":"新北市三峽區永安街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市新店區",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市土城區明德路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.334555437872,24.969165897552 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市鶯歌區永和街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458019210749,25.053717177276 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市新莊區福壽街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467395790396,25.073173189917 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市五股區四維路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423255528641,24.963373418123 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市板橋區中山路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468576108282,25.089215587518 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市蘆洲區三民路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516835055051,24.996406229785 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市永和區民有街",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8098925,25.1088197 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140227,
+    "location":"新北市瑞芳區三爪仔坑路",
+    "area":"瑞芳區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467793262787,25.006584232232 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市板橋區國泰街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512497566413,25.004373057747 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市中和區中和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421080134906,25.183089137926 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市淡水區淡海路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479742,24.774322 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市烏來區馬岸路",
+    "area":"烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.655927821241,25.063675108952 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市汐止區連興街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44639673942,25.011741202377 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140228,
+    "location":"新北市板橋區僑中一街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467902317293,25.07947480103 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市蘆洲區和平路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市板橋區中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463266371192,25.127245631014 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市淡水區自強路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.507521656433,24.995501536278 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市新店區安和路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450502,25.0358987 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市新莊區",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384797143764,25.079908065568 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市林口區中山路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375088360974,24.929375673 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市三峽區永安街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.622428042581,25.013453021115 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市深坑區深南路",
+    "area":"深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488702004438,25.05216925276 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140301,
+    "location":"新北市三重區集成路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470216122727,25.044393357396 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140302,
+    "location":"新北市三重區中興南街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47282620395,25.083547170689 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140302,
+    "location":"新北市蘆洲區得勝街",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494870809395,25.081364246151 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140302,
+    "location":"新北市三重區仁忠街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501223346708,24.993466330462 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140302,
+    "location":"新北市中和區中正路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456802281159,25.024739461328 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市板橋區龍泉街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518342366737,25.007515624182 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市永和區福和路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市三峽區",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519850321963,24.996773999065 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市永和區中正路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140303,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384931806524,25.078565069705 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市林口區佳林路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487693225769,25.051484575959 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市三重區成功路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市新店區中興路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490639054376,25.084729719884 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市三重區五華街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499055118652,25.074114519212 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市三重區仁壽街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636041651613,25.22336246599 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市金山區中山路",
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636041651613,25.22336246599 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市金山區中山路",
+    "area":"金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140304,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470932492335,24.991268281881 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市土城區延壽路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456037651406,24.996281972681 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市板橋區四川路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378420615656,24.939746145783 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市三峽區三樹路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374303723296,24.935712332227 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市三峽區民生街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474646021707,24.99923274898 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市中和區民享街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471493487371,25.084979592983 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140305,
+    "location":"新北市三重區忠孝路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493994291865,25.056466367074 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市三重區中正南路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662938420801,25.07308294877 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市汐止區建成路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市新店區寶元路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427806536747,25.065350416975 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市泰山區忠孝街",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.49836951285,25.073038952153 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市三重區龍門路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51731507934,24.993551444738 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市中和區大勇街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456037651406,24.996281972681 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市板橋區四川路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.339663610441,24.935551576246 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市鶯歌區二甲路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市五股區成泰路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498590615056,25.066346740204 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市三重區文化北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492856753151,25.064809976363 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140306,
+    "location":"新北市三重區大同北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468937608107,25.012697928388 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市板橋區漢生東路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463464846683,25.002380788112 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市板橋區忠孝路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512497566413,25.004373057747 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市中和區中和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.336340522686,24.971732739208 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市鶯歌區鶯歌路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491810695869,25.057603747766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市三重區光明路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418599285804,24.988934778319 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140307,
+    "location":"新北市樹林區復興路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662233852145,25.069420327938 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市汐止區信義路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495044750909,25.068990293215 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市三重區安慶街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636720025988,25.071456151666 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市汐止區康寧街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533745893792,24.982406373922 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市新店區中正路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.806839642356,25.105185942036 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市瑞芳區三爪子坑路",
+    "area":"瑞芳區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455914036914,25.008162151447 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市板橋區館前西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.655182731124,25.069517256505 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市汐止區禮門街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491810695869,25.057603747766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140308,
+    "location":"新北市三重區光明路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008581,24.998512 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市中和區興南路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479227884622,24.94387582834 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市新店區錦秀路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485040294734,25.084976385208 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市三重區仁勇街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481864017378,25.067917403635 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市三重區中正北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市新店區安康路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140309,
+    "location":"新北市新店區安康路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市三峽區介壽路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.657386864594,25.062558103768 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市汐止區新興路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.348228991602,24.95705353085 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市鶯歌區中山路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.351000848623,24.952110199018 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市鶯歌區重慶街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市三峽區中正路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市三峽區",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42130744862,24.994348133829 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140310,
+    "location":"新北市樹林區長壽街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503454498351,24.99028977882 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140311,
+    "location":"新北市中和區復興路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140311,
+    "location":"新北市汐止區新台五路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462937221679,25.13473657494 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140311,
+    "location":"新北市淡水區民族路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市板橋區民生路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464537070815,25.124199446349 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市淡水區民權路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市土城區金城路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.665301844586,25.069884681579 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市汐止區忠孝東路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.636720025988,25.071456151666 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市汐止區康寧街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447206715061,25.036691844177 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市新莊區建中街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420846346726,25.023011811092 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140312,
+    "location":"新北市新莊區萬安街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52748242691,24.999078183048 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市永和區民樂街",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503400001061,24.993589132172 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市中和區景平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455914036914,25.008162151447 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市板橋區館前西路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市三重區三和路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496939819041,25.0813397497 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市三重區仁義街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498590615056,25.066346740204 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市三重區文化北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441610541654,25.032885926846 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市新莊區景德路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493753738018,25.070218234452 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140313,
+    "location":"新北市三重區六張街",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518342366737,25.007515624182 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140314,
+    "location":"新北市永和區福和路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140314,
+    "location":"新北市三重區重新路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529368834596,24.980812361743 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140314,
+    "location":"新北市新店區十四張路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456738228425,25.163523612649 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140314,
+    "location":"新北市淡水區淡金路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474646021707,24.99923274898 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140314,
+    "location":"新北市中和區民享街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503400001061,24.993589132172 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市中和區景平路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384797143764,25.079908065568 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市八里區中山路",
+    "area":"八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市中和區中山路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市淡水區新市五路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市土城區學府路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416227218235,25.029131144666 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市新莊區天祥街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46253245119,25.003205328732 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市板橋區重慶路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42130744862,24.994348133829 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140315,
+    "location":"新北市樹林區長壽街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501485577017,25.06098477985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市三重區中央南路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.355468519663,25.066068810442 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市林口區八德路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市林口區仁愛路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456443988007,25.017013347402 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市板橋區中正路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505367491774,24.940324809267 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市新店區達觀路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140316,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496377544521,25.067549037173 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市三重區正義北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526048782001,24.992198403986 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市中和區成功路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.326548559398,24.973335032379 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市鶯歌區鳳吉三街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.348228991602,24.95705353085 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市鶯歌區中山路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.670337084718,25.067684811836 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市汐止區招商街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.331332941473,24.960601829937 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140317,
+    "location":"新北市鶯歌區德昌街",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459121333973,24.971877234625 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市土城區青雲路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463745333401,25.023513642182 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市板橋區陽明街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市三重區永安北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市三峽區中正路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.630449801262,25.071894745418 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市汐止區湖前街",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市淡水區",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533745893792,24.982406373922 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市新店區中正路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.343793230846,24.949849966767 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市鶯歌區尖山埔路",
+    "area":"鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140318,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市三峽區圳頭路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508297456743,25.014612280755 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市永和區保安路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市板橋區文化路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460625272453,25.012354871003 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市板橋區民權路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520285986683,24.986218288893 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市新店區永安街",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.421542377371,25.025419955641 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市新莊區富國路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438063,25.0830431 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140319,
+    "location":"新北市五股區凌雲路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502144027818,25.065126459505 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市三重區福德北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市淡水區中山北路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.683360022345,25.176580809139 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市萬里區孝五街",
+    "area":"萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.361192023808,25.076219826223 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市林口區南勢一街",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456962890633,25.043695521093 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140320,
+    "location":"新北市新莊區銘德街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市土城區明德路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市三重區",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463464846683,25.002380788112 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市板橋區忠孝路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市三峽區介壽路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.382870218429,24.947641487209 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市樹林區學士路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4404435,25.1694686 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市淡水區中山北路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445891038336,25.172406263802 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市淡水區英專路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463464846683,25.002380788112 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市板橋區忠孝路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.369947484157,25.071050424894 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市林口區公園路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470855645093,25.162149323802 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市淡水區坪頂路",
+    "area":"淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446459770304,25.031107942481 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市新莊區豐年街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374414303631,24.929929075768 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市三峽區光明路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429470341008,25.02731697075 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140321,
+    "location":"新北市新莊區後港一路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46253245119,25.003205328732 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140322,
+    "location":"新北市板橋區重慶路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429470341008,25.02731697075 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140322,
+    "location":"新北市新莊區後港一路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51731507934,24.993551444738 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140322,
+    "location":"新北市中和區大勇街",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008581,24.998512 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140322,
+    "location":"新北市中和區環河西路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市新店區",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450090598418,25.04779886367 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市新莊區中誠街",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市板橋區篤行路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431651911667,24.988624043149 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市板橋區金門街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.652296775305,25.061556681432 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市汐止區南興路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市土城區明德路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市三峽區中正路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市三重區重新路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140323,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市三重區重新路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469045986091,24.985549248956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市土城區延吉街",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3819030427,24.947475071215 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市樹林區大成路",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市土城區學府路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384797143764,25.079908065568 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市林口區中山路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430878295245,25.022968199559 ]
+    },
+    "properties": {
+    "type":"汽車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市新莊區民安路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市三重區重陽路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483752803731,25.024358637431 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市板橋區萬安街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375088360974,24.929375673 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140324,
+    "location":"新北市三峽區永安街",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461212372431,25.003205160174 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市板橋區校前街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460102268173,25.046217252308 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市新莊區思源路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460625272453,25.012354871003 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市板橋區民權路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373015231861,24.941220199493 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市三峽區學成路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3723106383,24.930667745461 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市三峽區中華路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3723106383,24.930667745461 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市三峽區中華路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461212372431,25.003205160174 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市板橋區校前街",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477965685626,25.085062112424 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140325,
+    "location":"新北市蘆洲區民族路",
+    "area":"蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5416094,24.9673073 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140326,
+    "location":"新北市新店區北新路",
+    "area":"新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428941446821,25.05048929461 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140326,
+    "location":"新北市泰山區民權街",
+    "area":"泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455362519459,25.007714309081 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140326,
+    "location":"新北市板橋區中興路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490538133958,24.994096779428 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市中和區錦和路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523909420325,25.006519503745 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市永和區國中路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市板橋區江翠捷運站",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374807060658,24.943640257289 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市三峽區大學路",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888989,25.0770583 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市林口區仁愛路",
+    "area":"林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市板橋區南雅南路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467395790396,25.073173189917 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市五股區四維路",
+    "area":"五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443417028625,25.037430110018 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市新莊區公園一路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424658,24.989851 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市樹林區保安街",
+    "area":"樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450583418274,25.035649339304 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140327,
+    "location":"新北市新莊區中正路",
+    "area":"新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885336,25.061008 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市三重區重新路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523454943208,24.977740552914 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市永和區中山路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.65783714466,25.065779518315 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市汐止區汐科路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501223346708,24.993466330462 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市中和區中正路",
+    "area":"中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.412621561561,24.957836107384 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市土城區中州路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8098925,25.1088197 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市瑞芳區傑魚坑路",
+    "area":"瑞芳區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498590615056,25.066346740204 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140328,
+    "location":"新北市三重區文化北路",
+    "area":"三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662938420801,25.07308294877 ]
+    },
+    "properties": {
+    "type":"自行車竊盜",
+    "year":114,
+    "date":1140329,
+    "location":"新北市汐止區建成路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688816,24.9341956 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140329,
+    "location":"新北市三峽區",
+    "area":"三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662938420801,25.07308294877 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140329,
+    "location":"新北市汐止區建成路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6587593,25.0637969 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140329,
+    "location":"新北市汐止區大同路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590205,25.0097766 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140329,
+    "location":"新北市板橋區長江路",
+    "area":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518342366737,25.007515624182 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140330,
+    "location":"新北市永和區福和路",
+    "area":"永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429286,24.9725985 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140331,
+    "location":"新北市土城區中央路",
+    "area":"土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662938420801,25.07308294877 ]
+    },
+    "properties": {
+    "type":"住宅竊盜",
+    "year":114,
+    "date":1140331,
+    "location":"新北市汐止區建成路",
+    "area":"汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.417106356306,24.978598227314 ]
+    },
+    "properties": {
+    "type":"機車竊盜",
+    "year":114,
+    "date":1140331,
+    "location":"新北市樹林區太順街",
+    "area":"樹林區"
+    }
+  }
+]
+}
