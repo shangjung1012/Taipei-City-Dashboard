@@ -18,6 +18,7 @@ import DashboardComponent from "../dashboardComponent/DashboardComponent.vue";
 import { useContentStore } from "../store/contentStore";
 import { useDialogStore } from "../store/dialogStore";
 import { useMapStore } from "../store/mapStore";
+import MapAnalysisAgent from "../components/map/MapAnalysisAgent.vue";
 import MapContainer from "../components/map/MapContainer.vue";
 import MoreInfo from "../components/dialogs/MoreInfo.vue";
 import ReportIssue from "../components/dialogs/ReportIssue.vue";
@@ -604,6 +605,7 @@ function popularBasicLayerGA(map_config) {
       </div>
     </div>
     <MapContainer />
+    <MapAnalysisAgent />
     <MoreInfo />
     <ReportIssue />
   </div>
