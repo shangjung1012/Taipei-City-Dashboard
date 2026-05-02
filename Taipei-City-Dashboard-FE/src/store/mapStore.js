@@ -95,6 +95,8 @@ export const useMapStore = defineStore("map", {
 		layerUpdateTime: {
 			// [layerId]: Date
 		},
+		// 提供給地圖篩選結果使用的資料
+		filteredFeatures: null,
 	}),
 	actions: {
 		/* Initialize Mapbox */
@@ -2311,8 +2313,29 @@ export const useMapStore = defineStore("map", {
 		},
 
 		/* Map Filtering */
-		// 1. Add a filter based on a each map layer's properties (byParam)
-		filterByParam(map_filter, map_configs, xParam, yParam) {
+		// 0. Generate a stable key for IndexedDB records per component
+		getFilteredFeatureComponentKey(config) {
+			return [
+				config?.id,
+				config?.index,
+				config?.city,
+				config?.name,
+				config?.title,
+			]
+				.filter(
+					(value) => value !== undefined && value !== null && value !== "",
+				)
+				.join("::");
+		},
+		// Handle filtering of components by param value
+		filterByParam(config, map_filter, map_configs, xParam, yParam) {
+			console.log("點擊filter！");
+			console.log("Filter 條件:", {
+				x欄位: map_filter.byParam?.xParam,
+				x數值: xParam,
+				y欄位: map_filter.byParam?.yParam,
+				y數值: yParam
+			});
 			// If there are layers loading, don't filter
 			if (this.loadingLayers.length > 0) return;
 			const dialogStore = useDialogStore();
@@ -2382,6 +2405,207 @@ export const useMapStore = defineStore("map", {
 					]);
 				}
 			});
+
+			// Extract filtered features and save to state
+			setTimeout(() => {
+				try {
+					if (this.map) {
+						const extractedFeatures = [];
+						map_configs.map((map_config) => {
+							let mapLayerId = `${map_config.index}-${map_config.type}-${map_config.city}`;
+							if (this.map.getLayer(mapLayerId)) {
+								const layerFeatures = this.map.queryRenderedFeatures({ layers: [mapLayerId] });
+								// Remove duplicate features that mapbox might return from different tiles
+								const uniqueFeatures = Array.from(new Map(layerFeatures.map(item => [JSON.stringify(item.properties), item])).values());
+								extractedFeatures.push(...uniqueFeatures.map(f => f.properties));
+							}
+						});
+						// 把抓取到的資料存入 state
+						this.filteredFeatures = {
+							componentKey: this.getFilteredFeatureComponentKey(
+								config,
+							),
+							componentInfo: {
+								name: config.name,
+								long_desc: config.long_desc,
+								use_case: config.use_case
+							},
+							features: extractedFeatures
+						};
+						console.log("過濾完成！點擊的組件資訊:", this.filteredFeatures.componentInfo);
+						console.log("過濾完成！成功比對到的資料筆數:", extractedFeatures.length);
+						console.log("比對到的詳細資料 (Match):", extractedFeatures);
+						// 自動存入 IndexedDB 給 AI agent 使用
+						this.saveExtractedFeaturestoIndexedDB();
+					}
+				} catch (e) {
+					console.error("Error extracting filtered features:", e);
+				}
+			}, 600); // 延遲以確保 Mapbox 已經完成渲染
+		},
+		// 存入 IndexedDB
+		saveExtractedFeaturestoIndexedDB() {
+			if (
+				!this.filteredFeatures ||
+				!this.filteredFeatures.features ||
+				this.filteredFeatures.features.length === 0
+			) {
+				console.warn("沒有可以存儲的資料");
+				return;
+			}
+			if (!this.filteredFeatures.componentKey) {
+				console.warn("缺少 componentKey，無法寫入 IndexedDB");
+				return;
+			}
+			
+			const request = indexedDB.open('TaipeiDashboardDB', 1);
+			
+			request.onerror = () => {
+				console.error("IndexedDB 開啟失敗");
+			};
+			
+			request.onupgradeneeded = (event) => {
+				const db = event.target.result;
+				if (!db.objectStoreNames.contains('extractedFeatures')) {
+					db.createObjectStore('extractedFeatures', { keyPath: 'id', autoIncrement: true });
+				}
+			};
+			
+			request.onsuccess = (event) => {
+				const db = event.target.result;
+				const transaction = db.transaction(['extractedFeatures'], 'readwrite');
+				const store = transaction.objectStore('extractedFeatures');
+				
+				// 存入資料（同一個 componentKey 只保留最新一筆）
+				const data = JSON.parse(JSON.stringify({
+					...this.filteredFeatures,
+					timestamp: Date.now(),
+				}));
+				const getRequest = store.getAll();
+				getRequest.onsuccess = () => {
+					const existingRecords = getRequest.result.filter(
+						(item) => item.componentKey === data.componentKey,
+					);
+
+					existingRecords.forEach((record) => {
+						store.delete(record.id);
+					});
+
+					store.add(data);
+					console.log(
+						`✅ 資料已存入 IndexedDB（${this.filteredFeatures.features.length} 筆，componentKey: ${data.componentKey}）`,
+					);
+				};
+			};
+		},
+		// 從 IndexedDB 讀取資料
+		async getExtractedFeaturesFromIndexedDB(componentKey = null) {
+			return new Promise((resolve, reject) => {
+				const request = indexedDB.open('TaipeiDashboardDB', 1);
+				
+				request.onsuccess = (event) => {
+					const db = event.target.result;
+					const transaction = db.transaction(['extractedFeatures'], 'readonly');
+					const store = transaction.objectStore('extractedFeatures');
+					const getRequest = store.getAll();
+					
+					getRequest.onsuccess = () => {
+						const data = getRequest.result;
+						const filteredData = componentKey
+							? data.filter((item) => item.componentKey === componentKey)
+							: data;
+						if (filteredData.length > 0) {
+							console.log("✅ 從 IndexedDB 讀取資料成功");
+							resolve(componentKey ? filteredData[0] : filteredData);
+						} else {
+							console.warn("IndexedDB 中沒有資料");
+							resolve(null);
+						}
+					};
+					
+					getRequest.onerror = () => {
+						reject("讀取失敗");
+					};
+				};
+				
+				request.onerror = () => {
+					reject("無法開啟 IndexedDB");
+				};
+			});
+		},
+		// Agent-friendly method to get all filtered features data as plain JSON
+		// AGENT USE ONLY
+		async getFilteredFeaturesForAgent() {
+			try {
+				const allData = await this.getExtractedFeaturesFromIndexedDB();
+				if (!allData) {
+					return {
+						success: false,
+						message: "IndexedDB 中沒有資料",
+						data: null,
+					};
+				}
+
+				// Convert single record to array for consistency
+				const records = Array.isArray(allData) ? allData : [allData];
+
+				return {
+					success: true,
+					message: `成功讀取 ${records.length} 筆 component 資料`,
+					data: records.map((record) => ({
+						componentKey: record.componentKey,
+						componentName: record.componentInfo?.name,
+						componentDescription: record.componentInfo?.long_desc,
+						useCase: record.componentInfo?.use_case,
+						featuresCount: record.features?.length || 0,
+						features: record.features || [],
+						timestamp: record.timestamp,
+					})),
+				};
+			} catch (error) {
+				return {
+					success: false,
+					message: `讀取失敗: ${error}`,
+					data: null,
+				};
+			}
+		},
+		// 清除 IndexedDB 中的資料
+		clearIndexedDB(componentKey = null) {
+			const request = indexedDB.open('TaipeiDashboardDB', 1);
+			
+			request.onsuccess = (event) => {
+				const db = event.target.result;
+				const transaction = db.transaction(['extractedFeatures'], 'readwrite');
+				const store = transaction.objectStore('extractedFeatures');
+				
+				if (!componentKey) {
+					store.clear();
+					console.log("✅ IndexedDB 全部資料已清除");
+					return;
+				}
+
+				const getRequest = store.getAll();
+				getRequest.onsuccess = () => {
+					const targetRecords = getRequest.result.filter(
+						(item) => item.componentKey === componentKey,
+					);
+
+					if (targetRecords.length === 0) {
+						console.log(
+							`ℹ️ IndexedDB 中沒有找到 componentKey: ${componentKey} 的資料`,
+						);
+						return;
+					}
+
+					targetRecords.forEach((record) => {
+						store.delete(record.id);
+					});
+					console.log(
+						`✅ IndexedDB 已清除 componentKey: ${componentKey} 的資料`,
+					);
+				};
+			};
 		},
 		// 2. filter by layer name (byLayer)
 		filterByLayer(map_configs, xParam) {
@@ -2409,11 +2633,18 @@ export const useMapStore = defineStore("map", {
 			});
 		},
 		// 3. Remove any property filters on a map layer
-		clearByParamFilter(map_configs) {
+		clearByParamFilter(config, map_configs) {
 			const dialogStore = useDialogStore();
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
 			}
+			// 取消過濾時，清空篩選結果資料
+			const componentKey = this.getFilteredFeatureComponentKey(config);
+			if (this.filteredFeatures?.componentKey === componentKey) {
+				this.filteredFeatures = null;
+			}
+			// 取消過濾時，同步只清空該 component 的 extractedFeatures
+			this.clearIndexedDB(componentKey);
 			map_configs.map((map_config) => {
 				let mapLayerId = `${map_config.index}-${map_config.type}-${map_config.city}`;
 				if (map_config && map_config.type === "arc") {

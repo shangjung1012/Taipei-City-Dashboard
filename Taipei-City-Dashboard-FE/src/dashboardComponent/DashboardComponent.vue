@@ -166,7 +166,8 @@ function changeActiveChart(chartName) {
 		props.config.map_filter
 	) {
 		if (props.config.map_filter.mode === "byParam") {
-			emits("clearByParamFilter", props.config.map_config);
+			// Add config for clear data inside IndexedDB
+			emits("clearByParamFilter", props.config.map_config, props.config);
 		} else if (props.config.map_filter.mode === "byLayer") {
 			emits("clearByLayerFilter", props.config.map_config);
 		}

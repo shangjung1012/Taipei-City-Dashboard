@@ -76,8 +76,18 @@ function handleOpenSettings() {
 	dialogStore.showDialog("addEditDashboards");
 }
 
+async function handleDebugIndexedDB() {
+  const data = await mapStore.getExtractedFeaturesFromIndexedDB();
+  if (!data) {
+    console.warn("IndexedDB 中沒有可顯示的資料");
+    return;
+  }
+
+  console.log("IndexedDB debug data:", data);
+}
+
 // Open and closes the component as well as communicates to the mapStore to turn on and off map layers
-function handleToggle(value, map_config) {
+function handleToggle(value, map_config, componentConfig) {
 	if (!map_config[0]) {
 		if (value) {
 			dialogStore.showNotification(
@@ -90,7 +100,7 @@ function handleToggle(value, map_config) {
 	if (value) {
 		mapStore.addToMapLayerList(map_config);
 	} else {
-		mapStore.clearByParamFilter(map_config);
+    mapStore.clearByParamFilter(componentConfig, map_config);
 		mapStore.turnOffMapLayerVisibility(map_config);
 	}
 }
@@ -141,6 +151,15 @@ function popularBasicLayerGA(map_config) {
 <template>
   <div class="map">
     <div class="hide-if-mobile">
+      <!-- <div class="map-debug-actions">
+        <button
+          type="button"
+          class="map-debug-button"
+          @click="handleDebugIndexedDB"
+        >
+          Debug IndexedDB
+        </button>
+      </div> -->
       <!-- 1. If the dashboard is map-layers -->
       <div
         v-if="
@@ -181,7 +200,7 @@ function popularBasicLayerGA(map_config) {
           "
           @toggle="
             (value, map_config) => {
-              handleToggle(value, map_config);
+              handleToggle(value, map_config, item);
               toggleSwitchBtn(value, 'mapLayer', arrayIdx);
               popularThematicLayerGA(map_config);
             }
@@ -189,6 +208,7 @@ function popularBasicLayerGA(map_config) {
           @filter-by-param="
             (map_filter, map_config, x, y) => {
               mapStore.filterByParam(
+                item,
                 map_filter,
                 map_config,
                 x,
@@ -202,8 +222,11 @@ function popularBasicLayerGA(map_config) {
             }
           "
           @clear-by-param-filter="
-            (map_config) => {
-              mapStore.clearByParamFilter(map_config);
+            (map_config, componentConfig) => {
+              mapStore.clearByParamFilter(
+                componentConfig || item,
+                map_config,
+              );
             }
           "
           @clear-by-layer-filter="
@@ -231,7 +254,7 @@ function popularBasicLayerGA(map_config) {
                 );
 
               if (selectedData) {
-                mapStore.clearByParamFilter(item.map_config);
+                mapStore.clearByParamFilter(item, item.map_config);
                 mapStore.turnOffMapLayerVisibility(
                   item.map_config,
                 );
@@ -296,7 +319,7 @@ function popularBasicLayerGA(map_config) {
           "
           @toggle="
             (value, map_config) => {
-              handleToggle(value, map_config);
+              handleToggle(value, map_config, item);
               toggleSwitchBtn(value, 'hasMap', arrayIdx);
               popularThematicLayerGA(map_config);
             }
@@ -304,6 +327,7 @@ function popularBasicLayerGA(map_config) {
           @filter-by-param="
             (map_filter, map_config, x, y) => {
               mapStore.filterByParam(
+                item,
                 map_filter,
                 map_config,
                 x,
@@ -317,8 +341,11 @@ function popularBasicLayerGA(map_config) {
             }
           "
           @clear-by-param-filter="
-            (map_config) => {
-              mapStore.clearByParamFilter(map_config);
+            (map_config, componentConfig) => {
+              mapStore.clearByParamFilter(
+                componentConfig || item,
+                map_config,
+              );
             }
           "
           @clear-by-layer-filter="
@@ -351,7 +378,7 @@ function popularBasicLayerGA(map_config) {
                 );
 
               if (selectedData) {
-                mapStore.clearByParamFilter(item.map_config);
+                mapStore.clearByParamFilter(item, item.map_config);
                 mapStore.turnOffMapLayerVisibility(
                   item.map_config,
                 );
@@ -402,7 +429,7 @@ function popularBasicLayerGA(map_config) {
           "
           @toggle="
             (value, map_config) => {
-              handleToggle(value, map_config);
+              handleToggle(value, map_config, item);
               toggleSwitchBtn(value, 'basicLayer', arrayIdx);
               popularBasicLayerGA(map_config);
             }
@@ -410,6 +437,7 @@ function popularBasicLayerGA(map_config) {
           @filter-by-param="
             (map_filter, map_config, x, y) => {
               mapStore.filterByParam(
+                item,
                 map_filter,
                 map_config,
                 x,
@@ -423,8 +451,11 @@ function popularBasicLayerGA(map_config) {
             }
           "
           @clear-by-param-filter="
-            (map_config) => {
-              mapStore.clearByParamFilter(map_config);
+            (map_config, componentConfig) => {
+              mapStore.clearByParamFilter(
+                componentConfig || item,
+                map_config,
+              );
             }
           "
           @clear-by-layer-filter="
@@ -446,7 +477,7 @@ function popularBasicLayerGA(map_config) {
               );
 
               if (selectedData) {
-                mapStore.clearByParamFilter(item.map_config);
+                mapStore.clearByParamFilter(item, item.map_config);
                 mapStore.turnOffMapLayerVisibility(
                   item.map_config,
                 );
@@ -505,7 +536,7 @@ function popularBasicLayerGA(map_config) {
           "
           @toggle="
             (value, map_config) => {
-              handleToggle(value, map_config);
+              handleToggle(value, map_config, item);
               toggleSwitchBtn(value, 'noMap', arrayIdx);
             }
           "
@@ -584,6 +615,37 @@ function popularBasicLayerGA(map_config) {
 	height: calc(var(--vh) * 100 - 127px);
 	display: flex;
 	margin: var(--font-m) var(--font-m);
+
+  &-debug-actions {
+    width: 360px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: var(--font-s);
+    margin-bottom: var(--font-s);
+
+    @media (min-width: 1000px) {
+      width: 370px;
+    }
+
+    @media (min-width: 2000px) {
+      width: 400px;
+    }
+  }
+
+  &-debug-button {
+    padding: 8px 12px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #333;
+    font-size: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+    &:hover {
+      background: #f5f5f5;
+    }
+  }
 
 	&-charts {
 		width: 360px;
