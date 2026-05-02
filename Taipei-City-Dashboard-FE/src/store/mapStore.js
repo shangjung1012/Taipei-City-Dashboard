@@ -2376,6 +2376,7 @@ export const useMapStore = defineStore("map", {
 					return;
 				}
 				// If x and y both exist, filter by both
+				// CHECK 0503: 如果是要查看 x & y （像是行政區下的某個嚴重程度之類）
 				if (
 					map_filter.byParam.xParam &&
 					map_filter.byParam.yParam &&
@@ -2397,6 +2398,7 @@ export const useMapStore = defineStore("map", {
 					]);
 				}
 				// default to filter by x
+				// CHECK 0503: 如果只有查看 x 欄位的會就走這邊
 				else if (map_filter.byParam.xParam && xParam) {
 					this.map.setFilter(mapLayerId, [
 						"==",
