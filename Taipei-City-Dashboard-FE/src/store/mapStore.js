@@ -58,6 +58,89 @@ import {
 	mrtLineColor,
 } from "../assets/utilityFunctions/getThematicColor.js";
 
+const MAP_AGENT_DB_NAME = "TaipeiDashboardDB";
+const MAP_AGENT_DB_VERSION = 2;
+const EXTRACTED_FEATURES_STORE = "extractedFeatures";
+
+function getPointCoordinatesFromFeature(feature) {
+	const coordinates = feature?.geometry?.coordinates;
+	if (
+		feature?.geometry?.type !== "Point" ||
+		!Array.isArray(coordinates) ||
+		coordinates.length < 2
+	) {
+		return null;
+	}
+
+	const [lng, lat] = coordinates;
+	return Number.isFinite(Number(lng)) && Number.isFinite(Number(lat))
+		? { lng: Number(lng), lat: Number(lat) }
+		: null;
+}
+
+// 把 經緯度 加入到 indexedDB 的 feature properties 中，方便後續的分析使用
+function buildIndexedDBFeatureProperties(feature) {
+	const properties = { ...(feature.properties || {}) };
+	const coordinates = getPointCoordinatesFromFeature(feature);
+	if (!coordinates) return properties;
+
+	properties.經度 = properties.經度 ?? coordinates.lng;
+	properties.緯度 = properties.緯度 ?? coordinates.lat;
+	return properties;
+}
+
+function isUrbanPlanningComponent(config, mapConfigs = []) {
+	const values = [
+		config?.name,
+		config?.title,
+		config?.index,
+		config?.long_desc,
+		...mapConfigs.flatMap((mapConfig) => [
+			mapConfig?.name,
+			mapConfig?.title,
+			mapConfig?.index,
+		]),
+	]
+		.filter(Boolean)
+		.map((value) => String(value).toLowerCase());
+
+	return values.some(
+		(value) =>
+			value.includes("都市計畫") ||
+			value.includes("urban_planning"),
+	);
+}
+
+function openExtractedFeaturesDB() {
+	return new Promise((resolve, reject) => {
+		const request = indexedDB.open(MAP_AGENT_DB_NAME, MAP_AGENT_DB_VERSION);
+
+		request.onupgradeneeded = (event) => {
+			const db = event.target.result;
+			if (!db.objectStoreNames.contains(EXTRACTED_FEATURES_STORE)) {
+				db.createObjectStore(EXTRACTED_FEATURES_STORE, {
+					keyPath: "id",
+					autoIncrement: true,
+				});
+			}
+		};
+
+		request.onsuccess = (event) => {
+			const db = event.target.result;
+			if (!db.objectStoreNames.contains(EXTRACTED_FEATURES_STORE)) {
+				db.close();
+				reject(`IndexedDB 缺少 ${EXTRACTED_FEATURES_STORE} object store`);
+				return;
+			}
+			resolve(db);
+		};
+
+		request.onerror = () => {
+			reject("無法開啟 IndexedDB");
+		};
+	});
+}
+
 export const useMapStore = defineStore("map", {
 	state: () => ({
 		// Array of layer IDs that are in the map
@@ -461,6 +544,50 @@ export const useMapStore = defineStore("map", {
 					this.addGeojsonSource(map_config, rs.data);
 				})
 				.catch((e) => console.error(e));
+		},
+		async addComponentToIndexedDB(config, map_configs) {
+			if (!config || !map_configs?.length) return;
+			if (isUrbanPlanningComponent(config, map_configs)) {
+				await this.clearIndexedDB(this.getFilteredFeatureComponentKey(config));
+				console.log("略過都市計畫組件，不寫入 IndexedDB", {
+					componentName: config.name,
+				});
+				return;
+			}
+
+			const geojsonConfigs = Array.from(
+				new Map(
+					map_configs
+						.filter((mapConfig) => mapConfig?.source === "geojson")
+						.map((mapConfig) => [mapConfig.index, mapConfig]),
+				).values(),
+			);
+			if (geojsonConfigs.length === 0) return;
+
+			try {
+				const responses = await Promise.all(
+					geojsonConfigs.map((mapConfig) =>
+						axios.get(`/mapData/${mapConfig.index}.geojson`),
+					),
+				);
+				const features = responses.flatMap((response) =>
+					(response.data?.features || []).map(
+						buildIndexedDBFeatureProperties,
+					),
+				);
+
+				await this.saveExtractedFeaturestoIndexedDB({
+					componentKey: this.getFilteredFeatureComponentKey(config),
+					componentInfo: {
+						name: config.name,
+						long_desc: config.long_desc,
+						use_case: config.use_case,
+					},
+					features,
+				});
+			} catch (error) {
+				console.error("Toggle on 寫入 IndexedDB 失敗", error);
+			}
 		},
 		// 3-1. Add a local geojson as a source in mapbox
 		addGeojsonSource(map_config, data) {
@@ -2419,11 +2546,11 @@ export const useMapStore = defineStore("map", {
 								const layerFeatures = this.map.queryRenderedFeatures({ layers: [mapLayerId] });
 								// Remove duplicate features that mapbox might return from different tiles
 								const uniqueFeatures = Array.from(new Map(layerFeatures.map(item => [JSON.stringify(item.properties), item])).values());
-								extractedFeatures.push(...uniqueFeatures.map(f => f.properties));
+								extractedFeatures.push(...uniqueFeatures.map(buildIndexedDBFeatureProperties));
 							}
 						});
 						// 把抓取到的資料存入 state
-						this.filteredFeatures = {
+						const filteredFeatures = {
 							componentKey: this.getFilteredFeatureComponentKey(
 								config,
 							),
@@ -2434,107 +2561,101 @@ export const useMapStore = defineStore("map", {
 							},
 							features: extractedFeatures
 						};
-						console.log("過濾完成！點擊的組件資訊:", this.filteredFeatures.componentInfo);
+						this.filteredFeatures = filteredFeatures;
+						console.log("過濾完成！點擊的組件資訊:", filteredFeatures.componentInfo);
 						console.log("過濾完成！成功比對到的資料筆數:", extractedFeatures.length);
 						console.log("比對到的詳細資料 (Match):", extractedFeatures);
 						// 自動存入 IndexedDB 給 AI agent 使用
-						this.saveExtractedFeaturestoIndexedDB();
+						if (isUrbanPlanningComponent(config, map_configs)) {
+							this.clearIndexedDB(filteredFeatures.componentKey);
+						} else {
+							this.saveExtractedFeaturestoIndexedDB(filteredFeatures);
+						}
 					}
 				} catch (e) {
 					console.error("Error extracting filtered features:", e);
 				}
 			}, 600); // 延遲以確保 Mapbox 已經完成渲染
-		},
-		// 存入 IndexedDB
-		saveExtractedFeaturestoIndexedDB() {
-			if (
-				!this.filteredFeatures ||
-				!this.filteredFeatures.features ||
-				this.filteredFeatures.features.length === 0
-			) {
-				console.warn("沒有可以存儲的資料");
-				return;
-			}
-			if (!this.filteredFeatures.componentKey) {
-				console.warn("缺少 componentKey，無法寫入 IndexedDB");
-				return;
-			}
-			
-			const request = indexedDB.open('TaipeiDashboardDB', 1);
-			
-			request.onerror = () => {
-				console.error("IndexedDB 開啟失敗");
-			};
-			
-			request.onupgradeneeded = (event) => {
-				const db = event.target.result;
-				if (!db.objectStoreNames.contains('extractedFeatures')) {
-					db.createObjectStore('extractedFeatures', { keyPath: 'id', autoIncrement: true });
-				}
-			};
-			
-			request.onsuccess = (event) => {
-				const db = event.target.result;
-				const transaction = db.transaction(['extractedFeatures'], 'readwrite');
-				const store = transaction.objectStore('extractedFeatures');
-				
-				// 存入資料（同一個 componentKey 只保留最新一筆）
-				const data = JSON.parse(JSON.stringify({
-					...this.filteredFeatures,
-					timestamp: Date.now(),
-				}));
-				const getRequest = store.getAll();
-				getRequest.onsuccess = () => {
-					const existingRecords = getRequest.result.filter(
-						(item) => item.componentKey === data.componentKey,
-					);
-
-					existingRecords.forEach((record) => {
-						store.delete(record.id);
-					});
-
-					store.add(data);
-					console.log(
-						`✅ 資料已存入 IndexedDB（${this.filteredFeatures.features.length} 筆，componentKey: ${data.componentKey}）`,
-					);
-				};
-			};
-		},
-		// 從 IndexedDB 讀取資料
-		async getExtractedFeaturesFromIndexedDB(componentKey = null) {
-			return new Promise((resolve, reject) => {
-				const request = indexedDB.open('TaipeiDashboardDB', 1);
-				
-				request.onsuccess = (event) => {
-					const db = event.target.result;
-					const transaction = db.transaction(['extractedFeatures'], 'readonly');
-					const store = transaction.objectStore('extractedFeatures');
-					const getRequest = store.getAll();
-					
-					getRequest.onsuccess = () => {
-						const data = getRequest.result;
-						const filteredData = componentKey
-							? data.filter((item) => item.componentKey === componentKey)
-							: data;
-						if (filteredData.length > 0) {
-							console.log("✅ 從 IndexedDB 讀取資料成功");
-							resolve(componentKey ? filteredData[0] : filteredData);
-						} else {
-							console.warn("IndexedDB 中沒有資料");
-							resolve(null);
+				},
+				// 存入 IndexedDB
+				async saveExtractedFeaturestoIndexedDB(filteredFeatures = this.filteredFeatures) {
+					if (
+						!filteredFeatures ||
+						!filteredFeatures.features ||
+						filteredFeatures.features.length === 0
+					) {
+						console.warn("沒有可以存儲的資料");
+						if (filteredFeatures?.componentKey) {
+							await this.clearIndexedDB(filteredFeatures.componentKey);
 						}
+						return;
+					}
+					if (!filteredFeatures.componentKey) {
+						console.warn("缺少 componentKey，無法寫入 IndexedDB");
+						return;
+					}
+
+				try {
+					const db = await openExtractedFeaturesDB();
+					const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readwrite");
+					const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
+
+					// 存入資料（同一個 componentKey 只保留最新一筆）
+					const data = JSON.parse(JSON.stringify({
+						...filteredFeatures,
+						timestamp: Date.now(),
+					}));
+					const getRequest = store.getAll();
+					getRequest.onsuccess = () => {
+						const existingRecords = getRequest.result.filter(
+							(item) => item.componentKey === data.componentKey,
+						);
+
+						existingRecords.forEach((record) => {
+							store.delete(record.id);
+						});
+
+						store.add(data);
+						console.log(
+							`✅ 資料已存入 IndexedDB（${filteredFeatures.features.length} 筆，componentKey: ${data.componentKey}）`,
+						);
 					};
-					
-					getRequest.onerror = () => {
-						reject("讀取失敗");
-					};
-				};
-				
-				request.onerror = () => {
-					reject("無法開啟 IndexedDB");
-				};
-			});
-		},
+					transaction.oncomplete = () => db.close();
+				} catch (error) {
+					console.error("IndexedDB 開啟失敗", error);
+				}
+			},
+			// 從 IndexedDB 讀取資料
+			async getExtractedFeaturesFromIndexedDB(componentKey = null) {
+				return new Promise((resolve, reject) => {
+					openExtractedFeaturesDB()
+						.then((db) => {
+							const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readonly");
+							const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
+							const getRequest = store.getAll();
+
+							getRequest.onsuccess = () => {
+								const data = getRequest.result;
+								const filteredData = componentKey
+									? data.filter((item) => item.componentKey === componentKey)
+									: data;
+								if (filteredData.length > 0) {
+									console.log("✅ 從 IndexedDB 讀取資料成功");
+									resolve(componentKey ? filteredData[0] : filteredData);
+								} else {
+									console.warn("IndexedDB 中沒有資料");
+									resolve(null);
+								}
+							};
+
+							getRequest.onerror = () => {
+								reject("讀取失敗");
+							};
+							transaction.oncomplete = () => db.close();
+						})
+						.catch(reject);
+				});
+			},
 		// Agent-friendly method to get all filtered features data as plain JSON
 		// AGENT USE ONLY
 		async getFilteredFeaturesForAgent() {
@@ -2572,43 +2693,45 @@ export const useMapStore = defineStore("map", {
 				};
 			}
 		},
-		// 清除 IndexedDB 中的資料
-		clearIndexedDB(componentKey = null) {
-			const request = indexedDB.open('TaipeiDashboardDB', 1);
-			
-			request.onsuccess = (event) => {
-				const db = event.target.result;
-				const transaction = db.transaction(['extractedFeatures'], 'readwrite');
-				const store = transaction.objectStore('extractedFeatures');
-				
-				if (!componentKey) {
-					store.clear();
-					console.log("✅ IndexedDB 全部資料已清除");
-					return;
-				}
+			// 清除 IndexedDB 中的資料
+			async clearIndexedDB(componentKey = null) {
+				try {
+					const db = await openExtractedFeaturesDB();
+					const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readwrite");
+					const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
 
-				const getRequest = store.getAll();
-				getRequest.onsuccess = () => {
-					const targetRecords = getRequest.result.filter(
-						(item) => item.componentKey === componentKey,
-					);
-
-					if (targetRecords.length === 0) {
-						console.log(
-							`ℹ️ IndexedDB 中沒有找到 componentKey: ${componentKey} 的資料`,
-						);
+					if (!componentKey) {
+						store.clear();
+						console.log("✅ IndexedDB 全部資料已清除");
+						transaction.oncomplete = () => db.close();
 						return;
 					}
 
-					targetRecords.forEach((record) => {
-						store.delete(record.id);
-					});
-					console.log(
-						`✅ IndexedDB 已清除 componentKey: ${componentKey} 的資料`,
-					);
-				};
-			};
-		},
+					const getRequest = store.getAll();
+					getRequest.onsuccess = () => {
+						const targetRecords = getRequest.result.filter(
+							(item) => item.componentKey === componentKey,
+						);
+
+						if (targetRecords.length === 0) {
+							console.log(
+								`ℹ️ IndexedDB 中沒有找到 componentKey: ${componentKey} 的資料`,
+							);
+							return;
+						}
+
+						targetRecords.forEach((record) => {
+							store.delete(record.id);
+						});
+						console.log(
+							`✅ IndexedDB 已清除 componentKey: ${componentKey} 的資料`,
+						);
+					};
+					transaction.oncomplete = () => db.close();
+				} catch (error) {
+					console.error("IndexedDB 清除失敗", error);
+				}
+			},
 		// 2. filter by layer name (byLayer)
 		filterByLayer(map_configs, xParam) {
 			const dialogStore = useDialogStore();
@@ -2635,7 +2758,7 @@ export const useMapStore = defineStore("map", {
 			});
 		},
 		// 3. Remove any property filters on a map layer
-		clearByParamFilter(config, map_configs) {
+		async clearByParamFilter(config, map_configs) {
 			const dialogStore = useDialogStore();
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
@@ -2646,7 +2769,7 @@ export const useMapStore = defineStore("map", {
 				this.filteredFeatures = null;
 			}
 			// 取消過濾時，同步只清空該 component 的 extractedFeatures
-			this.clearIndexedDB(componentKey);
+			await this.clearIndexedDB(componentKey);
 			map_configs.map((map_config) => {
 				let mapLayerId = `${map_config.index}-${map_config.type}-${map_config.city}`;
 				if (map_config && map_config.type === "arc") {

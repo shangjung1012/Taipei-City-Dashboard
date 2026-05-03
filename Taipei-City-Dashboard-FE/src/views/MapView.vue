@@ -48,9 +48,10 @@ const parseMapLayers = computed(() => {
 });
 
 watch(
-	() => route.query.index,
-	(newIndex, oldIndex) => {
-		if (newIndex !== oldIndex) {
+	() => [route.query.index, route.query.city],
+	async ([newIndex, newCity], [oldIndex, oldCity]) => {
+		if (newIndex !== oldIndex || newCity !== oldCity) {
+			await mapStore.clearIndexedDB();
 			toggleOn.value = {
 				hasMap: new Array(parseMapLayers.value.hasMap?.length).fill(
 					false,
@@ -100,8 +101,9 @@ function handleToggle(value, map_config, componentConfig) {
 	}
 	if (value) {
 		mapStore.addToMapLayerList(map_config);
+		mapStore.addComponentToIndexedDB(componentConfig, map_config);
 	} else {
-    mapStore.clearByParamFilter(componentConfig, map_config);
+		mapStore.clearByParamFilter(componentConfig, map_config);
 		mapStore.turnOffMapLayerVisibility(map_config);
 	}
 }
@@ -184,34 +186,25 @@ watch(
 	}
 );
 
+function getToggleOnMapComponents(requireMapFilter = false) {
+	return contentStore.currentDashboard.components?.filter((component) => {
+		if (!component.map_config?.[0]) return false;
+
+		const hasMapIdx = parseMapLayers.value.hasMap?.indexOf(component);
+		const isToggleOn =
+			hasMapIdx !== undefined &&
+			hasMapIdx !== -1 &&
+			toggleOn.value.hasMap?.[hasMapIdx];
+
+		return isToggleOn && (!requireMapFilter || component.map_filter);
+	}) || [];
+}
+
 // 對所有打開的 component 執行 filterByParam
 function applyDistrictFilter() {
 	if (!selectedDistrict.value) return;
 
-	// 找出所有已打開且有 map_filter 的 component
-	const componentsToFilter = contentStore.currentDashboard.components?.filter(
-		(component, idx) => {
-			// 檢查該 component 是否已打開
-			const isMapComponent = component.map_config?.[0];
-			if (!isMapComponent) return false;
-
-			// 檢查是該 component 的 toggle 是否打開
-			const componentIndex = contentStore.currentDashboard.components.indexOf(component);
-			let isToggleOn = false;
-
-			// 根據 component 類型檢查 toggleOn 狀態
-			if (parseMapLayers.value.hasMap?.includes(component)) {
-				const hasMapIdx = parseMapLayers.value.hasMap.indexOf(component);
-				isToggleOn = toggleOn.value.hasMap?.[hasMapIdx];
-			} else if (parseMapLayers.value.noMap?.includes(component)) {
-				const noMapIdx = parseMapLayers.value.noMap.indexOf(component);
-				isToggleOn = toggleOn.value.noMap?.[noMapIdx];
-			}
-
-			// 檢查是否有 map_filter
-			return isToggleOn && component.map_filter;
-		}
-	) || [];
+	const componentsToFilter = getToggleOnMapComponents(true);
 
 	// 對每個符合條件的 component 執行 filterByParam
 	componentsToFilter.forEach((component) => {
@@ -230,27 +223,25 @@ function applyDistrictFilter() {
 }
 
 // 清除篩選
-function clearDistrictFilter() {
+async function clearDistrictFilter() {
+	const toggleOnComponents = getToggleOnMapComponents(false);
 	selectedCity.value = '';
 	selectedDistrict.value = '';
 
-	// 清除所有 component 的篩選
-	contentStore.currentDashboard.components?.forEach((component) => {
+	// 清除目前打開 component 的篩選，回到 all
+	await Promise.all(toggleOnComponents.map((component) => {
 		if (component.map_config && component.map_filter) {
-			mapStore.clearByParamFilter(component, component.map_config);
+			return mapStore.clearByParamFilter(component, component.map_config);
 		}
-	});
+		return Promise.resolve();
+	}));
+
+	// 重新把目前打開 component 的完整資料寫回 IndexedDB
+	await Promise.all(toggleOnComponents.map((component) =>
+		mapStore.addComponentToIndexedDB(component, component.map_config),
+	));
 }
 
-// 監聽行政區選擇變化
-watch(
-	() => selectedDistrict.value,
-	() => {
-		if (selectedDistrict.value) {
-			applyDistrictFilter();
-		}
-	}
-);
 </script>
 
 <template>
@@ -280,23 +271,32 @@ watch(
                 v-for="district in districtOptions"
                 :key="district"
                 :value="district"
-              >
-                {{ district }}
-              </option>
-            </select>
-          </div>
-          <button
-            v-if="selectedCity || selectedDistrict"
-            class="clear-filter-btn"
-            @click="clearDistrictFilter"
-            title="清除行政區篩選"
-          >
-            close
-          </button>
+	              >
+	                {{ district }}
+	              </option>
+	            </select>
+	          </div>
+	          <button
+	            v-if="selectedCity"
+	            class="search-filter-btn"
+	            :disabled="!selectedDistrict"
+	            @click="applyDistrictFilter"
+	            title="搜尋行政區"
+	          >
+	            search
+	          </button>
+	          <button
+	            v-if="selectedCity || selectedDistrict"
+	            class="clear-filter-btn"
+	            @click="clearDistrictFilter"
+	            title="清除行政區篩選"
+	          >
+	            close
+	          </button>
         </div>
       </div>
 
-      <!-- <div class="map-debug-actions">
+      <div class="map-debug-actions">
         <button
           type="button"
           class="map-debug-button"
@@ -304,7 +304,7 @@ watch(
         >
           Debug IndexedDB
         </button>
-      </div> -->
+      </div>
       <!-- 1. If the dashboard is map-layers -->
       <div
         v-if="
@@ -868,6 +868,7 @@ watch(
     }
   }
 
+  .search-filter-btn,
   .clear-filter-btn {
     width: 32px;
     height: 32px;
@@ -892,6 +893,18 @@ watch(
 
     &:active {
       transform: scale(0.95);
+    }
+  }
+
+  .search-filter-btn {
+    &:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    &:disabled:hover {
+      background: transparent;
+      border-color: rgba(255,255,255,0.12);
     }
   }
 }

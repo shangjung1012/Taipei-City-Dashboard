@@ -17,12 +17,19 @@ const sessionId = ref(`map-analysis-${Date.now()}`);
 const position = ref({ right: 104, bottom: 24 });
 const dragStart = ref({ x: 0, y: 0, right: 104, bottom: 24 });
 const dataSignature = ref("");
+const dataGroupCount = ref(0);
 let pollTimer = null;
+const PROXIMITY_RADIUS_METERS = 1000;
+const MAX_CENTER_FEATURES = 20;
+const MAX_MATCHES_PER_COMPONENT = 5;
 
-const canGenerate = computed(() => hasDataChanged.value && !isLoading.value);
+const canGenerate = computed(
+	() => dataGroupCount.value >= 2 && hasDataChanged.value && !isLoading.value,
+);
 const generateButtonText = computed(() => {
 	if (isLoading.value) return "分析中...";
-	if (!hasDataChanged.value) return "等待資料更新";
+	if (dataGroupCount.value < 2 || !hasDataChanged.value)
+		return "等待資料更新";
 	return analysis.value ? "重新生成分析" : "生成目前分析";
 });
 
@@ -50,16 +57,187 @@ function getComponentSummary() {
 function getDataSignature(records) {
 	if (!records?.length) return "";
 	return records
-		.map((record) => `${record.componentKey}:${record.timestamp}:${record.featuresCount}`)
+		.map(
+			(record) =>
+				`${record.componentKey}:${record.timestamp}:${record.featuresCount}`,
+		)
 		.sort()
 		.join("|");
 }
 
 function compactFeature(feature) {
 	const entries = Object.entries(feature || {})
-		.filter(([, value]) => ["string", "number", "boolean"].includes(typeof value))
+		.filter(([, value]) =>
+			["string", "number", "boolean"].includes(typeof value),
+		)
 		.slice(0, 12);
 	return Object.fromEntries(entries);
+}
+
+function toNumber(value) {
+	if (value === null || value === undefined || value === "") return null;
+	const number = Number(value);
+	return Number.isFinite(number) ? number : null;
+}
+
+// 計算經緯度
+function getFeatureCoordinates(feature) {
+	const lng = toNumber(
+		feature?.經度 ?? feature?.longitude ?? feature?.lng ?? feature?.lon,
+	);
+	const lat = toNumber(feature?.緯度 ?? feature?.latitude ?? feature?.lat);
+
+	if (lng === null || lat === null) return null;
+	return { lng, lat };
+}
+
+// 計算兩點距離
+function distanceMeters(a, b) {
+	const earthRadius = 6371000;
+	const toRadians = (degree) => (degree * Math.PI) / 180;
+	const dLat = toRadians(b.lat - a.lat);
+	const dLng = toRadians(b.lng - a.lng);
+	const lat1 = toRadians(a.lat);
+	const lat2 = toRadians(b.lat);
+	const h =
+		Math.sin(dLat / 2) ** 2 +
+		Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+	return 2 * earthRadius * Math.atan2(Math.sqrt(h), Math.sqrt(1 - h));
+}
+
+function featureName(feature) {
+	return (
+		feature?.名稱 ||
+		feature?.測點名稱 ||
+		feature?.事業名稱 ||
+		feature?.中文名 ||
+		feature?.樹種 ||
+		feature?.河流 ||
+		feature?.使用分區 ||
+		feature?.行政區 ||
+		"未命名資料"
+	);
+}
+
+function buildProximityIntersections(records) {
+	// indexedDB 的資料 -> 結構: feature 資料 + 經緯度座標
+	const recordsWithCoordinates = (records || [])
+		.map((record) => ({
+			...record,
+			coordinateFeatures: (record.features || [])
+				.map((feature) => ({
+					feature,
+					coordinates: getFeatureCoordinates(feature),
+				}))
+				.filter((item) => item.coordinates),
+		}))
+		.filter((record) => record.coordinateFeatures.length > 0);
+
+	if (recordsWithCoordinates.length < 2) {
+		return {
+			radiusMeters: PROXIMITY_RADIUS_METERS,
+			message: "可比較的座標資料少於兩組，未計算鄰近交集。",
+			relations: [],
+			centers: [],
+		};
+	}
+
+	const centerRecord = [...recordsWithCoordinates].sort(
+		(a, b) => a.coordinateFeatures.length - b.coordinateFeatures.length,
+	)[0];
+	const targetRecords = recordsWithCoordinates.filter(
+		(record) => record.componentKey !== centerRecord.componentKey,
+	);
+
+	// 用中心點與其他資料集算距離
+	const centers = centerRecord.coordinateFeatures
+		.slice(0, MAX_CENTER_FEATURES)
+		.map((centerItem) => {
+			const matchesByComponent = targetRecords
+				.map((targetRecord) => {
+					const matches = targetRecord.coordinateFeatures
+						.map((targetItem) => ({
+							distanceMeters: Math.round(
+								distanceMeters(
+									centerItem.coordinates,
+									targetItem.coordinates,
+								),
+							),
+							featureName: featureName(targetItem.feature),
+							feature: compactFeature(targetItem.feature),
+							coordinates: targetItem.coordinates,
+						}))
+						.filter(
+							(match) =>
+								match.distanceMeters <= PROXIMITY_RADIUS_METERS,
+						)
+						.sort((a, b) => a.distanceMeters - b.distanceMeters);
+
+					if (matches.length === 0) return null;
+					return {
+						componentName: targetRecord.componentName,
+						totalMatches: matches.length,
+						nearestDistanceMeters: matches[0].distanceMeters,
+						matches: matches.slice(0, MAX_MATCHES_PER_COMPONENT),
+					};
+				})
+				.filter(Boolean);
+
+			return {
+				centerName:
+					centerRecord.componentDescription ||
+					centerRecord.componentInfo?.long_desc ||
+					featureName(centerItem.feature),
+				centerFeature: compactFeature(centerItem.feature),
+				coordinates: centerItem.coordinates,
+				matchesByComponent,
+			};
+		})
+		.filter((center) => center.matchesByComponent.length > 0);
+
+	const relationMap = new Map();
+	centers.forEach((center) => {
+		center.matchesByComponent.forEach((matchGroup) => {
+			const key = `${centerRecord.componentName}->${matchGroup.componentName}`;
+			const current = relationMap.get(key) || {
+				from: centerRecord.componentName,
+				to: matchGroup.componentName,
+				matchedCenters: 0,
+				totalMatches: 0,
+				nearestDistanceMeters: matchGroup.nearestDistanceMeters,
+			};
+			current.matchedCenters += 1;
+			current.totalMatches += matchGroup.totalMatches;
+			current.nearestDistanceMeters = Math.min(
+				current.nearestDistanceMeters,
+				matchGroup.nearestDistanceMeters,
+			);
+			relationMap.set(key, current);
+		});
+	});
+
+	return {
+		radiusMeters: PROXIMITY_RADIUS_METERS,
+		centerComponent: {
+			componentKey: centerRecord.componentKey,
+			componentName: centerRecord.componentName,
+			componentInfo: {
+				name:
+					centerRecord.componentName ||
+					centerRecord.componentInfo?.name,
+				long_desc:
+					centerRecord.componentDescription ||
+					centerRecord.componentInfo?.long_desc,
+			},
+			totalCoordinateFeatures: centerRecord.coordinateFeatures.length,
+			usedCenterFeatures: Math.min(
+				centerRecord.coordinateFeatures.length,
+				MAX_CENTER_FEATURES,
+			),
+		},
+		relations: Array.from(relationMap.values()),
+		centers,
+	};
 }
 
 function compactIndexedDBRecords(records) {
@@ -75,14 +253,54 @@ function compactIndexedDBRecords(records) {
 	}));
 }
 
+function logSpatialIntersections(spatialIntersections) {
+	if (!spatialIntersections?.centerComponent) {
+		console.log(
+			"AI 空間交集計算：目前沒有可比較的中心資料",
+			spatialIntersections,
+		);
+		return;
+	}
+
+	console.log("AI 空間交集計算：中心資料摘要", {
+		centerComponent: spatialIntersections.centerComponent.componentName,
+		totalCenterPoints:
+			spatialIntersections.centerComponent.totalCoordinateFeatures,
+		usedCenterPoints:
+			spatialIntersections.centerComponent.usedCenterFeatures,
+		radiusMeters: spatialIntersections.radiusMeters,
+	});
+
+	console.table(
+		spatialIntersections.centers.map((center) => ({
+			centerName: center.centerName,
+			lng: center.coordinates.lng,
+			lat: center.coordinates.lat,
+			targetComponents: center.matchesByComponent.length,
+			targetMatches: center.matchesByComponent
+				.map((group) => `${group.componentName}: ${group.totalMatches}`)
+				.join(", "),
+			nearestDistanceMeters: Math.min(
+				...center.matchesByComponent.map(
+					(group) => group.nearestDistanceMeters,
+				),
+			),
+		})),
+	);
+
+	console.log("AI 空間交集計算：完整結果", spatialIntersections);
+}
+
 async function readAgentData() {
 	const result = await mapStore.getFilteredFeaturesForAgent();
 	if (!result.success || !result.data?.length) {
+		dataGroupCount.value = 0;
 		hasDataChanged.value = false;
 		statusText.value = "目前沒有交叉比較資料";
 		return [];
 	}
 
+	dataGroupCount.value = result.data.length;
 	const nextSignature = getDataSignature(result.data);
 	if (nextSignature !== dataSignature.value) {
 		hasDataChanged.value = true;
@@ -93,47 +311,60 @@ async function readAgentData() {
 	return result.data;
 }
 
+// function buildSystemPrompt() {
+// 	return `你是一位城市環境與空間資料分析顧問，負責判讀排放、水質與植被資料之間的空間訊號。
+
+// 	請用繁體中文回答，對象是非技術決策者。請保留專業判斷，但避免技術名詞與資料格式說明。
+
+// 	分析時請優先檢查：
+// 	1. spatialIntersections.relations 是否指出兩個資料表在 1 公里內有交集。
+// 	2. spatialIntersections.centers 中每個中心點周邊出現了哪些其他資料。
+// 	3. 排放點、水質異常、噪音、動物、植被等資料是否在同一區域形成鄰近訊號。
+// 	4. 若資料包含河川或河岸位置，請注意可能的上下游或沿岸關係。
+
+// 	判讀規則：
+// 	- 優先根據 spatialIntersections 的 1 公里鄰近計算結果，不要只憑 sample 資料猜測。
+// 	- 若 spatialIntersections.relations 為空，請明確說目前沒有 1 公里內的鄰近交集。
+// 	- 空間接近只能視為風險線索，不等於因果。
+// 	- 不要寫「排放會污染」這類常識句。
+// 	- 沒有資料支持時，請明確說不能判斷。
+// 	- 每個觀察都要附可信度。
+
+// 	請用以下格式回答：
+
+// 	## 核心判讀
+// 	2 到 3 句話。
+
+// 	## 空間訊號
+// 	列出 2 到 4 點：
+// 	- 訊號：
+// 	- 判讀：
+// 	- 決策意義：
+// 	- 可信度：高／中／低
+
+// 	## 風險與限制
+// 	列出目前最容易誤判的地方。
+
+// 	## 建議優先行動
+// 	列出 2 到 3 點：
+// 	- 優先檢查：
+// 	- 行動：
+// 	- 指標：`;
+// }
+
 function buildSystemPrompt() {
-	return `你是一位城市環境與空間資料分析顧問，負責判讀排放、水質與植被資料之間的空間訊號。
-
-	請用繁體中文回答，對象是非技術決策者。請保留專業判斷，但避免技術名詞與資料格式說明。
-
-	分析時請優先檢查：
-	1. 排放點與水質異常點的距離關係。
-	2. 水質較差位置周邊是否缺乏植被。
-	3. 高排放、低植被、水質異常是否集中在同一區域。
-	4. 若資料包含河川或河岸位置，請注意可能的上下游或沿岸關係。
-
-	判讀規則：
-	- 可用經緯度做粗略鄰近判斷。
-	- 空間接近只能視為風險線索，不等於因果。
-	- 不要寫「排放會污染」這類常識句。
-	- 沒有資料支持時，請明確說不能判斷。
-	- 每個觀察都要附可信度。
-
-	請用以下格式回答：
-
-	## 核心判讀
-	2 到 3 句話。
-
-	## 空間訊號
-	列出 2 到 4 點：
-	- 訊號：
-	- 判讀：
-	- 決策意義：
-	- 可信度：高／中／低
-
-	## 風險與限制
-	列出目前最容易誤判的地方。
-
-	## 建議優先行動
-	列出 2 到 3 點：
-	- 優先檢查：
-	- 行動：
-	- 指標：`;
+	return `你是一個資料分析師，請根據拿到的資料，請先根據數量總結成一句話 -- 目前在交叉比對 {centerComponent} 和 {targetComponent} 資料。其中有幾筆 XX 在 1 公里內與多少筆 YY 有空間交集。
+	如果 XX 筆資料多於 10 種，直接變成是「有多筆資料在 1 公里內與 YY 有空間交集」，不需要說明具體數字。
+	再來分析這些交集的意義，並且指出這些交集可能代表什麼樣的環境風險訊號。禁止說明噪音會影響植物生長這種違背常理的判斷。
+	重點注意：不是每個資料都有高度關聯，像是噪音不會影響植物的生長，但如果有鳥類和噪音的交集，則可以說可能會影響鳥類的棲息。另外水質異常會影響附近植物和動物的生存，焚化廠會影響空氣品質間接影響動植物。
+	需針對不同的 targetComponent 分別分析，不能把所有資料混在一起說。
+	請用繁體中文回答。
+	`;
 }
 
 function buildUserPrompt(records) {
+	const spatialIntersections = buildProximityIntersections(records);
+	logSpatialIntersections(spatialIntersections);
 	const payload = {
 		dashboard: {
 			name: contentStore.currentDashboard.name,
@@ -143,9 +374,10 @@ function buildUserPrompt(records) {
 		activeMapLayers: activeLayerTitles.value,
 		visibleComponents: getComponentSummary(),
 		filteredMapData: compactIndexedDBRecords(records),
+		spatialIntersections,
 	};
 
-	return `以下是雙北排放、水質與植被資料，包含經緯度資訊：請根據經緯度粗略判斷它們的距離與空間關係，找出值得注意的環境風險訊號。${JSON.stringify(payload, null, 2)}`;
+	return `以下是雙北環境資料，包含資料摘要與前端先用 1 公里半徑算出的鄰近交集。請優先引用 spatialIntersections 中的交集結果，再搭配資料摘要判斷值得注意的環境風險訊號。${JSON.stringify(payload, null, 2)}`;
 }
 
 async function generateAnalysis() {
@@ -215,8 +447,14 @@ function startDrag(event) {
 function drag(event) {
 	if (!isDragging.value) return;
 	position.value = {
-		right: Math.max(8, dragStart.value.right - (event.clientX - dragStart.value.x)),
-		bottom: Math.max(8, dragStart.value.bottom - (event.clientY - dragStart.value.y)),
+		right: Math.max(
+			8,
+			dragStart.value.right - (event.clientX - dragStart.value.x),
+		),
+		bottom: Math.max(
+			8,
+			dragStart.value.bottom - (event.clientY - dragStart.value.y),
+		),
 	};
 }
 
@@ -226,7 +464,11 @@ function stopDrag() {
 	window.removeEventListener("mouseup", stopDrag);
 }
 
-onMounted(() => {
+onMounted(async () => {
+	await mapStore.clearIndexedDB();
+	dataSignature.value = "";
+	hasDataChanged.value = false;
+	analysis.value = "";
 	refreshDataStatus();
 	pollTimer = setInterval(refreshDataStatus, 4000);
 });
@@ -238,82 +480,67 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div
-    class="map-analysis-agent"
-    :style="{ right: `${position.right}px`, bottom: `${position.bottom}px` }"
-  >
-    <section
-      v-if="isOpen"
-      class="map-analysis-agent__panel"
-    >
-      <header
-        class="map-analysis-agent__header"
-        @mousedown="startDrag"
-      >
-        <div>
-          <h3>AI 交叉分析</h3>
-          <p>{{ statusText }}</p>
-        </div>
-        <button
-          type="button"
-          title="收合"
-          @click="togglePanel"
-        >
-          <span>keyboard_arrow_down</span>
-        </button>
-      </header>
+	<div
+		class="map-analysis-agent"
+		:style="{
+			right: `${position.right}px`,
+			bottom: `${position.bottom}px`,
+		}"
+	>
+		<section v-if="isOpen" class="map-analysis-agent__panel">
+			<header class="map-analysis-agent__header" @mousedown="startDrag">
+				<div>
+					<h3>AI 交叉分析</h3>
+					<p>{{ statusText }}</p>
+				</div>
+				<button type="button" title="收合" @click="togglePanel">
+					<span>keyboard_arrow_down</span>
+				</button>
+			</header>
 
-      <div class="map-analysis-agent__body">
-        <button
-          type="button"
-          class="map-analysis-agent__primary"
-          :disabled="!canGenerate"
-          @click="generateAnalysis"
-        >
-          {{ generateButtonText }}
-        </button>
-        <article
-          v-if="analysis"
-          class="map-analysis-agent__result"
-        >
-          {{ analysis }}
-        </article>
-        <p
-          v-else
-          class="map-analysis-agent__hint"
-        >
-          開啟或篩選地圖交叉比較資料後，按鈕會亮起來讓你生成目前分析。
-        </p>
-      </div>
-    </section>
+			<div class="map-analysis-agent__body">
+				<button
+					type="button"
+					class="map-analysis-agent__primary"
+					:disabled="!canGenerate"
+					@click="generateAnalysis"
+				>
+					{{ generateButtonText }}
+				</button>
+				<article v-if="analysis" class="map-analysis-agent__result">
+					{{ analysis }}
+				</article>
+				<p v-else class="map-analysis-agent__hint">
+					開啟或篩選地圖交叉比較資料後，按鈕會亮起來讓你生成目前分析。
+				</p>
+			</div>
+		</section>
 
-    <button
-      v-else
-      type="button"
-      class="map-analysis-agent__mini"
-      title="AI 交叉分析"
-      @click="togglePanel"
-    >
-      <span>insights</span>
-      <strong>AI</strong>
-      <em>交叉分析</em>
-    </button>
-  </div>
+		<button
+			v-else
+			type="button"
+			class="map-analysis-agent__mini"
+			title="AI 交叉分析"
+			@click="togglePanel"
+		>
+			<span>insights</span>
+			<em>AI 交叉分析</em>
+		</button>
+	</div>
 </template>
 
 <style scoped lang="scss">
 .map-analysis-agent {
 	position: fixed;
 	z-index: 30;
-
 	&__mini {
-		width: 108px;
-		height: 42px;
+		width: 168px;
+		height: 64px;
 		display: flex;
 		align-items: center;
-		gap: 0.3rem;
+		gap: 0.5rem;
 		justify-content: center;
-		border-radius: 999px;
+		border-radius: 20px;
 		background: var(--color-highlight);
 		color: var(--color-complement-text);
 		border: 2px solid var(--color-complement-text);
@@ -323,26 +550,12 @@ onBeforeUnmount(() => {
 
 		span {
 			font-family: var(--font-icon);
-			font-size: 1.35rem;
-		}
-
-		strong {
-			min-width: 22px;
-			height: 22px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			border-radius: 50%;
-			background: var(--color-complement-text);
-			color: var(--color-component-background);
-			font-size: 0.65rem;
-			font-weight: 800;
-			line-height: 1;
+			font-size: 1.7rem;
 		}
 
 		em {
 			font-style: normal;
-			font-size: 0.78rem;
+			font-size: 1rem;
 			font-weight: 700;
 			line-height: 1;
 		}
@@ -375,18 +588,18 @@ onBeforeUnmount(() => {
 		h3,
 		p {
 			margin: 0;
-			color: var(--color-complement-text);
 		}
 
 		h3 {
+			color: #ffffff;
 			font-size: 1rem;
 			line-height: 1.2;
 		}
 
 		p {
+			color: #c7c7c7;
 			margin-top: 0.25rem;
 			font-size: 0.78rem;
-			opacity: 0.7;
 		}
 
 		button {
@@ -432,7 +645,6 @@ onBeforeUnmount(() => {
 	&__result,
 	&__hint {
 		margin: 0;
-		color: var(--color-complement-text);
 		font-size: 0.88rem;
 		line-height: 1.55;
 		white-space: pre-line;
@@ -440,12 +652,13 @@ onBeforeUnmount(() => {
 
 	&__result {
 		flex: 1;
+		color: #ffffff;
 		overflow-y: auto;
 		padding-right: 0.25rem;
 	}
 
 	&__hint {
-		opacity: 0.72;
+		color: #c7c7c7;
 	}
 }
 </style>

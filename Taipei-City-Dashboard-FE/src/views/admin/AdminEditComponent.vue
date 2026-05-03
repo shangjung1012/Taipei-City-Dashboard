@@ -38,6 +38,14 @@ const pages = computed(() => {
 	return [];
 });
 
+function chartConfigTypes(component) {
+	return component.chart_config?.types || [];
+}
+
+function mapConfigItems(component) {
+	return component.map_config?.filter(Boolean) || [];
+}
+
 function updateFreq(update_freq, update_freq_unit) {
 	const unitRef = {
 		minute: "分",
@@ -133,7 +141,10 @@ onMounted(() => {
       </button> -->
     </div>
     <!-- 2. The main table displaying all public components -->
-    <table class="admineditcomponent-table">
+	    <table
+	      v-if="adminStore.components.length !== 0"
+	      class="admineditcomponent-table"
+	    >
       <thead>
         <tr class="admineditcomponent-table-header">
           <TableHeader min-width="60px" />
@@ -203,7 +214,7 @@ onMounted(() => {
         </tr>
       </thead>
       <!-- 2-1. Components are present -->
-      <tbody v-if="adminStore.components.length !== 0">
+	      <tbody>
         <tr
           v-for="component in adminStore.components"
           :key="`${component.index}-${component.city}`"
@@ -221,8 +232,7 @@ onMounted(() => {
           <td>
             <div class="admineditcomponent-table-charts">
               <ComponentTag
-                v-for="(chart, index) in component.chart_config
-                  .types"
+	                v-for="(chart, index) in chartConfigTypes(component)"
                 :key="`${component.index}-chart-${index}`"
                 :text="chartTypes[chart]"
                 mode="fill"
@@ -231,11 +241,11 @@ onMounted(() => {
           </td>
           <td>
             <div
-              v-if="component.map_config[0] !== null"
-              class="admineditcomponent-table-maps"
-            >
-              <ComponentTag
-                v-for="(map, index) in component.map_config"
+	              v-if="mapConfigItems(component).length !== 0"
+	              class="admineditcomponent-table-maps"
+	            >
+	              <ComponentTag
+	                v-for="(map, index) in mapConfigItems(component)"
                 :key="`${component.index}-map-${index}`"
                 :text="mapTypes[map?.type]"
                 mode="fill"
@@ -265,36 +275,36 @@ onMounted(() => {
           <td>{{ parseTime(component.updated_at) }}</td>
         </tr>
       </tbody>
-      <!-- 2-2. Components are still loading -->
-      <div
-        v-else-if="contentStore.loading"
-        class="admineditcomponent-nocontent"
-      >
-        <div class="admineditcomponent-nocontent-content">
-          <div />
-        </div>
-      </div>
-      <!-- 2-3. An Error occurred -->
-      <div
-        v-else-if="contentStore.error"
-        class="admineditcomponent-nocontent"
-      >
-        <div class="admineditcomponent-nocontent-content">
-          <span>sentiment_very_dissatisfied</span>
-          <h2>發生錯誤，無法載入組件列表</h2>
-        </div>
-      </div>
-      <!-- 2-4. Components are loaded but there are none -->
-      <div
-        v-else
-        class="admineditcomponent-nocontent"
-      >
-        <div class="admineditcomponent-nocontent-content">
-          <span>search_off</span>
-          <h2>查無符合篩選條件的公開組件</h2>
-        </div>
-      </div>
-    </table>
+	    </table>
+	    <!-- 2-2. Components are still loading -->
+	    <div
+	      v-else-if="contentStore.loading"
+	      class="admineditcomponent-nocontent"
+	    >
+	      <div class="admineditcomponent-nocontent-content">
+	        <div />
+	      </div>
+	    </div>
+	    <!-- 2-3. An Error occurred -->
+	    <div
+	      v-else-if="contentStore.error"
+	      class="admineditcomponent-nocontent"
+	    >
+	      <div class="admineditcomponent-nocontent-content">
+	        <span>sentiment_very_dissatisfied</span>
+	        <h2>發生錯誤，無法載入組件列表</h2>
+	      </div>
+	    </div>
+	    <!-- 2-4. Components are loaded but there are none -->
+	    <div
+	      v-else
+	      class="admineditcomponent-nocontent"
+	    >
+	      <div class="admineditcomponent-nocontent-content">
+	        <span>search_off</span>
+	        <h2>查無符合篩選條件的公開組件</h2>
+	      </div>
+	    </div>
     <!-- 3. Records per page and pagination control -->
     <div
       v-if="adminStore.components.length !== 0"
