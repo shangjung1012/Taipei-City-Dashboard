@@ -20,8 +20,8 @@ const dataSignature = ref("");
 const dataGroupCount = ref(0);
 let pollTimer = null;
 const PROXIMITY_RADIUS_METERS = 1000;
-const MAX_CENTER_FEATURES = 30;
-const MAX_MATCHES_PER_COMPONENT = 15;
+const MAX_CENTER_FEATURES = 20;
+const MAX_MATCHES_PER_COMPONENT = 5;
 
 const canGenerate = computed(
 	() => dataGroupCount.value >= 2 && hasDataChanged.value && !isLoading.value,
@@ -353,13 +353,50 @@ async function readAgentData() {
 // }
 
 function buildSystemPrompt() {
-	return `你是一個資料分析師，請根據拿到的資料，請先根據數量總結成一句話 -- 目前在交叉比對 {centerComponent} 和 {targetComponent} 資料。其中有幾筆 XX 在 1 公里內與多少筆 YY 有空間交集。
-	如果 XX 筆資料多於 10 種，直接變成是「有多筆資料在 1 公里內與 YY 有空間交集」，不需要說明具體數字。
-	再來分析這些交集的意義，並且指出這些交集可能代表什麼樣的環境風險訊號。禁止說明噪音會影響植物生長這種違背常理的判斷。
-	重點注意：不是每個資料都有高度關聯，像是噪音不會影響植物的生長，但如果有鳥類和噪音的交集，則可以說可能會影響鳥類的棲息。另外水質異常會影響附近植物和動物的生存，焚化廠會影響空氣品質間接影響動植物。
-	需針對不同的 targetComponent 分別分析，不能把所有資料混在一起說。
-	請用繁體中文回答。
-	`;
+	return `你是一位城市環境與空間資料分析顧問。請只根據使用者提供的 JSON 資料回答，不要自行補不存在的資料。
+
+資料讀取規則：
+- centerComponent 名稱請取 spatialIntersections.centerComponent.componentName。
+- targetComponent 名稱請取 spatialIntersections.centers[].matchesByComponent[].componentName。
+- 每一個有交集的中心點，請逐一讀取 spatialIntersections.centers[]。
+- 中心點名稱優先從 center.centerFeature 取值，依序使用：
+  1. center.centerFeature["測點名稱"]
+  2. center.centerFeature["監測站名稱"]
+  3. center.centerFeature["事業名稱"]
+  4. center.centerFeature["中文名"]
+  5. center.centerFeature["樹種"]
+  6. center.centerFeature["河流"]
+  7. center.centerFeature["行政區"]
+  若以上都沒有，才使用 center.centerName。
+- 中心點所屬資料集名稱請使用 spatialIntersections.centerComponent.componentName。
+- 目標資料集名稱請使用 matchGroup.componentName。
+- 該中心點與該目標資料集的交集總數請使用 matchGroup.totalMatches。
+- 最近距離請使用 matchGroup.nearestDistanceMeters。
+- matches 只是最近樣本，不代表全部；總數必須使用 totalMatches。
+
+輸出格式必須固定為以下兩段：
+
+## 1. 交叉結果問題分析
+請用條列式列出每一個有交集的中心點。每一列必須直接套用下列句型：
+- {centerComponent} 中的「{centerPointName}」與 {targetComponent} 有交集，1 公里內共有 {totalMatches} 筆交集資料，最近距離約 {nearestDistanceMeters} 公尺。判讀：{根據 centerFeature 與 targetComponent 寫 1 句具體判讀}
+
+如果同一個中心點同時和多個 targetComponent 有交集，請分開列出，不要合併成一句。
+如果 spatialIntersections.centers 是空陣列，請只寫：「目前沒有 1 公里內的空間交集。」
+
+## 2. 建議解法
+請根據第 1 段的交集結果，提出 2 到 4 點可能問題與解決方法。每點使用以下格式：
+- 可能問題：
+- 建議作法：
+- 優先觀察指標：
+
+判讀限制：
+- 空間接近只能視為風險線索，不等於因果。
+- 不要說「噪音會影響植物生長」這類不合理判斷。
+- 噪音和鳥類、動物可描述為可能干擾棲息或活動。
+- 水質異常和動植物可描述為可能反映水域棲地壓力。
+- 焚化廠或空污資料和動植物可描述為可能需要觀察空氣品質與周邊生態狀態。
+- 沒有資料支持時，請明確說不能判斷。
+- 請用繁體中文回答。`;
 }
 
 function buildUserPrompt(records) {
@@ -383,7 +420,7 @@ function buildUserPrompt(records) {
 		spatialIntersections,
 	};
 
-	return `以下是雙北環境資料，包含資料摘要與前端先用 1 公里半徑算出的鄰近交集。請優先引用 spatialIntersections 中的交集結果，再搭配資料摘要判斷值得注意的環境風險訊號。${JSON.stringify(payload, null, 2)}`;
+	return `以下是雙北環境資料，包含資料摘要與前端先用 1 公里半徑算出的鄰近交集。請優先引用 ｃ，再搭配資料摘要判斷值得注意的環境風險訊號。${JSON.stringify(payload, null, 2)}`;
 }
 
 async function generateAnalysis() {
