@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref } from "vue";
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import http from "../../router/axios";
 import { useContentStore } from "../../store/contentStore";
 import { useMapStore } from "../../store/mapStore";
@@ -9,6 +9,8 @@ const mapStore = useMapStore();
 
 const isOpen = ref(false);
 const isDragging = ref(false);
+const isResizing = ref(false);
+const didDrag = ref(false);
 const isLoading = ref(false);
 const hasDataChanged = ref(false);
 const analysis = ref("");
@@ -16,12 +18,26 @@ const statusText = ref("尚未讀取交叉比較資料");
 const sessionId = ref(`map-analysis-${Date.now()}`);
 const position = ref({ right: 104, bottom: 24 });
 const dragStart = ref({ x: 0, y: 0, right: 104, bottom: 24 });
+const panelSize = ref({ width: 330, height: 430 });
+const resizeStart = ref({
+	x: 0,
+	y: 0,
+	width: 330,
+	height: 430,
+	right: 104,
+	bottom: 24,
+	direction: "",
+});
+const agentRef = ref(null);
 const dataSignature = ref("");
 const dataGroupCount = ref(0);
 let pollTimer = null;
 const PROXIMITY_RADIUS_METERS = 1000;
 const MAX_CENTER_FEATURES = 20;
 const MAX_MATCHES_PER_COMPONENT = 5;
+const VIEWPORT_MARGIN = 8;
+const MIN_PANEL_WIDTH = 300;
+const MIN_PANEL_HEIGHT = 300;
 
 const canGenerate = computed(
 	() => dataGroupCount.value >= 2 && hasDataChanged.value && !isLoading.value,
@@ -32,6 +48,7 @@ const generateButtonText = computed(() => {
 		return "等待資料更新";
 	return analysis.value ? "重新生成分析" : "生成目前分析";
 });
+const renderedAnalysis = computed(() => renderBoldText(analysis.value));
 
 const activeLayerTitles = computed(() =>
 	mapStore.currentVisibleLayers
@@ -72,6 +89,22 @@ function compactFeature(feature) {
 		)
 		.slice(0, 12);
 	return Object.fromEntries(entries);
+}
+
+function escapeHtml(value) {
+	return String(value)
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#039;");
+}
+
+function renderBoldText(value) {
+	if (!value) return "";
+	return escapeHtml(value)
+		.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+		.replace(/\n/g, "<br>");
 }
 
 function toNumber(value) {
@@ -372,22 +405,32 @@ function buildSystemPrompt() {
 - 目標資料集名稱請使用 matchGroup.componentName。
 - 該中心點與該目標資料集的交集總數請使用 matchGroup.totalMatches。
 - 最近距離請使用 matchGroup.nearestDistanceMeters。
-- matches 只是最近樣本，不代表全部；總數必須使用 totalMatches。
+- matchGroup.matches 是該 targetComponent 中距離最近的樣本細項，可用於具體判讀或提出可能問題。
+- 判讀時請優先查看 matchGroup.matches[] 的 matches[].featureName 與 matches[].feature，將其整理成類型或趨勢，例如「多筆鳥類紀錄」、「水域生物紀錄」、「特定樹種分布」、「鄰近監測點」等。
+- 不要在判讀句中逐字重複列出 matches[].featureName 清單；featureName 只作為判讀依據，不作為獨立列舉內容。
+- matches 只是最近樣本，不代表全部；總數必須使用 totalMatches，不要用 matches.length 當總數。
 
-輸出格式必須固定為以下兩段：
+		輸出格式必須固定為以下兩段。不要使用 markdown 標題、清單、編號清單、表格或 inline code；唯一允許的 markdown 是 **粗體字**。
 
-## 1. 交叉結果問題分析
-請用條列式列出每一個有交集的中心點。每一列必須直接套用下列句型：
-- {centerComponent} 中的「{centerPointName}」與 {targetComponent} 有交集，1 公里內共有 {totalMatches} 筆交集資料，最近距離約 {nearestDistanceMeters} 公尺。判讀：{根據 centerFeature 與 targetComponent 寫 1 句具體判讀}
+		**交叉結果問題分析**
+		請逐一輸出 spatialIntersections.centers[] 裡的每一筆 center；只要該 center 出現在 centers[]，就必須產生一個中心點分組，不要因為中心點顯示名稱相同或 targetComponent 相同而省略任何 center。
+		中心點顯示名稱必須從該筆 center 的 center.centerFeature 裡取值，並依照上方「中心點名稱優先從 center.centerFeature 取值」的順序決定，例如 center.centerFeature["測點名稱"]、center.centerFeature["監測站名稱"]、center.centerFeature["事業名稱"] 等。不要把 centerPointName 當成實際資料欄位。
+		每一筆 center 的分組標題必須直接套用下列格式（用列點方式呈現）：
+		1. **{centerComponent} -- {從該筆 center.centerFeature 取出的中心點顯示名稱}：**
 
-如果同一個中心點同時和多個 targetComponent 有交集，請分開列出，不要合併成一句。
-如果 spatialIntersections.centers 是空陣列，請只寫：「目前沒有 1 公里內的空間交集。」
+		在每一筆 center 的標題底下，請整理該筆 center.matchesByComponent 裡所有 targetComponent 的交集結果。每個 targetComponent 直接用獨立段落呈現，不要使用清單符號或編號。
+		每一段必須直接套用下列句型：
+		與 {targetComponent} 有交集，1 公里內共有 {totalMatches} 筆交集資料，最近距離約 {nearestDistanceMeters} 公尺。判讀：{根據 centerFeature、targetComponent 與 matchGroup.matches 的 featureName/feature 整理出 1 句具體判讀或可能問題。}
 
-## 2. 建議解法
-請根據第 1 段的交集結果，提出 2 到 4 點可能問題與解決方法。每點使用以下格式：
-- 可能問題：
-- 建議作法：
-- 優先觀察指標：
+		如果同一筆 center 底下有多個 targetComponent，請全部放在該筆 center 的標題底下，每個 targetComponent 各自成為一個獨立段落，不要合併成一句。
+		不要跨 center 合併資料；即使兩筆 center 有相同的中心點顯示名稱，也要分開輸出兩個中心點分組。只有同一筆 center.matchesByComponent 內的資料可以整理在同一個中心點標題底下。
+		如果 spatialIntersections.centers 是空陣列，請只寫：「目前沒有 1 公里內的空間交集。」
+
+	**建議解法**
+	請根據交集結果，提出可能問題與解決方法。不要使用清單符號或編號。每一個建議用空行分隔，格式如下：
+	**可能問題：**...
+	**建議作法：**...
+	**優先觀察指標：**...
 
 判讀限制：
 - 空間接近只能視為風險線索，不等於因果。
@@ -471,40 +514,171 @@ function togglePanel() {
 	isOpen.value = !isOpen.value;
 	if (isOpen.value) {
 		refreshDataStatus();
+		nextTick(keepAgentInViewport);
 	}
 }
 
+function handleMiniClick() {
+	if (didDrag.value) {
+		didDrag.value = false;
+		return;
+	}
+	togglePanel();
+}
+
 function startDrag(event) {
-	if (event.target.closest("button")) return;
+	const button = event.target.closest("button");
+	if (button && button !== event.currentTarget) return;
+	if (event.button !== undefined && event.button !== 0) return;
+	event.preventDefault();
 	isDragging.value = true;
+	didDrag.value = false;
 	dragStart.value = {
 		x: event.clientX,
 		y: event.clientY,
 		right: position.value.right,
 		bottom: position.value.bottom,
 	};
-	window.addEventListener("mousemove", drag);
-	window.addEventListener("mouseup", stopDrag);
+	window.addEventListener("pointermove", drag);
+	window.addEventListener("pointerup", stopDrag);
 }
 
-function drag(event) {
-	if (!isDragging.value) return;
-	position.value = {
-		right: Math.max(
-			8,
-			dragStart.value.right - (event.clientX - dragStart.value.x),
+function clampSize(width, height) {
+	return {
+		width: Math.min(
+			Math.max(MIN_PANEL_WIDTH, width),
+			window.innerWidth - VIEWPORT_MARGIN * 2,
 		),
-		bottom: Math.max(
-			8,
-			dragStart.value.bottom - (event.clientY - dragStart.value.y),
+		height: Math.min(
+			Math.max(MIN_PANEL_HEIGHT, height),
+			window.innerHeight - VIEWPORT_MARGIN * 2,
 		),
 	};
 }
 
+function clampPosition(right, bottom, width, height) {
+	return {
+		right: Math.min(
+			Math.max(VIEWPORT_MARGIN, right),
+			Math.max(
+				VIEWPORT_MARGIN,
+				window.innerWidth - width - VIEWPORT_MARGIN,
+			),
+		),
+		bottom: Math.min(
+			Math.max(VIEWPORT_MARGIN, bottom),
+			Math.max(
+				VIEWPORT_MARGIN,
+				window.innerHeight - height - VIEWPORT_MARGIN,
+			),
+		),
+	};
+}
+
+function keepAgentInViewport() {
+	const rect = agentRef.value?.getBoundingClientRect();
+	if (!rect) return;
+	const size = isOpen.value
+		? clampSize(panelSize.value.width, panelSize.value.height)
+		: { width: rect.width, height: rect.height };
+	if (isOpen.value) {
+		panelSize.value = size;
+	}
+	position.value = clampPosition(
+		position.value.right,
+		position.value.bottom,
+		size.width,
+		size.height,
+	);
+}
+
+function drag(event) {
+	if (!isDragging.value) return;
+	const deltaX = event.clientX - dragStart.value.x;
+	const deltaY = event.clientY - dragStart.value.y;
+	if (Math.abs(deltaX) > 4 || Math.abs(deltaY) > 4) {
+		didDrag.value = true;
+	}
+	const rect = agentRef.value?.getBoundingClientRect();
+	const size = rect
+		? { width: rect.width, height: rect.height }
+		: { width: panelSize.value.width, height: panelSize.value.height };
+
+	position.value = clampPosition(
+		dragStart.value.right - deltaX,
+		dragStart.value.bottom - deltaY,
+		size.width,
+		size.height,
+	);
+}
+
 function stopDrag() {
 	isDragging.value = false;
-	window.removeEventListener("mousemove", drag);
-	window.removeEventListener("mouseup", stopDrag);
+	window.removeEventListener("pointermove", drag);
+	window.removeEventListener("pointerup", stopDrag);
+	window.setTimeout(() => {
+		didDrag.value = false;
+	}, 0);
+}
+
+function startResize(event, direction) {
+	if (event.button !== undefined && event.button !== 0) return;
+	event.preventDefault();
+	event.stopPropagation();
+	isResizing.value = true;
+	resizeStart.value = {
+		x: event.clientX,
+		y: event.clientY,
+		width: panelSize.value.width,
+		height: panelSize.value.height,
+		right: position.value.right,
+		bottom: position.value.bottom,
+		direction,
+	};
+	window.addEventListener("pointermove", resize);
+	window.addEventListener("pointerup", stopResize);
+}
+
+function resize(event) {
+	if (!isResizing.value) return;
+	const deltaX = event.clientX - resizeStart.value.x;
+	const deltaY = event.clientY - resizeStart.value.y;
+	const direction = resizeStart.value.direction;
+	let nextWidth = resizeStart.value.width;
+	let nextHeight = resizeStart.value.height;
+	let nextRight = resizeStart.value.right;
+	let nextBottom = resizeStart.value.bottom;
+
+	if (direction.includes("e")) {
+		nextWidth = resizeStart.value.width + deltaX;
+		nextRight = resizeStart.value.right - deltaX;
+	}
+	if (direction.includes("w")) {
+		nextWidth = resizeStart.value.width - deltaX;
+	}
+	if (direction.includes("s")) {
+		nextHeight = resizeStart.value.height + deltaY;
+		nextBottom = resizeStart.value.bottom - deltaY;
+	}
+	if (direction.includes("n")) {
+		nextHeight = resizeStart.value.height - deltaY;
+	}
+
+	const size = clampSize(nextWidth, nextHeight);
+	panelSize.value = size;
+	position.value = clampPosition(
+		nextRight,
+		nextBottom,
+		size.width,
+		size.height,
+	);
+}
+
+function stopResize() {
+	isResizing.value = false;
+	window.removeEventListener("pointermove", resize);
+	window.removeEventListener("pointerup", stopResize);
+	keepAgentInViewport();
 }
 
 onMounted(async () => {
@@ -517,6 +691,7 @@ onMounted(async () => {
 	analysis.value = "";
 	refreshDataStatus();
 	pollTimer = setInterval(refreshDataStatus, 4000);
+	window.addEventListener("resize", keepAgentInViewport);
 });
 
 onBeforeUnmount(() => {
@@ -525,19 +700,47 @@ onBeforeUnmount(() => {
 	mapStore.clearAIMatchedComponentHighlight();
 	mapStore.clearAIMatchedFeatures();
 	stopDrag();
+	stopResize();
+	window.removeEventListener("resize", keepAgentInViewport);
 });
 </script>
 
 <template>
 	<div
+		ref="agentRef"
 		class="map-analysis-agent"
 		:style="{
 			right: `${position.right}px`,
 			bottom: `${position.bottom}px`,
 		}"
 	>
-		<section v-if="isOpen" class="map-analysis-agent__panel">
-			<header class="map-analysis-agent__header" @mousedown="startDrag">
+		<section
+			v-if="isOpen"
+			class="map-analysis-agent__panel"
+			:style="{
+				width: `${panelSize.width}px`,
+				height: `${panelSize.height}px`,
+			}"
+		>
+			<span
+				v-for="direction in [
+					'n',
+					'e',
+					's',
+					'w',
+					'ne',
+					'nw',
+					'se',
+					'sw',
+				]"
+				:key="direction"
+				:class="[
+					'map-analysis-agent__resize-handle',
+					`map-analysis-agent__resize-handle--${direction}`,
+				]"
+				@pointerdown="startResize($event, direction)"
+			/>
+			<header class="map-analysis-agent__header" @pointerdown="startDrag">
 				<div>
 					<h3>AI 交叉分析</h3>
 					<p>{{ statusText }}</p>
@@ -556,9 +759,11 @@ onBeforeUnmount(() => {
 				>
 					{{ generateButtonText }}
 				</button>
-				<article v-if="analysis" class="map-analysis-agent__result">
-					{{ analysis }}
-				</article>
+				<article
+					v-if="analysis"
+					class="map-analysis-agent__result"
+					v-html="renderedAnalysis"
+				/>
 				<p v-else class="map-analysis-agent__hint">
 					開啟或篩選地圖交叉比較資料後，按鈕會亮起來讓你生成目前分析。
 				</p>
@@ -570,7 +775,8 @@ onBeforeUnmount(() => {
 			type="button"
 			class="map-analysis-agent__mini"
 			title="AI 交叉分析"
-			@click="togglePanel"
+			@pointerdown="startDrag"
+			@click="handleMiniClick"
 		>
 			<span>insights</span>
 			<em>AI 交叉分析</em>
@@ -599,22 +805,20 @@ onBeforeUnmount(() => {
 
 		span {
 			font-family: var(--font-icon);
-			font-size: 1.7rem;
+			font-size: 2.04rem;
 		}
 
 		em {
 			font-style: normal;
-			font-size: 1rem;
+			font-size: 1.2rem;
 			font-weight: 700;
 			line-height: 1;
 		}
 	}
 
 	&__panel {
-		width: 330px;
-		max-width: calc(100vw - 32px);
-		height: 430px;
-		max-height: calc(100vh - 120px);
+		max-width: calc(100vw - 16px);
+		max-height: calc(100vh - 16px);
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
@@ -622,6 +826,78 @@ onBeforeUnmount(() => {
 		border-radius: 8px;
 		background: var(--color-component-background);
 		box-shadow: 0 14px 42px rgb(0 0 0 / 42%);
+		position: relative;
+	}
+
+	&__resize-handle {
+		position: absolute;
+		z-index: 2;
+		background: transparent;
+		touch-action: none;
+	}
+
+	&__resize-handle--n,
+	&__resize-handle--s {
+		left: 12px;
+		width: calc(100% - 24px);
+		height: 10px;
+		cursor: ns-resize;
+	}
+
+	&__resize-handle--n {
+		top: 0;
+	}
+
+	&__resize-handle--s {
+		bottom: 0;
+	}
+
+	&__resize-handle--e,
+	&__resize-handle--w {
+		top: 12px;
+		width: 10px;
+		height: calc(100% - 24px);
+		cursor: ew-resize;
+	}
+
+	&__resize-handle--e {
+		right: 0;
+	}
+
+	&__resize-handle--w {
+		left: 0;
+	}
+
+	&__resize-handle--ne,
+	&__resize-handle--nw,
+	&__resize-handle--se,
+	&__resize-handle--sw {
+		width: 18px;
+		height: 18px;
+	}
+
+	&__resize-handle--ne {
+		top: 0;
+		right: 0;
+		cursor: nesw-resize;
+	}
+
+	&__resize-handle--nw {
+		top: 0;
+		left: 0;
+		cursor: nwse-resize;
+	}
+
+	&__resize-handle--se {
+		right: 0;
+		bottom: 0;
+		cursor: nwse-resize;
+	}
+
+	&__resize-handle--sw {
+		bottom: 0;
+		left: 0;
+		cursor: nesw-resize;
 	}
 
 	&__header {
@@ -641,14 +917,14 @@ onBeforeUnmount(() => {
 
 		h3 {
 			color: #ffffff;
-			font-size: 1rem;
+			font-size: 1.2rem;
 			line-height: 1.2;
 		}
 
 		p {
 			color: #c7c7c7;
 			margin-top: 0.25rem;
-			font-size: 0.78rem;
+			font-size: 0.936rem;
 		}
 
 		button {
@@ -662,7 +938,7 @@ onBeforeUnmount(() => {
 
 			span {
 				font-family: var(--font-icon);
-				font-size: 1.4rem;
+				font-size: 1.68rem;
 			}
 		}
 	}
@@ -682,6 +958,7 @@ onBeforeUnmount(() => {
 		border-radius: 6px;
 		background: var(--color-highlight);
 		color: #ffffff;
+		font-size: 1.2rem;
 		font-weight: 700;
 
 		&:disabled {
@@ -694,7 +971,7 @@ onBeforeUnmount(() => {
 	&__result,
 	&__hint {
 		margin: 0;
-		font-size: 0.88rem;
+		font-size: 1.056rem;
 		line-height: 1.55;
 		white-space: pre-line;
 	}
@@ -702,8 +979,16 @@ onBeforeUnmount(() => {
 	&__result {
 		flex: 1;
 		color: #ffffff;
+		font-size: 1.267rem;
+		line-height: 1.55;
 		overflow-y: auto;
 		padding-right: 0.25rem;
+		white-space: normal;
+
+		:deep(strong) {
+			font-size: inherit;
+			font-weight: 800;
+		}
 	}
 
 	&__hint {
