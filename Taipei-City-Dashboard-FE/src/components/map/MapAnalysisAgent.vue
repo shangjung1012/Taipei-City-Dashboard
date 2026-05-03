@@ -20,8 +20,8 @@ const dataSignature = ref("");
 const dataGroupCount = ref(0);
 let pollTimer = null;
 const PROXIMITY_RADIUS_METERS = 1000;
-const MAX_CENTER_FEATURES = 20;
-const MAX_MATCHES_PER_COMPONENT = 5;
+const MAX_CENTER_FEATURES = 30;
+const MAX_MATCHES_PER_COMPONENT = 15;
 
 const canGenerate = computed(
 	() => dataGroupCount.value >= 2 && hasDataChanged.value && !isLoading.value,
@@ -365,6 +365,12 @@ function buildSystemPrompt() {
 function buildUserPrompt(records) {
 	const spatialIntersections = buildProximityIntersections(records);
 	logSpatialIntersections(spatialIntersections);
+	mapStore.showAIProximityRadius(
+		spatialIntersections.centers,
+		spatialIntersections.radiusMeters,
+	);
+	mapStore.clearAIMatchedComponentHighlight();
+	mapStore.showAIMatchedFeatures(spatialIntersections.centers);
 	const payload = {
 		dashboard: {
 			name: contentStore.currentDashboard.name,
@@ -466,6 +472,9 @@ function stopDrag() {
 
 onMounted(async () => {
 	await mapStore.clearIndexedDB();
+	mapStore.clearAIProximityRadius();
+	mapStore.clearAIMatchedComponentHighlight();
+	mapStore.clearAIMatchedFeatures();
 	dataSignature.value = "";
 	hasDataChanged.value = false;
 	analysis.value = "";
@@ -475,6 +484,9 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
 	clearInterval(pollTimer);
+	mapStore.clearAIProximityRadius();
+	mapStore.clearAIMatchedComponentHighlight();
+	mapStore.clearAIMatchedFeatures();
 	stopDrag();
 });
 </script>

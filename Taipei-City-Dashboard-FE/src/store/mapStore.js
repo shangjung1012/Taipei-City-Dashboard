@@ -20,7 +20,7 @@ import axios from "axios";
 import http from "../router/axios.js";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-import { point, distance } from "@turf/turf";
+import { point, distance, circle as turfCircle } from "@turf/turf";
 
 // Other Stores
 import { useAuthStore } from "./authStore";
@@ -106,8 +106,7 @@ function isUrbanPlanningComponent(config, mapConfigs = []) {
 
 	return values.some(
 		(value) =>
-			value.includes("都市計畫") ||
-			value.includes("urban_planning"),
+			value.includes("都市計畫") || value.includes("urban_planning"),
 	);
 }
 
@@ -129,7 +128,9 @@ function openExtractedFeaturesDB() {
 			const db = event.target.result;
 			if (!db.objectStoreNames.contains(EXTRACTED_FEATURES_STORE)) {
 				db.close();
-				reject(`IndexedDB 缺少 ${EXTRACTED_FEATURES_STORE} object store`);
+				reject(
+					`IndexedDB 缺少 ${EXTRACTED_FEATURES_STORE} object store`,
+				);
 				return;
 			}
 			resolve(db);
@@ -180,6 +181,8 @@ export const useMapStore = defineStore("map", {
 		},
 		// 提供給地圖篩選結果使用的資料
 		filteredFeatures: null,
+		// 暫存 AI 交集 highlight 前的圖層顏色
+		aiMatchedLayerPaint: {},
 	}),
 	actions: {
 		/* Initialize Mapbox */
@@ -548,7 +551,9 @@ export const useMapStore = defineStore("map", {
 		async addComponentToIndexedDB(config, map_configs) {
 			if (!config || !map_configs?.length) return;
 			if (isUrbanPlanningComponent(config, map_configs)) {
-				await this.clearIndexedDB(this.getFilteredFeatureComponentKey(config));
+				await this.clearIndexedDB(
+					this.getFilteredFeatureComponentKey(config),
+				);
 				console.log("略過都市計畫組件，不寫入 IndexedDB", {
 					componentName: config.name,
 				});
@@ -925,15 +930,15 @@ export const useMapStore = defineStore("map", {
 			const layers = Object.keys(this.deckGlLayer).map((index) => {
 				const l = this.deckGlLayer[index];
 				switch (l.type) {
-				case "ArcLayer":
-					return new ArcLayer(l.config);
-				case "AnimatedArcLayer":
-					return new AnimatedArcLayer({
-						...l.config,
-						coef: this.step / 1000,
-					});
-				default:
-					break;
+					case "ArcLayer":
+						return new ArcLayer(l.config);
+					case "AnimatedArcLayer":
+						return new AnimatedArcLayer({
+							...l.config,
+							coef: this.step / 1000,
+						});
+					default:
+						break;
 				}
 			});
 			this.overlay.setProps({
@@ -2450,7 +2455,8 @@ export const useMapStore = defineStore("map", {
 				config?.title,
 			]
 				.filter(
-					(value) => value !== undefined && value !== null && value !== "",
+					(value) =>
+						value !== undefined && value !== null && value !== "",
 				)
 				.join("::");
 		},
@@ -2461,7 +2467,7 @@ export const useMapStore = defineStore("map", {
 				x欄位: map_filter.byParam?.xParam,
 				x數值: xParam,
 				y欄位: map_filter.byParam?.yParam,
-				y數值: yParam
+				y數值: yParam,
 			});
 			// If there are layers loading, don't filter
 			if (this.loadingLayers.length > 0) return;
@@ -2543,119 +2549,163 @@ export const useMapStore = defineStore("map", {
 						map_configs.map((map_config) => {
 							let mapLayerId = `${map_config.index}-${map_config.type}-${map_config.city}`;
 							if (this.map.getLayer(mapLayerId)) {
-								const layerFeatures = this.map.queryRenderedFeatures({ layers: [mapLayerId] });
+								const layerFeatures =
+									this.map.queryRenderedFeatures({
+										layers: [mapLayerId],
+									});
 								// Remove duplicate features that mapbox might return from different tiles
-								const uniqueFeatures = Array.from(new Map(layerFeatures.map(item => [JSON.stringify(item.properties), item])).values());
-								extractedFeatures.push(...uniqueFeatures.map(buildIndexedDBFeatureProperties));
+								const uniqueFeatures = Array.from(
+									new Map(
+										layerFeatures.map((item) => [
+											JSON.stringify(item.properties),
+											item,
+										]),
+									).values(),
+								);
+								extractedFeatures.push(
+									...uniqueFeatures.map(
+										buildIndexedDBFeatureProperties,
+									),
+								);
 							}
 						});
 						// 把抓取到的資料存入 state
 						const filteredFeatures = {
-							componentKey: this.getFilteredFeatureComponentKey(
-								config,
-							),
+							componentKey:
+								this.getFilteredFeatureComponentKey(config),
 							componentInfo: {
 								name: config.name,
 								long_desc: config.long_desc,
-								use_case: config.use_case
+								use_case: config.use_case,
 							},
-							features: extractedFeatures
+							features: extractedFeatures,
 						};
 						this.filteredFeatures = filteredFeatures;
-						console.log("過濾完成！點擊的組件資訊:", filteredFeatures.componentInfo);
-						console.log("過濾完成！成功比對到的資料筆數:", extractedFeatures.length);
-						console.log("比對到的詳細資料 (Match):", extractedFeatures);
+						console.log(
+							"過濾完成！點擊的組件資訊:",
+							filteredFeatures.componentInfo,
+						);
+						console.log(
+							"過濾完成！成功比對到的資料筆數:",
+							extractedFeatures.length,
+						);
+						console.log(
+							"比對到的詳細資料 (Match):",
+							extractedFeatures,
+						);
 						// 自動存入 IndexedDB 給 AI agent 使用
 						if (isUrbanPlanningComponent(config, map_configs)) {
 							this.clearIndexedDB(filteredFeatures.componentKey);
 						} else {
-							this.saveExtractedFeaturestoIndexedDB(filteredFeatures);
+							this.saveExtractedFeaturestoIndexedDB(
+								filteredFeatures,
+							);
 						}
 					}
 				} catch (e) {
 					console.error("Error extracting filtered features:", e);
 				}
 			}, 600); // 延遲以確保 Mapbox 已經完成渲染
-				},
-				// 存入 IndexedDB
-				async saveExtractedFeaturestoIndexedDB(filteredFeatures = this.filteredFeatures) {
-					if (
-						!filteredFeatures ||
-						!filteredFeatures.features ||
-						filteredFeatures.features.length === 0
-					) {
-						console.warn("沒有可以存儲的資料");
-						if (filteredFeatures?.componentKey) {
-							await this.clearIndexedDB(filteredFeatures.componentKey);
-						}
-						return;
-					}
-					if (!filteredFeatures.componentKey) {
-						console.warn("缺少 componentKey，無法寫入 IndexedDB");
-						return;
-					}
+		},
+		// 存入 IndexedDB
+			async saveExtractedFeaturestoIndexedDB(
+				filteredFeatures = this.filteredFeatures,
+			) {
+				this.clearAIAnalysisVisuals();
+				if (
+					!filteredFeatures ||
+				!filteredFeatures.features ||
+				filteredFeatures.features.length === 0
+			) {
+				console.warn("沒有可以存儲的資料");
+				if (filteredFeatures?.componentKey) {
+					await this.clearIndexedDB(filteredFeatures.componentKey);
+				}
+				return;
+			}
+			if (!filteredFeatures.componentKey) {
+				console.warn("缺少 componentKey，無法寫入 IndexedDB");
+				return;
+			}
 
-				try {
-					const db = await openExtractedFeaturesDB();
-					const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readwrite");
-					const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
+			try {
+				const db = await openExtractedFeaturesDB();
+				const transaction = db.transaction(
+					[EXTRACTED_FEATURES_STORE],
+					"readwrite",
+				);
+				const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
 
-					// 存入資料（同一個 componentKey 只保留最新一筆）
-					const data = JSON.parse(JSON.stringify({
+				// 存入資料（同一個 componentKey 只保留最新一筆）
+				const data = JSON.parse(
+					JSON.stringify({
 						...filteredFeatures,
 						timestamp: Date.now(),
-					}));
-					const getRequest = store.getAll();
-					getRequest.onsuccess = () => {
-						const existingRecords = getRequest.result.filter(
-							(item) => item.componentKey === data.componentKey,
+					}),
+				);
+				const getRequest = store.getAll();
+				getRequest.onsuccess = () => {
+					const existingRecords = getRequest.result.filter(
+						(item) => item.componentKey === data.componentKey,
+					);
+
+					existingRecords.forEach((record) => {
+						store.delete(record.id);
+					});
+
+					store.add(data);
+					console.log(
+						`✅ 資料已存入 IndexedDB（${filteredFeatures.features.length} 筆，componentKey: ${data.componentKey}）`,
+					);
+				};
+				transaction.oncomplete = () => db.close();
+			} catch (error) {
+				console.error("IndexedDB 開啟失敗", error);
+			}
+		},
+		// 從 IndexedDB 讀取資料
+		async getExtractedFeaturesFromIndexedDB(componentKey = null) {
+			return new Promise((resolve, reject) => {
+				openExtractedFeaturesDB()
+					.then((db) => {
+						const transaction = db.transaction(
+							[EXTRACTED_FEATURES_STORE],
+							"readonly",
 						);
-
-						existingRecords.forEach((record) => {
-							store.delete(record.id);
-						});
-
-						store.add(data);
-						console.log(
-							`✅ 資料已存入 IndexedDB（${filteredFeatures.features.length} 筆，componentKey: ${data.componentKey}）`,
+						const store = transaction.objectStore(
+							EXTRACTED_FEATURES_STORE,
 						);
-					};
-					transaction.oncomplete = () => db.close();
-				} catch (error) {
-					console.error("IndexedDB 開啟失敗", error);
-				}
-			},
-			// 從 IndexedDB 讀取資料
-			async getExtractedFeaturesFromIndexedDB(componentKey = null) {
-				return new Promise((resolve, reject) => {
-					openExtractedFeaturesDB()
-						.then((db) => {
-							const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readonly");
-							const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
-							const getRequest = store.getAll();
+						const getRequest = store.getAll();
 
-							getRequest.onsuccess = () => {
-								const data = getRequest.result;
-								const filteredData = componentKey
-									? data.filter((item) => item.componentKey === componentKey)
-									: data;
-								if (filteredData.length > 0) {
-									console.log("✅ 從 IndexedDB 讀取資料成功");
-									resolve(componentKey ? filteredData[0] : filteredData);
-								} else {
-									console.warn("IndexedDB 中沒有資料");
-									resolve(null);
-								}
-							};
+						getRequest.onsuccess = () => {
+							const data = getRequest.result;
+							const filteredData = componentKey
+								? data.filter(
+										(item) =>
+											item.componentKey === componentKey,
+									)
+								: data;
+							if (filteredData.length > 0) {
+								console.log("✅ 從 IndexedDB 讀取資料成功");
+								resolve(
+									componentKey
+										? filteredData[0]
+										: filteredData,
+								);
+							} else {
+								console.warn("IndexedDB 中沒有資料");
+								resolve(null);
+							}
+						};
 
-							getRequest.onerror = () => {
-								reject("讀取失敗");
-							};
-							transaction.oncomplete = () => db.close();
-						})
-						.catch(reject);
-				});
-			},
+						getRequest.onerror = () => {
+							reject("讀取失敗");
+						};
+						transaction.oncomplete = () => db.close();
+					})
+					.catch(reject);
+			});
+		},
 		// Agent-friendly method to get all filtered features data as plain JSON
 		// AGENT USE ONLY
 		async getFilteredFeaturesForAgent() {
@@ -2692,46 +2742,50 @@ export const useMapStore = defineStore("map", {
 					data: null,
 				};
 			}
-		},
+			},
 			// 清除 IndexedDB 中的資料
 			async clearIndexedDB(componentKey = null) {
+				this.clearAIAnalysisVisuals();
 				try {
 					const db = await openExtractedFeaturesDB();
-					const transaction = db.transaction([EXTRACTED_FEATURES_STORE], "readwrite");
-					const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
+				const transaction = db.transaction(
+					[EXTRACTED_FEATURES_STORE],
+					"readwrite",
+				);
+				const store = transaction.objectStore(EXTRACTED_FEATURES_STORE);
 
-					if (!componentKey) {
-						store.clear();
-						console.log("✅ IndexedDB 全部資料已清除");
-						transaction.oncomplete = () => db.close();
+				if (!componentKey) {
+					store.clear();
+					console.log("✅ IndexedDB 全部資料已清除");
+					transaction.oncomplete = () => db.close();
+					return;
+				}
+
+				const getRequest = store.getAll();
+				getRequest.onsuccess = () => {
+					const targetRecords = getRequest.result.filter(
+						(item) => item.componentKey === componentKey,
+					);
+
+					if (targetRecords.length === 0) {
+						console.log(
+							`ℹ️ IndexedDB 中沒有找到 componentKey: ${componentKey} 的資料`,
+						);
 						return;
 					}
 
-					const getRequest = store.getAll();
-					getRequest.onsuccess = () => {
-						const targetRecords = getRequest.result.filter(
-							(item) => item.componentKey === componentKey,
-						);
-
-						if (targetRecords.length === 0) {
-							console.log(
-								`ℹ️ IndexedDB 中沒有找到 componentKey: ${componentKey} 的資料`,
-							);
-							return;
-						}
-
-						targetRecords.forEach((record) => {
-							store.delete(record.id);
-						});
-						console.log(
-							`✅ IndexedDB 已清除 componentKey: ${componentKey} 的資料`,
-						);
-					};
-					transaction.oncomplete = () => db.close();
-				} catch (error) {
-					console.error("IndexedDB 清除失敗", error);
-				}
-			},
+					targetRecords.forEach((record) => {
+						store.delete(record.id);
+					});
+					console.log(
+						`✅ IndexedDB 已清除 componentKey: ${componentKey} 的資料`,
+					);
+				};
+				transaction.oncomplete = () => db.close();
+			} catch (error) {
+				console.error("IndexedDB 清除失敗", error);
+			}
+		},
 		// 2. filter by layer name (byLayer)
 		filterByLayer(map_configs, xParam) {
 			const dialogStore = useDialogStore();
@@ -2755,6 +2809,230 @@ export const useMapStore = defineStore("map", {
 						"visible",
 					);
 				}
+			});
+		},
+		clearAIProximityRadius() {
+			if (!this.map) return;
+			const layerIds = [
+				"ai-proximity-radius-outline",
+				"ai-proximity-radius-fill",
+			];
+			layerIds.forEach((layerId) => {
+				if (this.map.getLayer(layerId)) {
+					this.map.removeLayer(layerId);
+				}
+			});
+			if (this.map.getSource("ai-proximity-radius-source")) {
+				this.map.removeSource("ai-proximity-radius-source");
+			}
+		},
+		clearAIAnalysisVisuals() {
+			this.clearAIProximityRadius();
+			this.clearAIMatchedComponentHighlight();
+			this.clearAIMatchedFeatures();
+		},
+		showAIProximityRadius(centers, radiusMeters = 1000) {
+			if (!this.map) return;
+			this.clearAIProximityRadius();
+
+			const features = (centers || [])
+				.filter(
+					(center) =>
+						Number.isFinite(Number(center?.coordinates?.lng)) &&
+						Number.isFinite(Number(center?.coordinates?.lat)),
+				)
+				.map((center) =>
+					turfCircle(
+						[
+							Number(center.coordinates.lng),
+							Number(center.coordinates.lat),
+						],
+						radiusMeters / 1000,
+						{
+							steps: 80,
+							units: "kilometers",
+							properties: {
+								centerName: center.centerName,
+								radiusMeters,
+							},
+						},
+					),
+				);
+
+			if (features.length === 0) return;
+
+			this.map.addSource("ai-proximity-radius-source", {
+				type: "geojson",
+				data: {
+					type: "FeatureCollection",
+					features,
+				},
+			});
+			this.map.addLayer({
+				id: "ai-proximity-radius-fill",
+				type: "fill",
+				source: "ai-proximity-radius-source",
+				paint: {
+					"fill-color": "#ffffff",
+					"fill-opacity": 0.12,
+				},
+			});
+			this.map.addLayer({
+				id: "ai-proximity-radius-outline",
+				type: "line",
+				source: "ai-proximity-radius-source",
+				paint: {
+					"line-color": "#ffffff",
+					"line-opacity": 0.75,
+					"line-width": 2,
+				},
+			});
+		},
+		getAIMatchHighlightPaintProperties(layerType) {
+			const paintPropertiesByType = {
+				circle: ["circle-color", "circle-stroke-color"],
+				line: ["line-color"],
+				fill: ["fill-color", "fill-outline-color"],
+				"fill-extrusion": ["fill-extrusion-color"],
+				symbol: ["icon-color", "text-color"],
+			};
+			return paintPropertiesByType[layerType] || [];
+		},
+		getOriginalMapLayerPaintValue(mapConfig, property) {
+			const paintConfig = {
+				...(maplayerCommonPaint[`${mapConfig?.type}`] || {}),
+				...(mapConfig?.icon
+					? maplayerCommonPaint[`${mapConfig.type}-${mapConfig.icon}`]
+					: {}),
+				...(mapConfig?.size
+					? maplayerCommonPaint[`${mapConfig.type}-${mapConfig.size}`]
+					: {}),
+				...(mapConfig?.paint || {}),
+			};
+			return paintConfig[property] ?? null;
+		},
+		clearAIMatchedComponentHighlight() {
+			if (!this.map) return;
+			Object.entries(this.aiMatchedLayerPaint).forEach(
+				([layerId, paintValues]) => {
+					if (!this.map.getLayer(layerId)) return;
+					Object.entries(paintValues).forEach(([property, value]) => {
+						this.map.setPaintProperty(layerId, property, value);
+					});
+				},
+			);
+			this.aiMatchedLayerPaint = {};
+
+			this.currentVisibleLayers.forEach((layerId) => {
+				const layer = this.map.getLayer(layerId);
+				const mapConfig = this.mapConfigs[layerId];
+				if (!layer || !mapConfig) return;
+
+				this.getAIMatchHighlightPaintProperties(layer.type).forEach(
+					(property) => {
+						if (
+							this.map.getPaintProperty(layerId, property) !==
+							"#ff3b30"
+						) {
+							return;
+						}
+						this.map.setPaintProperty(
+							layerId,
+							property,
+							this.getOriginalMapLayerPaintValue(
+								mapConfig,
+								property,
+							),
+						);
+					},
+				);
+			});
+		},
+		highlightAIMatchedComponents(componentNames) {
+			if (!this.map) return;
+			this.clearAIMatchedComponentHighlight();
+
+			const matchNames = new Set((componentNames || []).filter(Boolean));
+			if (matchNames.size === 0) return;
+
+			this.currentVisibleLayers.forEach((layerId) => {
+				const mapConfig = this.mapConfigs[layerId];
+				if (!matchNames.has(mapConfig?.title)) return;
+				const layer = this.map.getLayer(layerId);
+				if (!layer) return;
+
+				const paintProperties = this.getAIMatchHighlightPaintProperties(
+					layer.type,
+				);
+				if (paintProperties.length === 0) return;
+
+				this.aiMatchedLayerPaint[layerId] = {};
+				paintProperties.forEach((property) => {
+					this.aiMatchedLayerPaint[layerId][property] =
+						this.map.getPaintProperty(layerId, property) ?? null;
+					this.map.setPaintProperty(layerId, property, "#ff3b30");
+				});
+			});
+		},
+		clearAIMatchedFeatures() {
+			if (!this.map) return;
+			if (this.map.getLayer("ai-center-features-circle")) {
+				this.map.removeLayer("ai-center-features-circle");
+			}
+			if (this.map.getLayer("ai-matched-features-circle")) {
+				this.map.removeLayer("ai-matched-features-circle");
+			}
+			if (this.map.getSource("ai-center-features-source")) {
+				this.map.removeSource("ai-center-features-source");
+			}
+			if (this.map.getSource("ai-matched-features-source")) {
+				this.map.removeSource("ai-matched-features-source");
+			}
+		},
+		showAIMatchedFeatures(centers) {
+			if (!this.map) return;
+			this.clearAIMatchedFeatures();
+
+			const centerFeatures = (centers || [])
+				.filter(
+					(center) =>
+						Number.isFinite(Number(center?.coordinates?.lng)) &&
+						Number.isFinite(Number(center?.coordinates?.lat)),
+				)
+				.map((center) => ({
+					type: "Feature",
+					geometry: {
+						type: "Point",
+						coordinates: [
+							Number(center.coordinates.lng),
+							Number(center.coordinates.lat),
+						],
+					},
+					properties: {
+						centerName: center.centerName,
+					},
+				}));
+
+			if (centerFeatures.length === 0) return;
+
+			this.map.addSource("ai-center-features-source", {
+				type: "geojson",
+				data: {
+					type: "FeatureCollection",
+					features: centerFeatures,
+				},
+			});
+			this.map.addLayer({
+				id: "ai-center-features-circle",
+				type: "circle",
+				source: "ai-center-features-source",
+				paint: {
+					"circle-color": "#ff3b30",
+					"circle-radius": 8,
+					"circle-stroke-color": "#ffffff",
+					"circle-stroke-width": 2,
+					"circle-opacity": 1,
+				},
 			});
 		},
 		// 3. Remove any property filters on a map layer
